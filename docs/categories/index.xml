@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories | SLU SOC 4650 and 5650</title>
+    <link>https://slu-soc5650.github.io/categories/</link>
+      <atom:link href="https://slu-soc5650.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <description>Categories</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2017-2021 Christopher G. Prener</copyright>
+    <image>
+      <url>https://slu-soc5650.github.io/images/icon_hu137d436a85c84cab921c9c47edaed5ef_12382_512x512_fill_lanczos_center_2.png</url>
+      <title>Categories</title>
+      <link>https://slu-soc5650.github.io/categories/</link>
+    </image>
+    
+  </channel>
+</rss>
