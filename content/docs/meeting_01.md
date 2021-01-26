@@ -69,5 +69,5 @@ The entry ticket also asks for an update on your course onboarding process.
 
 ## During Class
 {{% callout info %}}
-Check back here before class begins - materials for our first class will be added on February 1st!
+Check back here before class begins - materials for our first class will be added here on February 1st!
 {{% /callout %}}
