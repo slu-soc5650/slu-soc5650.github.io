@@ -43,7 +43,7 @@ Please work through the following steps:
 
 ## R
 ### Base R
-You can download `R` from its [website](https://cloud.r-project.org). Choose "Download R for (Mac) OS X" or "Download R for Windows". Windows users should look for text that says "install R for the first time" and click the `base` to the left of that text. Both macOS and Windows users should install `R` version 3.5.2, known as "Eggshell Igloo".
+You can download `R` from its [website](https://cloud.r-project.org). Choose "Download R for (Mac) OS X" or "Download R for Windows". Windows users should look for text that says "install R for the first time" and click the `base` to the left of that text. Both macOS and Windows users should install `R` version 4.0.3, known as "Bunny-Wunnies Freak Out" (`R` version nicknames come from [Peanuts](https://livefreeordichotomize.com/2017/09/28/r-release-names/)).
 
 If you already have `R` installed, please make sure you have the latest version. You can upgrade it using the same process for a new installation.
 
