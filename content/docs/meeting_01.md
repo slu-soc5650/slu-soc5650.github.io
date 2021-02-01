@@ -68,6 +68,10 @@ The entry ticket also asks for an update on your course onboarding process.
 <br>
 
 ## During Class
-{{% callout info %}}
-Check back here before class begins - materials for our first class will be added here on February 1st!
-{{% /callout %}}
+### Slides
+<script async class="speakerdeck-embed" data-id="3b023eb9d7ee463faea3a90532221987" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+<br>
+
+## After Class
+### Lab-01
+Please finish Lab-01, which is located in the `module-1-intro` folder you already download in `assignments/lab-01/docs/lab-01.Rmd`. Once you've opened that (use the `lab-01.Rproj` R project file in `assignments/lab-01`), you'll need to round-out the narrative text, add code to open the grocery store data (located in `assignments/lab-01/data`), and make an interactive map of grocery stores in St. Louis City and County using `leaflet`. All of this can be accomplished using the code we used in class today. A replication file is already present in the `assignments` folder as well.

@@ -286,11 +286,12 @@
 &lt;p&gt;The entry ticket also asks for an update on your course onboarding process.&lt;/p&gt;
 &lt;br&gt;
 &lt;h2 id=&#34;during-class&#34;&gt;During Class&lt;/h2&gt;
-&lt;div class=&#34;alert alert-info&#34;&gt;
-  &lt;div&gt;
-    Check back here before class begins - materials for our first class will be added here on February 1st!
-  &lt;/div&gt;
-&lt;/div&gt;
+&lt;h3 id=&#34;slides&#34;&gt;Slides&lt;/h3&gt;
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;3b023eb9d7ee463faea3a90532221987&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;after-class&#34;&gt;After Class&lt;/h2&gt;
+&lt;h3 id=&#34;lab-01&#34;&gt;Lab-01&lt;/h3&gt;
+&lt;p&gt;Please finish Lab-01, which is located in the &lt;code&gt;module-1-intro&lt;/code&gt; folder you already download in &lt;code&gt;assignments/lab-01/docs/lab-01.Rmd&lt;/code&gt;. Once you&amp;rsquo;ve opened that (use the &lt;code&gt;lab-01.Rproj&lt;/code&gt; R project file in &lt;code&gt;assignments/lab-01&lt;/code&gt;), you&amp;rsquo;ll need to round-out the narrative text, add code to open the grocery store data (located in &lt;code&gt;assignments/lab-01/data&lt;/code&gt;), and make an interactive map of grocery stores in St. Louis City and County using &lt;code&gt;leaflet&lt;/code&gt;. All of this can be accomplished using the code we used in class today. A replication file is already present in the &lt;code&gt;assignments&lt;/code&gt; folder as well.&lt;/p&gt;
 </description>
     </item>
     
