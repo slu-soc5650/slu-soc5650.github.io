@@ -5,12 +5,105 @@
     <link>https://slu-soc5650.github.io/</link>
       <atom:link href="https://slu-soc5650.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>SLU SOC 4650 and 5650</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2017-2021 Christopher G. Prener</copyright><lastBuildDate>Tue, 11 Aug 2020 00:00:00 -0500</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2017-2021 Christopher G. Prener</copyright><lastBuildDate>Mon, 08 Feb 2021 00:00:00 -0600</lastBuildDate>
     <image>
       <url>https://slu-soc5650.github.io/images/icon_hu137d436a85c84cab921c9c47edaed5ef_12382_512x512_fill_lanczos_center_2.png</url>
       <title>SLU SOC 4650 and 5650</title>
       <link>https://slu-soc5650.github.io/</link>
     </image>
+    
+    <item>
+      <title>Final Project Notes</title>
+      <link>https://slu-soc5650.github.io/docs/final_project/</link>
+      <pubDate>Mon, 08 Feb 2021 00:00:00 -0600</pubDate>
+      <guid>https://slu-soc5650.github.io/docs/final_project/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;As we go through the semester, I&amp;rsquo;ll be using this section to add some additional information about the final project. For now, you can find the deadlines associated with the project on &lt;a href=&#34;https://slu-soc5650.github.io/syllabus/assignments.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;our syllabus&lt;/a&gt; and steps for the initial vignettes in the &lt;a href=&#34;http://slu-soc5650.github.io/final-project/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;final project instructions&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Meeting 02 - Map Production Basics</title>
+      <link>https://slu-soc5650.github.io/docs/meeting_02/</link>
+      <pubDate>Mon, 08 Feb 2021 00:00:00 -0600</pubDate>
+      <guid>https://slu-soc5650.github.io/docs/meeting_02/</guid>
+      <description>&lt;br&gt; 
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    Please come to class with your Lab-01 materials ready to submit!
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;meeting-goals&#34;&gt;Meeting Goals&lt;/h2&gt;
+&lt;p&gt;This course meeting has an emphasis on the following goals:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Introduce &lt;code&gt;ggplot2&lt;/code&gt; for static mapping in &lt;code&gt;R&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Introduce Git and GitHub for analysis development&lt;/li&gt;
+&lt;li&gt;Distinguish between different scales of maps&lt;/li&gt;
+&lt;li&gt;Evaluate the effect that normalizing data has on a map&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;before-class&#34;&gt;Before Class&lt;/h2&gt;
+&lt;h3 id=&#34;tasks&#34;&gt;Tasks&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Double-check to make sure you have completed all course onboarding steps (see Blackboard)&lt;/li&gt;
+&lt;li&gt;Complete Lab-01 from our first course meeting, and come prepared to submit it during class&lt;/li&gt;
+&lt;li&gt;Complete the two meeting prep videos (see Blackboard)&lt;/li&gt;
+&lt;li&gt;Submit Entry Ticket 02 (see Blackboard)&lt;/li&gt;
+&lt;li&gt;Submit your final project memo (see the &lt;a href=&#34;https://slu-soc5650.github.io/final-project/topic-data-selection.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;final project instructions&lt;/a&gt;)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;during-class&#34;&gt;During Class&lt;/h2&gt;
+&lt;h3 id=&#34;agenda&#34;&gt;Agenda&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Exercise 1 - Discussing Map Scale and Features&lt;/li&gt;
+&lt;li&gt;Exercise 2 - Working with Git and GitHub&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Break&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Exercise 3 - Introducing &lt;code&gt;ggplot2&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Break&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Lab-02 and one-on-one meetings&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;exercise-1---discussing-map-scale-and-features&#34;&gt;Exercise 1 - Discussing Map Scale and Features&lt;/h3&gt;
+&lt;p&gt;To illustrate some of the points about scale and detail in the second meeting prep video, we&amp;rsquo;ll take a look at some maps of California from a number of different sources. The goal is to get more comfortable talking and thinking about maps, their purpose, and you need to make them.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Map 1 - &lt;a href=&#34;http://npmaps.com/wp-content/uploads/yosemite-valley-map.jpg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Yosemite Valley Detail Map&lt;/a&gt; via the National Park Service / npmaps.com&lt;/li&gt;
+&lt;li&gt;Map 2 - &lt;a href=&#34;https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/USTopo/PDF/CA/CA_Tenaya_Lake_20150226_TM_geo.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tenaya Lake 2015 7.5 Minute Topo Map&lt;/a&gt; via pickatrail.com&lt;/li&gt;
+&lt;li&gt;Map 3 - &lt;a href=&#34;http://npmaps.com/wp-content/uploads/yosemite-map.jpg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Main Yosemite National Park Map&lt;/a&gt; via the National Park Service / npmaps.com&lt;/li&gt;
+&lt;li&gt;Map 4 - Map of California Counties by Population, Count&lt;/li&gt;
+&lt;li&gt;Map 5 - Map of California Counties by Population, Density&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;For these maps, discuss the following four questions in your breakout groups:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The scale that they are mapped at - which is the largest scale map? Which is the smallest scale map? How do the ones in between differ?&lt;/li&gt;
+&lt;li&gt;What is the relationship between scale and what you think the intended use of each map might be?&lt;/li&gt;
+&lt;li&gt;What data and &amp;ldquo;layers&amp;rdquo; are needed for each of the maps?&lt;/li&gt;
+&lt;li&gt;Which map, Map 4 or Map 5, is properly normalized? What is the effect of normalization?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;exercise-2---working-with-git-and-github&#34;&gt;Exercise 2 - Working with Git and GitHub&lt;/h3&gt;
+&lt;p&gt;Since we&amp;rsquo;ll be submitting our work through GitHub this semester, the goal of this exercise is to get comfortable with the GitHub Desktop user interface as well as the Git workflow that we discussed in the first meeting prep video this week. We&amp;rsquo;ll talk about GitHub Desktop, and then work through three examples of the workflow:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Clone the &lt;code&gt;module-1-basics&lt;/code&gt; repo with today&amp;rsquo;s meeting materials&lt;/li&gt;
+&lt;li&gt;Clone your assignment repo, add &lt;code&gt;Lab-01&lt;/code&gt;, commit the changes, and submit it&lt;/li&gt;
+&lt;li&gt;Clone your final project repo, add a &lt;code&gt;.Rproj&lt;/code&gt; project file to it, and submit it&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;exercise-3---introducing-ggplot2&#34;&gt;Exercise 3 - Introducing ggplot2&lt;/h3&gt;
+&lt;p&gt;We&amp;rsquo;ll be using &lt;code&gt;ggplot2&lt;/code&gt; this semester to produce static thematic maps in &lt;code&gt;R&lt;/code&gt;. To get acquainted with &lt;code&gt;ggplot2&lt;/code&gt;, we&amp;rsquo;ll re-create Maps 4 and 5 above. All of the materials are available in our &lt;a href=&#34;&#34;&gt;meeting GitHub repo&lt;/a&gt;. Our goal is to load some data saved in a shapefile (review from last week) and then:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a map using &lt;code&gt;ggplot()&lt;/code&gt; and &lt;code&gt;geom_sf()&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Add a color &lt;code&gt;viridis&lt;/code&gt; color palette to the map&lt;/li&gt;
+&lt;li&gt;Add a title, subtitle, and caption to the map&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;after-class&#34;&gt;After Class&lt;/h2&gt;
+&lt;h3 id=&#34;tasks-1&#34;&gt;Tasks&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Complete Lab-02 after and &lt;em&gt;try to submit it via GitHub on your own&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Follow-up with Chris in your Final Project repo about any outstanding memo questions&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;lab-02&#34;&gt;Lab-02&lt;/h3&gt;
+&lt;p&gt;The Lab-02 instructions are available in &lt;code&gt;module-1-basics&lt;/code&gt;. You&amp;rsquo;ll need to create a new &lt;code&gt;.Rproj&lt;/code&gt; for it in your assignments repository (which you cloned during class), and then create a static map using &lt;code&gt;ggplot2&lt;/code&gt; of Missouri counties&#39; total populations that is appropriately normalized.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>COVID-19 Pandemic - Plans for Remote Learning</title>
@@ -482,7 +575,20 @@ Our website may link to external sites that are not operated by us. Please be aw
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;br&gt;
+&lt;h2 id=&#34;meeting-goals&#34;&gt;Meeting Goals&lt;/h2&gt;
+&lt;p&gt;This course meeting has an emphasis on the following goals:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Introduce the basic themes of the course&lt;/li&gt;
+&lt;li&gt;Critique an example web map and the process used to create it&lt;/li&gt;
+&lt;li&gt;Construct simple interactive web maps using leaflet&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h2 id=&#34;before-class&#34;&gt;Before Class&lt;/h2&gt;
+&lt;h3 id=&#34;tasks&#34;&gt;Tasks&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Complete all course onboarding tasks posted in Module 1 if you have not already done so (see Blackboard)&lt;/li&gt;
+&lt;li&gt;Complete the two videos and the reading listed on the syllabus (see below)&lt;/li&gt;
+&lt;li&gt;Submit Entry Ticket 1 (see Blackboard)&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h3 id=&#34;open-data-and-gis-in-los-angeles&#34;&gt;Open Data and GIS in Los Angeles&lt;/h3&gt;
 &lt;p&gt;One of the course learning outcomes is titled &amp;ldquo;GISc and Public Policy&amp;rdquo;. Much of the data that we will use this semester is available to us because governmental agencies at the Federal, state, and local levels have published it and made it accessible. We call the movement to make as much data available as possible &amp;ldquo;open data&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;Different governments have embraced the open data movement to varying degrees, and the video below discusses Los Angeles&#39; integration of open data and GIS. It is a 9 minute talk given by L.A.&amp;rsquo;s former Chief Data Officer &lt;a href=&#34;https://twitter.com/lcoral&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lilian P. Coral&lt;/a&gt;. The talk was part of a conference organized by &lt;a href=&#34;https://www.esri.com/en-us/home&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ESRI&lt;/a&gt;, the makers of ArcGIS.&lt;/p&gt;
@@ -517,8 +623,39 @@ Our website may link to external sites that are not operated by us. Please be aw
 &lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;3b023eb9d7ee463faea3a90532221987&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
 &lt;br&gt;
 &lt;h2 id=&#34;after-class&#34;&gt;After Class&lt;/h2&gt;
+&lt;h3 id=&#34;tasks-1&#34;&gt;Tasks&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Complete Lab-01 after and come to Meeting 02 prepared to submit it&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h3 id=&#34;lab-01&#34;&gt;Lab-01&lt;/h3&gt;
 &lt;p&gt;Please finish Lab-01, which is located in the &lt;code&gt;module-1-intro&lt;/code&gt; folder you already download in &lt;code&gt;assignments/lab-01/docs/lab-01.Rmd&lt;/code&gt;. Once you&amp;rsquo;ve opened that (use the &lt;code&gt;lab-01.Rproj&lt;/code&gt; R project file in &lt;code&gt;assignments/lab-01&lt;/code&gt;), you&amp;rsquo;ll need to round-out the narrative text, add code to open the grocery store data (located in &lt;code&gt;assignments/lab-01/data&lt;/code&gt;), and make an interactive map of grocery stores in St. Louis City and County using &lt;code&gt;leaflet&lt;/code&gt;. All of this can be accomplished using the code we used in class today. A replication file is already present in the &lt;code&gt;assignments&lt;/code&gt; folder as well.&lt;/p&gt;
+&lt;h3 id=&#34;sample-maps&#34;&gt;Sample Maps&lt;/h3&gt;
+&lt;p&gt;In class, I mentioned that I thought some of my favorite maps are the National Park Service&amp;rsquo;s visitor guides for each of there &amp;ldquo;resources&amp;rdquo; (NPS lingo for different parks, monuments, and sites) and &lt;a href=&#34;https://jamesniehues.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;James Niehues&#39;&lt;/a&gt; legendary ski area maps. The NPS brochures themselves aren&amp;rsquo;t available online, but some of the maps are! Here are some samples:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;James Niehues&#39; &lt;a href=&#34;https://bigskyresort.com/documents/Big%20Sky/The%20Resort/Trail%20Maps/W2021/Main%20Trail%20Map%20Winter%2020-21.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;map of Big Sky, Montana&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;A collection of Niehues&#39; &lt;a href=&#34;https://jamesniehues.com/collections/art/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;basemap art&lt;/a&gt; without labels, legends, etc&lt;/li&gt;
+&lt;li&gt;Acadia National Park (Maine)
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://npmaps.com/wp-content/uploads/acadia-map.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Main Park Map&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://npmaps.com/wp-content/uploads/acadia-isle-au-haut-map.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Isle au Haut Detail Map&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://npmaps.com/wp-content/uploads/acadia-context-map.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Regional Map&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Denali National Park (Alaska)
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://npmaps.com/wp-content/uploads/denali-map.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Main Park Map&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://npmaps.com/wp-content/uploads/denali-entrance-area-map.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Park Enterance Detail Map&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Yellowstone National Park (Wyoming)
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://npmaps.com/wp-content/uploads/yellowstone-old-faithful-map.jpg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Main Park Map&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nps.gov/carto/hfc/carto/media/YELLmap2.jpg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Old Faithful Detail Map&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://npmaps.com/wp-content/uploads/yellowstone-regional-map.jpg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Regional Map&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;All of the National Park Service maps are available via &lt;a href=&#34;http://npmaps.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;npmaps.com&lt;/a&gt;, which catalogs them because different parks make different types of maps available.&lt;/p&gt;
 </description>
     </item>
     

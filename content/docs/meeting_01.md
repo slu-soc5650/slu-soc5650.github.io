@@ -2,7 +2,7 @@
   title = "Meeting 01 - Course Introduction"
   
   date = 2018-12-04T00:00:00
-  lastmod = 2021-01-26T00:00:00
+  lastmod = 2021-02-08T00:00:00
   
   draft = false  # Is this a draft? true/false
   toc = true  # Show table of contents? true/false
@@ -26,7 +26,20 @@ Please make sure you have gone through the Course Onboarding section of Blackboa
 
 <br>
 
+## Meeting Goals
+This course meeting has an emphasis on the following goals:
+
+  1. Introduce the basic themes of the course
+  2. Critique an example web map and the process used to create it
+  3. Construct simple interactive web maps using leaflet
+
 ## Before Class
+
+### Tasks
+
+  1. Complete all course onboarding tasks posted in Module 1 if you have not already done so (see Blackboard)
+  2. Complete the two videos and the reading listed on the syllabus (see below)
+  3. Submit Entry Ticket 1 (see Blackboard)
 
 ### Open Data and GIS in Los Angeles
 One of the course learning outcomes is titled "GISc and Public Policy". Much of the data that we will use this semester is available to us because governmental agencies at the Federal, state, and local levels have published it and made it accessible. We call the movement to make as much data available as possible "open data". 
@@ -73,5 +86,28 @@ The entry ticket also asks for an update on your course onboarding process.
 <br>
 
 ## After Class
+### Tasks
+
+  1. Complete Lab-01 after and come to Meeting 02 prepared to submit it
+
 ### Lab-01
 Please finish Lab-01, which is located in the `module-1-intro` folder you already download in `assignments/lab-01/docs/lab-01.Rmd`. Once you've opened that (use the `lab-01.Rproj` R project file in `assignments/lab-01`), you'll need to round-out the narrative text, add code to open the grocery store data (located in `assignments/lab-01/data`), and make an interactive map of grocery stores in St. Louis City and County using `leaflet`. All of this can be accomplished using the code we used in class today. A replication file is already present in the `assignments` folder as well.
+
+### Sample Maps
+In class, I mentioned that I thought some of my favorite maps are the National Park Service's visitor guides for each of there "resources" (NPS lingo for different parks, monuments, and sites) and [James Niehues'](https://jamesniehues.com) legendary ski area maps. The NPS brochures themselves aren't available online, but some of the maps are! Here are some samples:
+
+  1. James Niehues' [map of Big Sky, Montana](https://bigskyresort.com/documents/Big%20Sky/The%20Resort/Trail%20Maps/W2021/Main%20Trail%20Map%20Winter%2020-21.pdf)
+  2. A collection of Niehues' [basemap art](https://jamesniehues.com/collections/art/) without labels, legends, etc
+  3. Acadia National Park (Maine)
+      * [Main Park Map](http://npmaps.com/wp-content/uploads/acadia-map.pdf)
+      * [Isle au Haut Detail Map](http://npmaps.com/wp-content/uploads/acadia-isle-au-haut-map.pdf)
+      * [Regional Map](http://npmaps.com/wp-content/uploads/acadia-context-map.pdf)
+  4. Denali National Park (Alaska)
+      * [Main Park Map](http://npmaps.com/wp-content/uploads/denali-map.pdf)
+      * [Park Enterance Detail Map](http://npmaps.com/wp-content/uploads/denali-entrance-area-map.pdf)
+  5. Yellowstone National Park (Wyoming)
+      * [Main Park Map](http://npmaps.com/wp-content/uploads/yellowstone-old-faithful-map.jpg)
+      * [Old Faithful Detail Map](https://www.nps.gov/carto/hfc/carto/media/YELLmap2.jpg)
+      * [Regional Map](http://npmaps.com/wp-content/uploads/yellowstone-regional-map.jpg)
+    
+All of the National Park Service maps are available via [npmaps.com](http://npmaps.com/), which catalogs them because different parks make different types of maps available.

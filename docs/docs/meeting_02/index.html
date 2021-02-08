@@ -30,10 +30,11 @@
   
     
   
-  <meta name="description" content="Please make sure you have gone through the Course Onboarding section of Blackboard and all of the Getting Started pages of the Course Docs! In addition, there are two videos to watch below and a short reading to complete before you submit the first entry ticket.">
+  <meta name="description" content="Please come to class with your Lab-01 materials ready to submit!   Meeting Goals This course meeting has an emphasis on the following goals:
+ Introduce ggplot2 for static mapping in R Introduce Git and GitHub for analysis development Distinguish between different scales of maps Evaluate the effect that normalizing data has on a map  Before Class Tasks  Double-check to make sure you have completed all course onboarding steps (see Blackboard) Complete Lab-01 from our first course meeting, and come prepared to submit it during class Complete the two meeting prep videos (see Blackboard) Submit Entry Ticket 02 (see Blackboard) Submit your final project memo (see the final project instructions)  During Class Agenda  Exercise 1 - Discussing Map Scale and Features Exercise 2 - Working with Git and GitHub Break Exercise 3 - Introducing ggplot2 Break Lab-02 and one-on-one meetings  Exercise 1 - Discussing Map Scale and Features To illustrate some of the points about scale and detail in the second meeting prep video, we&rsquo;ll take a look at some maps of California from a number of different sources.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://slu-soc5650.github.io/docs/meeting_01/">
+  <link rel="alternate" hreflang="en-us" href="https://slu-soc5650.github.io/docs/meeting_02/">
 
   
 
@@ -259,7 +260,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu137d436a85c84cab921c9c47edaed5ef_12382_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu137d436a85c84cab921c9c47edaed5ef_12382_180x180_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://slu-soc5650.github.io/docs/meeting_01/">
+  <link rel="canonical" href="https://slu-soc5650.github.io/docs/meeting_02/">
 
   
   
@@ -275,13 +276,14 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="SLU SOC 4650 and 5650">
-  <meta property="og:url" content="https://slu-soc5650.github.io/docs/meeting_01/">
-  <meta property="og:title" content="Meeting 01 - Course Introduction | SLU SOC 4650 and 5650">
-  <meta property="og:description" content="Please make sure you have gone through the Course Onboarding section of Blackboard and all of the Getting Started pages of the Course Docs! In addition, there are two videos to watch below and a short reading to complete before you submit the first entry ticket."><meta property="og:image" content="https://slu-soc5650.github.io/images/icon_hu137d436a85c84cab921c9c47edaed5ef_12382_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="https://slu-soc5650.github.io/docs/meeting_02/">
+  <meta property="og:title" content="Meeting 02 - Map Production Basics | SLU SOC 4650 and 5650">
+  <meta property="og:description" content="Please come to class with your Lab-01 materials ready to submit!   Meeting Goals This course meeting has an emphasis on the following goals:
+ Introduce ggplot2 for static mapping in R Introduce Git and GitHub for analysis development Distinguish between different scales of maps Evaluate the effect that normalizing data has on a map  Before Class Tasks  Double-check to make sure you have completed all course onboarding steps (see Blackboard) Complete Lab-01 from our first course meeting, and come prepared to submit it during class Complete the two meeting prep videos (see Blackboard) Submit Entry Ticket 02 (see Blackboard) Submit your final project memo (see the final project instructions)  During Class Agenda  Exercise 1 - Discussing Map Scale and Features Exercise 2 - Working with Git and GitHub Break Exercise 3 - Introducing ggplot2 Break Lab-02 and one-on-one meetings  Exercise 1 - Discussing Map Scale and Features To illustrate some of the points about scale and detail in the second meeting prep video, we&rsquo;ll take a look at some maps of California from a number of different sources."><meta property="og:image" content="https://slu-soc5650.github.io/images/icon_hu137d436a85c84cab921c9c47edaed5ef_12382_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://slu-soc5650.github.io/images/icon_hu137d436a85c84cab921c9c47edaed5ef_12382_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2018-12-04T00:00:00-06:00">
+      <meta property="article:published_time" content="2021-02-08T00:00:00-06:00">
     
     <meta property="article:modified_time" content="2021-02-08T00:00:00-06:00">
   
@@ -302,7 +304,7 @@
 
 
 
-  <title>Meeting 01 - Course Introduction | SLU SOC 4650 and 5650</title>
+  <title>Meeting 02 - Map Production Basics | SLU SOC 4650 and 5650</title>
 
 </head>
 
@@ -712,12 +714,12 @@
     <a class="docs-toc-link" href="/docs/meeting_01/">Module 1</a>
     <ul class="nav docs-sidenav">
       
-      <li class="active">
+      <li >
         <a href="/docs/meeting_01/">Meeting 01 - Course Intro</a>
       </li>
 
       
-      <li >
+      <li class="active">
         <a href="/docs/meeting_02/">Meeting 02 - Mapping Basics</a>
       </li>
 
@@ -758,21 +760,20 @@
     <li><a href="#before-class">Before Class</a>
       <ul>
         <li><a href="#tasks">Tasks</a></li>
-        <li><a href="#open-data-and-gis-in-los-angeles">Open Data and GIS in Los Angeles</a></li>
-        <li><a href="#analysis-development">Analysis Development</a></li>
-        <li><a href="#lecture-01-entry-ticket">Lecture-01 Entry Ticket</a></li>
       </ul>
     </li>
     <li><a href="#during-class">During Class</a>
       <ul>
-        <li><a href="#slides">Slides</a></li>
+        <li><a href="#agenda">Agenda</a></li>
+        <li><a href="#exercise-1---discussing-map-scale-and-features">Exercise 1 - Discussing Map Scale and Features</a></li>
+        <li><a href="#exercise-2---working-with-git-and-github">Exercise 2 - Working with Git and GitHub</a></li>
+        <li><a href="#exercise-3---introducing-ggplot2">Exercise 3 - Introducing ggplot2</a></li>
       </ul>
     </li>
     <li><a href="#after-class">After Class</a>
       <ul>
         <li><a href="#tasks-1">Tasks</a></li>
-        <li><a href="#lab-01">Lab-01</a></li>
-        <li><a href="#sample-maps">Sample Maps</a></li>
+        <li><a href="#lab-02">Lab-02</a></li>
       </ul>
     </li>
   </ul>
@@ -787,97 +788,84 @@
       <article class="article">
 
         <div class="docs-article-container">
-          <h1>Meeting 01 - Course Introduction</h1>
+          <h1>Meeting 02 - Map Production Basics</h1>
 
           <div class="article-style">
             <br> 
-<div class="alert alert-info">
+<div class="alert alert-warning">
   <div>
-    Please make sure you have gone through the Course Onboarding section of Blackboard and all of the Getting Started pages of the Course Docs! In addition, there are two videos to watch below and a short reading to complete before you submit the first entry ticket.
+    Please come to class with your Lab-01 materials ready to submit!
   </div>
 </div>
 <br>
 <h2 id="meeting-goals">Meeting Goals</h2>
 <p>This course meeting has an emphasis on the following goals:</p>
 <ol>
-<li>Introduce the basic themes of the course</li>
-<li>Critique an example web map and the process used to create it</li>
-<li>Construct simple interactive web maps using leaflet</li>
+<li>Introduce <code>ggplot2</code> for static mapping in <code>R</code></li>
+<li>Introduce Git and GitHub for analysis development</li>
+<li>Distinguish between different scales of maps</li>
+<li>Evaluate the effect that normalizing data has on a map</li>
 </ol>
+<br>
 <h2 id="before-class">Before Class</h2>
 <h3 id="tasks">Tasks</h3>
 <ol>
-<li>Complete all course onboarding tasks posted in Module 1 if you have not already done so (see Blackboard)</li>
-<li>Complete the two videos and the reading listed on the syllabus (see below)</li>
-<li>Submit Entry Ticket 1 (see Blackboard)</li>
+<li>Double-check to make sure you have completed all course onboarding steps (see Blackboard)</li>
+<li>Complete Lab-01 from our first course meeting, and come prepared to submit it during class</li>
+<li>Complete the two meeting prep videos (see Blackboard)</li>
+<li>Submit Entry Ticket 02 (see Blackboard)</li>
+<li>Submit your final project memo (see the <a href="https://slu-soc5650.github.io/final-project/topic-data-selection.html" target="_blank" rel="noopener">final project instructions</a>)</li>
 </ol>
-<h3 id="open-data-and-gis-in-los-angeles">Open Data and GIS in Los Angeles</h3>
-<p>One of the course learning outcomes is titled &ldquo;GISc and Public Policy&rdquo;. Much of the data that we will use this semester is available to us because governmental agencies at the Federal, state, and local levels have published it and made it accessible. We call the movement to make as much data available as possible &ldquo;open data&rdquo;.</p>
-<p>Different governments have embraced the open data movement to varying degrees, and the video below discusses Los Angeles' integration of open data and GIS. It is a 9 minute talk given by L.A.&rsquo;s former Chief Data Officer <a href="https://twitter.com/lcoral" target="_blank" rel="noopener">Lilian P. Coral</a>. The talk was part of a conference organized by <a href="https://www.esri.com/en-us/home" target="_blank" rel="noopener">ESRI</a>, the makers of ArcGIS.</p>
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/etdwa768Zms" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
-
-<p> </p>
-<p>Once you&rsquo;ve watched the video, check out the web application featured in the video that <a href="http://ladot.maps.arcgis.com/apps/MapJournal/index.html?appid=a45d3efd7b1d4ef49f362caadb4754b0" target="_blank" rel="noopener">visualizes pedestrian and cyclist injuries in Los Angeles</a>. You can also visit L.A.&rsquo;s open data website called <a href="http://geohub.lacity.org" target="_blank" rel="noopener">GeoHub</a>.</p>
-<h3 id="analysis-development">Analysis Development</h3>
-<p>Making a produce like L.A.&rsquo;s visualization of pedestrian and cyclist injuries is a complicated effort. Data must be obtained from various sources, modified (a process we call &ldquo;data wrangling&rdquo; or &ldquo;data cleaning&rdquo;), and then linked with map coordinates. Once it is ready to be mapped, the web application must be designed and created. We&rsquo;ll call this large-scale process a &ldquo;workflow&rdquo; this semester.</p>
-<p>The workflow that we&rsquo;ll use is opinionated - there is a strong premise that underlies the workflow about the ways in which spatial data (and data more generally) should be obtained, stored, modified, and mapped. Hilary Parker is a data scientist at <a href="http://stitchfix.com" target="_blank" rel="noopener">Stichfix</a> and also runs a data science podcast called <a href="http://nssdeviations.com" target="_blank" rel="noopener">Not So Standard Deviations</a>. She has been speaking recently about an idea called opinionated analysis development. The <a href="https://www.rstudio.com/resources/videos/opinionated-analysis-development/" target="_blank" rel="noopener">video</a> linked to below is a 25 minute talk she gave on this idea last year, and she now has a <a href="https://peerj.com/preprints/3210/" target="_blank" rel="noopener">draft paper</a> out on the topic as well. Our workflow for this semester is closely linked to the ideas she discusses in this talk.</p>
-<p>Many (but not all of you) will have experienced some parts of these processes before. Perhaps you&rsquo;ve used Microsoft Excel to organize some information or used SPSS to analyze some quantitative data. We won&rsquo;t be using those tools. Instead, this course will emphasize the use of other tools that support reproducible, accurate, and collaborative data analysis. Throughout the semester, we&rsquo;ll discuss why these tools are important and the advantages they have over other products that are out there. Inspired by Hilary&rsquo;s idea of opinionated analysis development, our goal each week will be to focus on the <em>processes</em> that can be used to increase the reproducibility and accuracy of our geospatial work.</p>
-<p>Some of these processes, like using RMarkdown, are introduced in the <a href="http://plain-text.co" target="_blank" rel="noopener">introductory &ldquo;chapter&rdquo;</a> (it is quite short!) to Duke University sociologist <a href="http://kieranhealy.org" target="_blank" rel="noopener">Kieran Healy&rsquo;s</a> primer <a href="http://plain-text.co" target="_blank" rel="noopener"><em>The Plain Person&rsquo;s Guide to Plain Text Social Science</em></a>. This is the one <em>required</em> reading for the entry ticket (though there are several optional ones listed on the <a href="https://slu-soc5650.github.io/syllabus/course-preview.html" target="_blank" rel="noopener">syllabus</a>.</p>
-<p><a href="https://rstudio.com/resources/rstudioconf-2017/opinionated-analysis-development/" target="_blank" rel="noopener"><img src="/media/opinionatedAnalysis.png" alt="opinionatedAnalysis"></a></p>
-<p> </p>
-<p>Many (but not all of you) will have experienced some parts of these processes before. Perhaps you&rsquo;ve used Microsoft Excel to organize some information or used SPSS to analyze some quantitative data. We won&rsquo;t be using those tools. Instead, this course will emphasize the use of other tools that support reproducible, accurate, and collaborative data analysis. Throughout the semester, we&rsquo;ll discuss why these tools are important and the advantages they have over other products that are out there. Inspired by Hilary&rsquo;s idea of opinionated analysis development, our goal each week will be to focus on the <em>processes</em> that can be used to increase the reproducibility and accuracy of our geospatial work.</p>
-<p>Some of these processes, like using RMarkdown, are introduced in the <a href="http://plain-text.co" target="_blank" rel="noopener">introductory &ldquo;chapter&rdquo;</a> (it is quite short!) to Duke University sociologist <a href="http://kieranhealy.org" target="_blank" rel="noopener">Kieran Healy&rsquo;s</a> primer <a href="http://plain-text.co" target="_blank" rel="noopener"><em>The Plain Person&rsquo;s Guide to Plain Text Social Science</em></a>. This is the one <em>required</em> reading for the entry ticket (though there are several optional ones listed on the <a href="https://slu-soc5650.github.io/syllabus/module-1-course-introduction.html" target="_blank" rel="noopener">syllabus</a>).</p>
-<h3 id="lecture-01-entry-ticket">Lecture-01 Entry Ticket</h3>
-<p>The entry ticket for the first lecture asks three follow-up questions about these videos and L.A.&rsquo;s interactive website. Please answer these questions and submit them before class on <strong>February 1st</strong>. Answers <strong>must</strong> be submitted through <a href="https://docs.google.com/forms/d/e/1FAIpQLSfI66TDRFH6xsj7getQZ3UXo8d7JeiMaCNH0WOhJZcXcevx7g/viewform?usp=sf_link" target="_blank" rel="noopener">Google Forms</a> and each response should be three to four sentences in length. The questions are provided here for reference:</p>
-<ol>
-<li>Briefly describe how the City of Los Angeles uses data and mapping to inform how they deliver city services.</li>
-<li>After viewing the interactive map showing pedestrian and cyclist injuries, describe what you thought of the map. Some example considerations could include: was it easy to read? to navigate? did you like the colors? was it missing relevant data?</li>
-<li>In your own words, what are the key aspects of opinionated analysis development?</li>
-<li>What are some of the advantages of using plain text for data analysis?</li>
-</ol>
-<p>The entry ticket also asks for an update on your course onboarding process.</p>
 <br>
 <h2 id="during-class">During Class</h2>
-<h3 id="slides">Slides</h3>
-<script async class="speakerdeck-embed" data-id="3b023eb9d7ee463faea3a90532221987" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+<h3 id="agenda">Agenda</h3>
+<ol>
+<li>Exercise 1 - Discussing Map Scale and Features</li>
+<li>Exercise 2 - Working with Git and GitHub</li>
+<li><em>Break</em></li>
+<li>Exercise 3 - Introducing <code>ggplot2</code></li>
+<li><em>Break</em></li>
+<li>Lab-02 and one-on-one meetings</li>
+</ol>
+<h3 id="exercise-1---discussing-map-scale-and-features">Exercise 1 - Discussing Map Scale and Features</h3>
+<p>To illustrate some of the points about scale and detail in the second meeting prep video, we&rsquo;ll take a look at some maps of California from a number of different sources. The goal is to get more comfortable talking and thinking about maps, their purpose, and you need to make them.</p>
+<ol>
+<li>Map 1 - <a href="http://npmaps.com/wp-content/uploads/yosemite-valley-map.jpg" target="_blank" rel="noopener">Yosemite Valley Detail Map</a> via the National Park Service / npmaps.com</li>
+<li>Map 2 - <a href="https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/USTopo/PDF/CA/CA_Tenaya_Lake_20150226_TM_geo.pdf" target="_blank" rel="noopener">Tenaya Lake 2015 7.5 Minute Topo Map</a> via pickatrail.com</li>
+<li>Map 3 - <a href="http://npmaps.com/wp-content/uploads/yosemite-map.jpg" target="_blank" rel="noopener">Main Yosemite National Park Map</a> via the National Park Service / npmaps.com</li>
+<li>Map 4 - Map of California Counties by Population, Count</li>
+<li>Map 5 - Map of California Counties by Population, Density</li>
+</ol>
+<p>For these maps, discuss the following four questions in your breakout groups:</p>
+<ol>
+<li>The scale that they are mapped at - which is the largest scale map? Which is the smallest scale map? How do the ones in between differ?</li>
+<li>What is the relationship between scale and what you think the intended use of each map might be?</li>
+<li>What data and &ldquo;layers&rdquo; are needed for each of the maps?</li>
+<li>Which map, Map 4 or Map 5, is properly normalized? What is the effect of normalization?</li>
+</ol>
+<h3 id="exercise-2---working-with-git-and-github">Exercise 2 - Working with Git and GitHub</h3>
+<p>Since we&rsquo;ll be submitting our work through GitHub this semester, the goal of this exercise is to get comfortable with the GitHub Desktop user interface as well as the Git workflow that we discussed in the first meeting prep video this week. We&rsquo;ll talk about GitHub Desktop, and then work through three examples of the workflow:</p>
+<ol>
+<li>Clone the <code>module-1-basics</code> repo with today&rsquo;s meeting materials</li>
+<li>Clone your assignment repo, add <code>Lab-01</code>, commit the changes, and submit it</li>
+<li>Clone your final project repo, add a <code>.Rproj</code> project file to it, and submit it</li>
+</ol>
+<h3 id="exercise-3---introducing-ggplot2">Exercise 3 - Introducing ggplot2</h3>
+<p>We&rsquo;ll be using <code>ggplot2</code> this semester to produce static thematic maps in <code>R</code>. To get acquainted with <code>ggplot2</code>, we&rsquo;ll re-create Maps 4 and 5 above. All of the materials are available in our <a href="">meeting GitHub repo</a>. Our goal is to load some data saved in a shapefile (review from last week) and then:</p>
+<ol>
+<li>Create a map using <code>ggplot()</code> and <code>geom_sf()</code></li>
+<li>Add a color <code>viridis</code> color palette to the map</li>
+<li>Add a title, subtitle, and caption to the map</li>
+</ol>
 <br>
 <h2 id="after-class">After Class</h2>
 <h3 id="tasks-1">Tasks</h3>
 <ol>
-<li>Complete Lab-01 after and come to Meeting 02 prepared to submit it</li>
+<li>Complete Lab-02 after and <em>try to submit it via GitHub on your own</em></li>
+<li>Follow-up with Chris in your Final Project repo about any outstanding memo questions</li>
 </ol>
-<h3 id="lab-01">Lab-01</h3>
-<p>Please finish Lab-01, which is located in the <code>module-1-intro</code> folder you already download in <code>assignments/lab-01/docs/lab-01.Rmd</code>. Once you&rsquo;ve opened that (use the <code>lab-01.Rproj</code> R project file in <code>assignments/lab-01</code>), you&rsquo;ll need to round-out the narrative text, add code to open the grocery store data (located in <code>assignments/lab-01/data</code>), and make an interactive map of grocery stores in St. Louis City and County using <code>leaflet</code>. All of this can be accomplished using the code we used in class today. A replication file is already present in the <code>assignments</code> folder as well.</p>
-<h3 id="sample-maps">Sample Maps</h3>
-<p>In class, I mentioned that I thought some of my favorite maps are the National Park Service&rsquo;s visitor guides for each of there &ldquo;resources&rdquo; (NPS lingo for different parks, monuments, and sites) and <a href="https://jamesniehues.com" target="_blank" rel="noopener">James Niehues'</a> legendary ski area maps. The NPS brochures themselves aren&rsquo;t available online, but some of the maps are! Here are some samples:</p>
-<ol>
-<li>James Niehues' <a href="https://bigskyresort.com/documents/Big%20Sky/The%20Resort/Trail%20Maps/W2021/Main%20Trail%20Map%20Winter%2020-21.pdf" target="_blank" rel="noopener">map of Big Sky, Montana</a></li>
-<li>A collection of Niehues' <a href="https://jamesniehues.com/collections/art/" target="_blank" rel="noopener">basemap art</a> without labels, legends, etc</li>
-<li>Acadia National Park (Maine)
-<ul>
-<li><a href="http://npmaps.com/wp-content/uploads/acadia-map.pdf" target="_blank" rel="noopener">Main Park Map</a></li>
-<li><a href="http://npmaps.com/wp-content/uploads/acadia-isle-au-haut-map.pdf" target="_blank" rel="noopener">Isle au Haut Detail Map</a></li>
-<li><a href="http://npmaps.com/wp-content/uploads/acadia-context-map.pdf" target="_blank" rel="noopener">Regional Map</a></li>
-</ul>
-</li>
-<li>Denali National Park (Alaska)
-<ul>
-<li><a href="http://npmaps.com/wp-content/uploads/denali-map.pdf" target="_blank" rel="noopener">Main Park Map</a></li>
-<li><a href="http://npmaps.com/wp-content/uploads/denali-entrance-area-map.pdf" target="_blank" rel="noopener">Park Enterance Detail Map</a></li>
-</ul>
-</li>
-<li>Yellowstone National Park (Wyoming)
-<ul>
-<li><a href="http://npmaps.com/wp-content/uploads/yellowstone-old-faithful-map.jpg" target="_blank" rel="noopener">Main Park Map</a></li>
-<li><a href="https://www.nps.gov/carto/hfc/carto/media/YELLmap2.jpg" target="_blank" rel="noopener">Old Faithful Detail Map</a></li>
-<li><a href="http://npmaps.com/wp-content/uploads/yellowstone-regional-map.jpg" target="_blank" rel="noopener">Regional Map</a></li>
-</ul>
-</li>
-</ol>
-<p>All of the National Park Service maps are available via <a href="http://npmaps.com/" target="_blank" rel="noopener">npmaps.com</a>, which catalogs them because different parks make different types of maps available.</p>
+<h3 id="lab-02">Lab-02</h3>
+<p>The Lab-02 instructions are available in <code>module-1-basics</code>. You&rsquo;ll need to create a new <code>.Rproj</code> for it in your assignments repository (which you cloned during class), and then create a static map using <code>ggplot2</code> of Missouri counties' total populations that is appropriately normalized.</p>
 
           </div>
 
@@ -894,9 +882,15 @@
   
   <div class="post-nav-item">
     <div class="meta-nav">Previous</div>
-    <a href="/docs/start_prep/" rel="next">Preparing Your Computer</a>
+    <a href="/docs/final_project/" rel="next">Final Project Notes</a>
   </div>
   
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/docs/start_around/" rel="prev">Getting Around SOC 4650 and SOC 5650</a>
+  </div>
   
 </div>
 
