@@ -63,14 +63,14 @@ To illustrate some of the points about scale and detail in the second meeting pr
   1. Map 1 - [Yosemite Valley Detail Map](http://npmaps.com/wp-content/uploads/yosemite-valley-map.jpg) via the National Park Service / npmaps.com
   2. Map 2 - [Tenaya Lake 2015 7.5 Minute Topo Map](https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/USTopo/PDF/CA/CA_Tenaya_Lake_20150226_TM_geo.pdf) via pickatrail.com
   3. Map 3 - [Main Yosemite National Park Map](http://npmaps.com/wp-content/uploads/yosemite-map.jpg) via the National Park Service / npmaps.com
-  4. Map 4 - Map of California Counties by Population, Count
-  5. Map 5 - Map of California Counties by Population, Density
+  4. Map 4 - [Map of California Counties by Population, Count](https://slu-soc5650.github.io/module-1-basics/results/california_total_population.png)
+  5. Map 5 - [Map of California Counties by Population, Density](https://slu-soc5650.github.io/module-1-basics/results/california_population_density.png)
   
 For these maps, discuss the following four questions in your breakout groups:
 
   1. The scale that they are mapped at - which is the largest scale map? Which is the smallest scale map? How do the ones in between differ?
   2. What is the relationship between scale and what you think the intended use of each map might be?
-  3. What data and "layers" are needed for each of the maps?
+  3. What data and "layers" are needed for each of the maps? For different data, think about whether they are points, lines, or polygons.
   4. Which map, Map 4 or Map 5, is properly normalized? What is the effect of normalization?
   
 ### Exercise 2 - Working with Git and GitHub
@@ -96,4 +96,4 @@ We'll be using `ggplot2` this semester to produce static thematic maps in `R`. T
   2. Follow-up with Chris in your Final Project repo about any outstanding memo questions
   
 ### Lab-02
-The Lab-02 instructions are available in `module-1-basics`. You'll need to create a new `.Rproj` for it in your assignments repository (which you cloned during class), and then create a static map using `ggplot2` of Missouri counties' total populations that is appropriately normalized.
+The Lab-02 instructions are available in `module-1-basics` or can viewed online [here](https://github.com/slu-soc5650/module-1-basics/blob/master/assignments/lab-02.pdf). You'll need to create a new `.Rproj` for it in your assignments repository (which you cloned during class), and then create a static map using `ggplot2` of Missouri counties' total populations that is appropriately normalized.
