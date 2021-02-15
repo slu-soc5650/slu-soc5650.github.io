@@ -64,7 +64,7 @@
 &lt;/ol&gt;
 &lt;p&gt;All of the materials are available in our &lt;a href=&#34;http://github.com/slu-soc5650/module-1-cartography&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;meeting GitHub repo&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;after-class&#34;&gt;After Class&lt;/h2&gt;
-&lt;p&gt;The Lab-03 instructions are available in &lt;code&gt;module-1-cartography&lt;/code&gt; or can viewed online &lt;a href=&#34;https://github.com/slu-soc5650/module-1-cartography/blob/master/assignments/lab-03.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. You&amp;rsquo;ll need to create a new &lt;code&gt;.Rproj&lt;/code&gt; for it in your assignments repository and then create a static map of St. Louis showing the percentage of people living in poverty. This map should include the Mississippi River and local highways as ground layers, and include map breaks as well as a &lt;code&gt;viridis&lt;/code&gt; and &lt;code&gt;RColorBrewer&lt;/code&gt; palette of your choice.&lt;/p&gt;
+&lt;p&gt;The Lab-03 instructions are available in &lt;code&gt;module-1-cartography&lt;/code&gt; or can viewed online &lt;a href=&#34;https://github.com/slu-soc5650/module-1-cartography/blob/master/assignments/lab-03.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. You&amp;rsquo;ll need to create a new &lt;code&gt;.Rproj&lt;/code&gt; for it in your assignments repository and then create a static map of St. Louis showing the extent of owner occupied housing in the city. This map should include the Mississippi River and local highways as ground layers, and include map breaks as well as a &lt;code&gt;viridis&lt;/code&gt; or &lt;code&gt;RColorBrewer&lt;/code&gt; palette of your choice.&lt;/p&gt;
 </description>
     </item>
     
