@@ -2,7 +2,7 @@
   title = "Meeting 02 - Map Production Basics"
   
   date = 2021-02-08T00:00:00
-  lastmod = 2021-02-08T00:00:00
+  lastmod = 2021-02-15T00:00:00
   
   draft = false  # Is this a draft? true/false
   toc = true  # Show table of contents? true/false
@@ -81,7 +81,7 @@ Since we'll be submitting our work through GitHub this semester, the goal of thi
   3. Clone your final project repo, add a `.Rproj` project file to it, and submit it
 
 ### Exercise 3 - Introducing ggplot2
-We'll be using `ggplot2` this semester to produce static thematic maps in `R`. To get acquainted with `ggplot2`, we'll re-create Maps 4 and 5 above. All of the materials are available in our [meeting GitHub repo](). Our goal is to load some data saved in a shapefile (review from last week) and then:
+We'll be using `ggplot2` this semester to produce static thematic maps in `R`. To get acquainted with `ggplot2`, we'll re-create Maps 4 and 5 above. All of the materials are available in our [meeting GitHub repo](http://github.com/slu-soc5650/module-1-basics). Our goal is to load some data saved in a shapefile (review from last week) and then:
 
   1. Create a map using `ggplot()` and `geom_sf()`
   2. Add a color `viridis` color palette to the map

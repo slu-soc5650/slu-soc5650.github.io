@@ -13,6 +13,62 @@
     </image>
     
     <item>
+      <title>Meeting 03 - Cartography 101</title>
+      <link>https://slu-soc5650.github.io/docs/meeting_03/</link>
+      <pubDate>Mon, 15 Feb 2021 00:00:00 -0600</pubDate>
+      <guid>https://slu-soc5650.github.io/docs/meeting_03/</guid>
+      <description>&lt;br&gt; 
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    Please submit Lab-02 on your own via GitHub Desktop!
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;meeting-goals&#34;&gt;Meeting Goals&lt;/h2&gt;
+&lt;p&gt;This course meeting has an emphasis on the following goals:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Apply gestalt principles to map reading and map design&lt;/li&gt;
+&lt;li&gt;Design &lt;code&gt;ggplot2&lt;/code&gt; maps with both figure and ground layers&lt;/li&gt;
+&lt;li&gt;Revise &lt;code&gt;ggplot2&lt;/code&gt; maps to use different color ramps&lt;/li&gt;
+&lt;li&gt;Employ different break algorithms to &amp;ldquo;bin&amp;rdquo; data together on a map&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;before-class&#34;&gt;Before Class&lt;/h2&gt;
+&lt;h3 id=&#34;tasks&#34;&gt;Tasks&lt;/h3&gt;
+&lt;p&gt;Please complete the tasks listed on the &lt;a href=&#34;https://slu-soc5650.github.io/syllabus/module-1-course-introduction.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;syllabus&lt;/a&gt;, and see &lt;a href=&#34;https://blackboard.slu.edu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blackboard&lt;/a&gt; for the entry ticket link.&lt;/p&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;during-class&#34;&gt;During Class&lt;/h2&gt;
+&lt;h3 id=&#34;agenda&#34;&gt;Agenda&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Exercise 1 - Discussing Map Layers and Cartographic Choices&lt;/li&gt;
+&lt;li&gt;Exercise 2 - Complicating Our &lt;code&gt;ggplot2&lt;/code&gt; Maps&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Break&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Lab-02 and one-on-one meetings&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;exercise-1---discussing-map-layers-and-cartographic-choices&#34;&gt;Exercise 1 - Discussing Map Layers and Cartographic Choices&lt;/h3&gt;
+&lt;p&gt;To illustrate some of the points about gestalt principles and color in the meeting prep video, please consider the following questions as a group after taking a look at this &lt;a href=&#34;http://npmaps.com/wp-content/uploads/ozark-map.jpg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;map of Ozark National Senic Riverways&lt;/a&gt;, a National Park Service resource in southern Missouri.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;What do you think are the ground layers?&lt;/li&gt;
+&lt;li&gt;What do you think are the figure layers?&lt;/li&gt;
+&lt;li&gt;How is the gestalt principle of nearness used?&lt;/li&gt;
+&lt;li&gt;How is the gestalt principle of similarity used?&lt;/li&gt;
+&lt;li&gt;What do you think is the hierarchical organization of layers?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;exercise-2---complicating-our-ggplot2-maps&#34;&gt;Exercise 2 - Complicating Our ggplot2 Maps&lt;/h3&gt;
+&lt;p&gt;To apply some of our gestalt principles, and also introduce some tools for working with color, we&amp;rsquo;re going to add some complexity to the way we&amp;rsquo;re been using &lt;code&gt;ggplot2&lt;/code&gt; for mapping. Our goal is to load some data saved in several shapefiles and then:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a map using &lt;code&gt;ggplot()&lt;/code&gt; and &lt;em&gt;several instances&lt;/em&gt; &lt;code&gt;geom_sf()&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Manually alter color of layers&lt;/li&gt;
+&lt;li&gt;Illustrate using &lt;code&gt;viridis&lt;/code&gt; and &lt;code&gt;RColorBrewer&lt;/code&gt; to create palettes for thematic maps&lt;/li&gt;
+&lt;li&gt;Use a custom function to create map breaks&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;All of the materials are available in our &lt;a href=&#34;http://github.com/slu-soc5650/module-1-cartography&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;meeting GitHub repo&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;after-class&#34;&gt;After Class&lt;/h2&gt;
+&lt;p&gt;The Lab-03 instructions are available in &lt;code&gt;module-1-cartography&lt;/code&gt; or can viewed online &lt;a href=&#34;https://github.com/slu-soc5650/module-1-cartography/blob/master/assignments/lab-03.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. You&amp;rsquo;ll need to create a new &lt;code&gt;.Rproj&lt;/code&gt; for it in your assignments repository and then create a static map of St. Louis showing the percentage of people living in poverty. This map should include the Mississippi River and local highways as ground layers, and include map breaks as well as a &lt;code&gt;viridis&lt;/code&gt; and &lt;code&gt;RColorBrewer&lt;/code&gt; palette of your choice.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Final Project Notes</title>
       <link>https://slu-soc5650.github.io/docs/final_project/</link>
       <pubDate>Mon, 08 Feb 2021 00:00:00 -0600</pubDate>
@@ -87,7 +143,7 @@
 &lt;li&gt;Clone your final project repo, add a &lt;code&gt;.Rproj&lt;/code&gt; project file to it, and submit it&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;exercise-3---introducing-ggplot2&#34;&gt;Exercise 3 - Introducing ggplot2&lt;/h3&gt;
-&lt;p&gt;We&amp;rsquo;ll be using &lt;code&gt;ggplot2&lt;/code&gt; this semester to produce static thematic maps in &lt;code&gt;R&lt;/code&gt;. To get acquainted with &lt;code&gt;ggplot2&lt;/code&gt;, we&amp;rsquo;ll re-create Maps 4 and 5 above. All of the materials are available in our &lt;a href=&#34;&#34;&gt;meeting GitHub repo&lt;/a&gt;. Our goal is to load some data saved in a shapefile (review from last week) and then:&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;ll be using &lt;code&gt;ggplot2&lt;/code&gt; this semester to produce static thematic maps in &lt;code&gt;R&lt;/code&gt;. To get acquainted with &lt;code&gt;ggplot2&lt;/code&gt;, we&amp;rsquo;ll re-create Maps 4 and 5 above. All of the materials are available in our &lt;a href=&#34;http://github.com/slu-soc5650/module-1-basics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;meeting GitHub repo&lt;/a&gt;. Our goal is to load some data saved in a shapefile (review from last week) and then:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Create a map using &lt;code&gt;ggplot()&lt;/code&gt; and &lt;code&gt;geom_sf()&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Add a color &lt;code&gt;viridis&lt;/code&gt; color palette to the map&lt;/li&gt;

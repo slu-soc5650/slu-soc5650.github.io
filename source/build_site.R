@@ -23,7 +23,7 @@ dir_delete(path = "public/")
 if (auto_update == TRUE){
   
   system("git add -A")
-  system(paste0("git commit -a -m 'update module 2 for ", as.character(Sys.Date()), "'"))
+  system(paste0("git commit -a -m 'update site for ", as.character(Sys.Date()), "'"))
   system("git push origin master")
   
 }
