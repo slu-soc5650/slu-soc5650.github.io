@@ -12,7 +12,7 @@
   # weight = 3
   
   # Add menu entry to sidebar.
-  linktitle = "Meeting 02 - Mapping Basics"
+  linktitle = "Meeting 03 - Cartography 101"
   [menu.docs]
   parent = "Module 1"
   weight = 3
