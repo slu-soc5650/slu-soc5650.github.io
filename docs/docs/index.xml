@@ -13,6 +13,54 @@
     </image>
     
     <item>
+      <title>Meeting 04 - Data Cleaning Basics</title>
+      <link>https://slu-soc5650.github.io/docs/meeting_04/</link>
+      <pubDate>Mon, 22 Feb 2021 00:00:00 -0600</pubDate>
+      <guid>https://slu-soc5650.github.io/docs/meeting_04/</guid>
+      <description>&lt;br&gt; 
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    Please submit Lab-03 on your own via GitHub Desktop!
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;meeting-goals&#34;&gt;Meeting Goals&lt;/h2&gt;
+&lt;p&gt;This course meeting has an emphasis on the following goals:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Identify common map layout elements.&lt;/li&gt;
+&lt;li&gt;Select the correct verbs to perform specific data cleaning tasks.&lt;/li&gt;
+&lt;li&gt;Construct a data cleaning workflow to prepare a data set for mapping.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;before-class&#34;&gt;Before Class&lt;/h2&gt;
+&lt;h3 id=&#34;tasks&#34;&gt;Tasks&lt;/h3&gt;
+&lt;p&gt;Please complete the tasks listed on the &lt;a href=&#34;https://slu-soc5650.github.io/syllabus/module-2-data-cleaning.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;syllabus&lt;/a&gt;, and see &lt;a href=&#34;https://blackboard.slu.edu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blackboard&lt;/a&gt; for the entry ticket link.&lt;/p&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;during-class&#34;&gt;During Class&lt;/h2&gt;
+&lt;h3 id=&#34;agenda&#34;&gt;Agenda&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Exercise 1 - Discussing Map Layout Elements&lt;/li&gt;
+&lt;li&gt;Exercise 2 - Data Cleaning&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Break&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Lab-04 and one-on-one meetings&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;exercise-1---discussing-map-layout-elements&#34;&gt;Exercise 1 - Discussing Map Layout Elements&lt;/h3&gt;
+&lt;p&gt;To illustrate some of the elements from the &lt;a href=&#34;https://slu-soc5650.github.io/syllabus/module-2-data-cleaning.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cartography reading&lt;/a&gt; assigned for today, please look at &lt;a href=&#34;https://prd-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/atoms/files/ArcticPoster.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this map of the Artic Research and Policy Region&lt;/a&gt; created by the U.S. Geological Survey. Once you have reviewed the map, discuss the following prompts with your group:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;em&gt;Review from last week:&lt;/em&gt; Which layers are in figure, and which layers are in ground?&lt;/li&gt;
+&lt;li&gt;What data does this map layout emphasize? (see Brewer, p. 5)&lt;/li&gt;
+&lt;li&gt;Which map layout elements are present here? (see Brewer, p. 4)&lt;/li&gt;
+&lt;li&gt;What are some weaknesses of this map design?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;exercise-2---data-cleaning&#34;&gt;Exercise 2 - Data Cleaning&lt;/h3&gt;
+&lt;p&gt;To apply some of the verbs from our preparatory videos for this meeting, we are going to work on cleaning some data about Clean Water Act violations in Missouri. As we do this, we are going to follow &lt;a href=&#34;https://github.com/slu-soc5650/module-2-data-cleaning/blob/master/handouts/wranglingWorkflow.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;the data wrangling workflow found here&lt;/a&gt;. We&amp;rsquo;ll focus on renaming variables, evaluating our data for missing values and duplicate observations, subsetting both columns and rows, and creating new variables. The data and example notebook are available in this course meeting&amp;rsquo;s repository, named &lt;code&gt;module-2-data-cleaning&lt;/code&gt;.&lt;/p&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;after-class&#34;&gt;After Class&lt;/h2&gt;
+&lt;p&gt;The Lab-04 instructions are available in &lt;code&gt;module-1-cartography&lt;/code&gt; or can viewed online &lt;a href=&#34;https://github.com/slu-soc5650/module-2-data-cleaning/blob/master/assignments/lab-04.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. You&amp;rsquo;ll need to create a new &lt;code&gt;.Rproj&lt;/code&gt; for it in your assignments repository and then works to clean-up some more Clean Water Act data on polluted rivers and streams in the St. Louis area. You won&amp;rsquo;t need to create a map this week, just focus on wrangling the data.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Meeting 03 - Cartography 101</title>
       <link>https://slu-soc5650.github.io/docs/meeting_03/</link>
       <pubDate>Mon, 15 Feb 2021 00:00:00 -0600</pubDate>
@@ -43,7 +91,7 @@
 &lt;li&gt;Exercise 1 - Discussing Map Layers and Cartographic Choices&lt;/li&gt;
 &lt;li&gt;Exercise 2 - Complicating Our &lt;code&gt;ggplot2&lt;/code&gt; Maps&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Break&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Lab-02 and one-on-one meetings&lt;/li&gt;
+&lt;li&gt;Lab-03 and one-on-one meetings&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;exercise-1---discussing-map-layers-and-cartographic-choices&#34;&gt;Exercise 1 - Discussing Map Layers and Cartographic Choices&lt;/h3&gt;
 &lt;p&gt;To illustrate some of the points about gestalt principles and color in the meeting prep video, please consider the following questions as a group after taking a look at this &lt;a href=&#34;http://npmaps.com/wp-content/uploads/ozark-map.jpg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;map of Ozark National Senic Riverways&lt;/a&gt;, a National Park Service resource in southern Missouri.&lt;/p&gt;

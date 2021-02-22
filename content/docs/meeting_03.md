@@ -2,7 +2,7 @@
   title = "Meeting 03 - Cartography 101"
   
   date = 2021-02-15T00:00:00
-  lastmod = 2021-02-15T00:00:00
+  lastmod = 2021-02-22T00:00:00
   
   draft = false  # Is this a draft? true/false
   toc = true  # Show table of contents? true/false
@@ -48,7 +48,7 @@ Please complete the tasks listed on the [syllabus](https://slu-soc5650.github.io
   1. Exercise 1 - Discussing Map Layers and Cartographic Choices
   2. Exercise 2 - Complicating Our `ggplot2` Maps
   3. *Break*
-  4. Lab-02 and one-on-one meetings
+  4. Lab-03 and one-on-one meetings
 
 ### Exercise 1 - Discussing Map Layers and Cartographic Choices
 To illustrate some of the points about gestalt principles and color in the meeting prep video, please consider the following questions as a group after taking a look at this [map of Ozark National Senic Riverways](http://npmaps.com/wp-content/uploads/ozark-map.jpg), a National Park Service resource in southern Missouri. 

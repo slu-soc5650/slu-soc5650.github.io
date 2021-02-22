@@ -49,6 +49,10 @@
   weight = 20
 
 [[docs]]
+  name = "Module 2"
+  weight = 30
+
+[[docs]]
   name = "Final Project"
   weight = 90
   
