@@ -35,6 +35,16 @@ This course meeting has an emphasis on the following goals:
 
 <br>
 
+## Meeting Resources
+
+  * An overview of the meeting can be on the [syllabus](https://slu-soc5650.github.io/syllabus/module-2-data-cleaning.html)
+  * Prep videos and entry ticket are on [Blackboard](https://blackboard.slu.edu/)
+  * Meeting materials are available on [GitHub](https://github.com/slu-soc5650/module-2-data-cleaning) in the `module-2-data-cleaning` repository
+  * You can follow along with the complete code for Exercise 2 [here](https://slu-soc5650.github.io/module-2-data-cleaning/index.nb.html)
+  * Lab-04 instructions are available [here](https://github.com/slu-soc5650/module-2-data-cleaning/blob/master/assignments/lab-04.pdf)
+
+<br>
+
 ## Before Class
 ### Tasks
 Please complete the tasks listed on the [syllabus](https://slu-soc5650.github.io/syllabus/module-2-data-cleaning.html), and see [Blackboard](https://blackboard.slu.edu) for the entry ticket link.
@@ -58,9 +68,20 @@ To illustrate some of the elements from the [cartography reading](https://slu-so
   4. What are some weaknesses of this map design?
   
 ### Exercise 2 - Data Cleaning
-To apply some of the verbs from our preparatory videos for this meeting, we are going to work on cleaning some data about Clean Water Act violations in Missouri. As we do this, we are going to follow [the data wrangling workflow found here](https://github.com/slu-soc5650/module-2-data-cleaning/blob/master/handouts/wranglingWorkflow.pdf). We'll focus on renaming variables, evaluating our data for missing values and duplicate observations, subsetting both columns and rows, and creating new variables. The data and example notebook are available in this course meeting's repository, named `module-2-data-cleaning`.
+To apply some of the verbs from our preparatory videos for this meeting, we are going to work on cleaning some data about Clean Water Act violations in Missouri. As we do this, we are going to follow [the data wrangling workflow found here](https://github.com/slu-soc5650/module-2-data-cleaning/blob/master/handouts/wranglingWorkflow.pdf). We'll focus on renaming variables, evaluating our data for missing values and duplicate observations, subsetting both columns and rows, and creating new variables. 
+
+The data and example notebook are available in this course meeting's repository, named `module-2-data-cleaning`. You can find them in `examples/meeting-04.Rmd`. You can also follow along with the completed code [here](https://slu-soc5650.github.io/module-2-data-cleaning/index.nb.html).
 
 <br>
 
 ## After Class
 The Lab-04 instructions are available in `module-1-cartography` or can viewed online [here](https://github.com/slu-soc5650/module-2-data-cleaning/blob/master/assignments/lab-04.pdf). You'll need to create a new `.Rproj` for it in your assignments repository and then works to clean-up some more Clean Water Act data on polluted rivers and streams in the St. Louis area. You won't need to create a map this week, just focus on wrangling the data.
+
+<br>
+
+## Meeting Reminders
+Please don't forget about what is due for next week, which is listed on the [syllabus](https://slu-soc5650.github.io/syllabus/module-2-data-cleaning.html). In addition to Lab-04: 
+
+  * the second [final project waypoint](https://slu-soc5650.github.io/final-project/index.html#waypoints) is due in two weeks for *all students*
+  * the [annotated bibliography](https://slu-soc5650.github.io/final-project/annotated-bibliography.html) is due *if you are enrolled in SOC 5650*
+
