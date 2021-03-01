@@ -40,6 +40,15 @@
 &lt;li&gt;Meeting materials are available on &lt;a href=&#34;https://github.com/slu-soc5650/module-2-combine-sources&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; in the &lt;code&gt;module-2-combine-sources&lt;/code&gt; repository&lt;/li&gt;
 &lt;li&gt;You can follow along with the complete code for Exercise 2 &lt;a href=&#34;https://slu-soc5650.github.io/module-2-combine-sources/index.nb.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Lab-05 instructions are available &lt;a href=&#34;https://github.com/slu-soc5650/module-2-combine-sources/blob/master/assignments/lab-05.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Some helpful links for today include:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.msdis.missouri.edu/resources/fips.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Missouri County FIPS Codes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://data.census.gov/cedsci/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;data.census.gov&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://walker-data.com/tidycensus/articles/basic-usage.html#geography-in-tidycensus-1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Census Geography levels available in &lt;code&gt;tidycensus&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tiger/Line Data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cran.r-project.org/web/packages/tigris/tigris.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TIGER/Line data available in &lt;code&gt;tigris&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
 &lt;h2 id=&#34;before-class&#34;&gt;Before Class&lt;/h2&gt;
@@ -67,7 +76,7 @@
 &lt;p&gt;The data and example notebook are available in this course meeting&amp;rsquo;s repository, named &lt;code&gt;module-2-combine-sources&lt;/code&gt;. You can find them in &lt;code&gt;examples/meeting-04.Rmd&lt;/code&gt;. You can also follow along with the completed code &lt;a href=&#34;https://slu-soc5650.github.io/module-2-combine-sources/index.nb.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;br&gt;
 &lt;h2 id=&#34;after-class&#34;&gt;After Class&lt;/h2&gt;
-&lt;p&gt;The Lab-04 instructions are available in &lt;code&gt;module-1-cartography&lt;/code&gt; or can viewed online &lt;a href=&#34;https://github.com/slu-soc5650/module-2-data-cleaning/blob/master/assignments/lab-04.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. You&amp;rsquo;ll need to create a new &lt;code&gt;.Rproj&lt;/code&gt; for it in your assignments repository and then works to clean-up some more Clean Water Act data on polluted rivers and streams in the St. Louis area. You won&amp;rsquo;t need to create a map this week, just focus on wrangling the data.&lt;/p&gt;
+&lt;p&gt;The Lab-05 instructions are available in &lt;code&gt;module-2-combine-sources&lt;/code&gt; or can viewed online &lt;a href=&#34;https://github.com/slu-soc5650/module-2-combine-sources/blob/master/assignments/lab-05.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. You&amp;rsquo;ll need to create a new &lt;code&gt;.Rproj&lt;/code&gt; for it in your assignments repository and then works to clean-up some more Clean Water Act data on polluted rivers and streams in the St. Louis area. You won&amp;rsquo;t need to create a map this week, just focus on wrangling the data.&lt;/p&gt;
 &lt;br&gt;
 &lt;h2 id=&#34;meeting-reminders&#34;&gt;Meeting Reminders&lt;/h2&gt;
 &lt;p&gt;Please don&amp;rsquo;t forget about what is due for next week, which is listed on the &lt;a href=&#34;https://slu-soc5650.github.io/syllabus/module-2-data-cleaning.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;syllabus&lt;/a&gt;. In addition to Lab-05:&lt;/p&gt;
@@ -75,6 +84,9 @@
 &lt;li&gt;the second &lt;a href=&#34;https://slu-soc5650.github.io/final-project/index.html#waypoints&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;final project waypoint&lt;/a&gt; is due next week for &lt;em&gt;all students&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;the third &lt;a href=&#34;https://slu-soc5650.github.io/final-project/index.html#waypoints&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;final project waypoint&lt;/a&gt; is due in two weeks for &lt;em&gt;all students&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;meeting-extras&#34;&gt;Meeting Extras&lt;/h2&gt;
+&lt;p&gt;If you are interested in historical census data (1990 or before), check out the &lt;a href=&#34;https://www.nhgis.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NHGIS project&lt;/a&gt;. They have census data that goes all the way back to 1790!&lt;/p&gt;
 </description>
     </item>
     
@@ -132,7 +144,7 @@
 &lt;p&gt;The data and example notebook are available in this course meeting&amp;rsquo;s repository, named &lt;code&gt;module-2-data-cleaning&lt;/code&gt;. You can find them in &lt;code&gt;examples/meeting-04.Rmd&lt;/code&gt;. You can also follow along with the completed code &lt;a href=&#34;https://slu-soc5650.github.io/module-2-data-cleaning/index.nb.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;br&gt;
 &lt;h2 id=&#34;after-class&#34;&gt;After Class&lt;/h2&gt;
-&lt;p&gt;The Lab-04 instructions are available in &lt;code&gt;module-1-cartography&lt;/code&gt; or can viewed online &lt;a href=&#34;https://github.com/slu-soc5650/module-2-data-cleaning/blob/master/assignments/lab-04.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. You&amp;rsquo;ll need to create a new &lt;code&gt;.Rproj&lt;/code&gt; for it in your assignments repository and then works to clean-up some more Clean Water Act data on polluted rivers and streams in the St. Louis area. You won&amp;rsquo;t need to create a map this week, just focus on wrangling the data.&lt;/p&gt;
+&lt;p&gt;The Lab-04 instructions are available in &lt;code&gt;module-2-data-cleaning&lt;/code&gt; or can viewed online &lt;a href=&#34;https://github.com/slu-soc5650/module-2-data-cleaning/blob/master/assignments/lab-04.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. You&amp;rsquo;ll need to create a new &lt;code&gt;.Rproj&lt;/code&gt; for it in your assignments repository and then works to clean-up some more Clean Water Act data on polluted rivers and streams in the St. Louis area. You won&amp;rsquo;t need to create a map this week, just focus on wrangling the data.&lt;/p&gt;
 &lt;br&gt;
 &lt;h2 id=&#34;meeting-reminders&#34;&gt;Meeting Reminders&lt;/h2&gt;
 &lt;p&gt;Please don&amp;rsquo;t forget about what is due for next week, which is listed on the &lt;a href=&#34;https://slu-soc5650.github.io/syllabus/module-2-data-cleaning.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;syllabus&lt;/a&gt;. In addition to Lab-04:&lt;/p&gt;

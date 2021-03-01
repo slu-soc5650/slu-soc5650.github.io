@@ -44,6 +44,12 @@ This course meeting has an emphasis on the following goals:
   * Meeting materials are available on [GitHub](https://github.com/slu-soc5650/module-2-combine-sources) in the `module-2-combine-sources` repository
   * You can follow along with the complete code for Exercise 2 [here](https://slu-soc5650.github.io/module-2-combine-sources/index.nb.html)
   * Lab-05 instructions are available [here](https://github.com/slu-soc5650/module-2-combine-sources/blob/master/assignments/lab-05.pdf)
+  * Some helpful links for today include:
+      * [Missouri County FIPS Codes](https://www.msdis.missouri.edu/resources/fips.html)
+      * [data.census.gov](https://data.census.gov/cedsci/)
+      * [Census Geography levels available in `tidycensus`](https://walker-data.com/tidycensus/articles/basic-usage.html#geography-in-tidycensus-1)
+      * [Tiger/Line Data](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html)
+      * [TIGER/Line data available in `tigris`](https://cran.r-project.org/web/packages/tigris/tigris.pdf)
 
 <br>
 
@@ -77,7 +83,7 @@ The data and example notebook are available in this course meeting's repository,
 <br>
 
 ## After Class
-The Lab-04 instructions are available in `module-1-cartography` or can viewed online [here](https://github.com/slu-soc5650/module-2-data-cleaning/blob/master/assignments/lab-04.pdf). You'll need to create a new `.Rproj` for it in your assignments repository and then works to clean-up some more Clean Water Act data on polluted rivers and streams in the St. Louis area. You won't need to create a map this week, just focus on wrangling the data.
+The Lab-05 instructions are available in `module-2-combine-sources` or can viewed online [here](https://github.com/slu-soc5650/module-2-combine-sources/blob/master/assignments/lab-05.pdf). You'll need to create a new `.Rproj` for it in your assignments repository and then works to clean-up some more Clean Water Act data on polluted rivers and streams in the St. Louis area. You won't need to create a map this week, just focus on wrangling the data.
 
 <br>
 
@@ -86,3 +92,9 @@ Please don't forget about what is due for next week, which is listed on the [syl
 
   * the second [final project waypoint](https://slu-soc5650.github.io/final-project/index.html#waypoints) is due next week for *all students*
   * the third [final project waypoint](https://slu-soc5650.github.io/final-project/index.html#waypoints) is due in two weeks for *all students*
+
+<br>
+
+## Meeting Extras
+If you are interested in historical census data (1990 or before), check out the [NHGIS project](https://www.nhgis.org). They have census data that goes all the way back to 1790!
+
