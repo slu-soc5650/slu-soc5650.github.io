@@ -66,7 +66,7 @@ To illustrate some of the elements from the [cartography reading](https://slu-so
 
   1. *Review from Meeting 3:* Which layers are in figure, and which layers are in ground?
   2. *Review from Meeting 4:* Which map layout elements are present here? (see Brewer, p. 4)
-  3. Eevaluate the layout of the front map - how is empty space used? how is proximity between elements used?
+  3. Evaluate the layout of the front map - how is empty space used? how is proximity between elements used?
   4. Evaluate the layout of the back map - how is empty space used? how is proximity between elements used?
   
 ### Exercise 2 - Combining Data Sources
