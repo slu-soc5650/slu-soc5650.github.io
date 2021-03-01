@@ -65,7 +65,7 @@ Please complete the tasks listed on the [syllabus](https://slu-soc5650.github.io
 To illustrate some of the elements from the [cartography reading](https://slu-soc5650.github.io/syllabus/module-2-data-cleaning.html) assigned for today, please look at [this map of Missouri Highways](https://www.modot.org/missouri-highway-map-archive-1979-2019) (choose 2019, front and break) created by the State of Missouri. Once you have reviewed the map, discuss the following prompts with your group:
 
   1. *Review from Meeting 3:* Which layers are in figure, and which layers are in ground?
-  2. *Review from Meeting 3:* Which map layout elements are present here? (see Brewer, p. 4)
+  2. *Review from Meeting 4:* Which map layout elements are present here? (see Brewer, p. 4)
   3. Eevaluate the layout of the front map - how is empty space used? how is proximity between elements used?
   4. Evaluate the layout of the back map - how is empty space used? how is proximity between elements used?
   
