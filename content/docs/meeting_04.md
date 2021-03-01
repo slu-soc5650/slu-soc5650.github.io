@@ -75,7 +75,7 @@ The data and example notebook are available in this course meeting's repository,
 <br>
 
 ## After Class
-The Lab-04 instructions are available in `module-2-data-cleaning` or can viewed online [here](https://github.com/slu-soc5650/module-2-data-cleaning/blob/master/assignments/lab-04.pdf). You'll need to create a new `.Rproj` for it in your assignments repository and then works to clean-up some more Clean Water Act data on polluted rivers and streams in the St. Louis area. You won't need to create a map this week, just focus on wrangling the data.
+The Lab-04 instructions are available in `module-2-data-cleaning` or can viewed online [here](https://github.com/slu-soc5650/module-2-data-cleaning/blob/master/assignments/lab-04.pdf). You'll need to create a new `.Rproj` for it in your assignments repository and then work to clean-up some more Clean Water Act data on polluted rivers and streams in the St. Louis area. You won't need to create a map this week, just focus on wrangling the data.
 
 <br>
 

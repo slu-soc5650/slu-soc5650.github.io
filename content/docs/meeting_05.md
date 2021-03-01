@@ -83,7 +83,7 @@ The data and example notebook are available in this course meeting's repository,
 <br>
 
 ## After Class
-The Lab-05 instructions are available in `module-2-combine-sources` or can viewed online [here](https://github.com/slu-soc5650/module-2-combine-sources/blob/master/assignments/lab-05.pdf). You'll need to create a new `.Rproj` for it in your assignments repository and then works to clean-up some more Clean Water Act data on polluted rivers and streams in the St. Louis area. You won't need to create a map this week, just focus on wrangling the data.
+The Lab-05 instructions are available in `module-2-combine-sources` or can viewed online [here](https://github.com/slu-soc5650/module-2-combine-sources/blob/master/assignments/lab-05.pdf). You'll need to create a new `.Rproj` for it in your assignments repository and then combine data on Medicaid and foodstamp (SNAP) recipients by Missouri County. You won't need to create a map this week, just focus on wrangling the data.
 
 <br>
 
