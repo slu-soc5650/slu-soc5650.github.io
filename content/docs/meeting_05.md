@@ -78,7 +78,7 @@ To illustrate some of the elements from the [cartography reading](https://slu-so
 ### Exercise 2 - Combining Data Sources
 We'll introduce two packages, `tigris` and `tidycensus`, to access Census data from within `R`. This provides a significant time savings and makes your work more reproducible. We'll also go over some review of the data wrangling workflow, touching on specific verbs that are useful for prepping data for joins.
 
-The data and example notebook are available in this course meeting's repository, named `module-2-combine-sources`. You can find them in `examples/meeting-04.Rmd`. You can also follow along with the completed code [here](https://slu-soc5650.github.io/module-2-combine-sources/index.nb.html).
+The data and example notebook are available in this course meeting's repository, named `module-2-combine-sources`. You can find them in `examples/module-examples.Rmd`. You can also follow along with the completed code [here](https://slu-soc5650.github.io/module-2-combine-sources/index.nb.html). *Note that there are some issues with how my code is rendering right now with RStudio, and these are incomplete.*
 
 <br>
 
