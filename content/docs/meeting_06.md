@@ -80,7 +80,9 @@ Your final projects will involve creating a story map. To get acquainted with th
 ### Exercise 2 - Exploring the Mercator Projection
 Both of the "bonus" prep videos for this week ([*The West Wing*](https://www.youtube.com/watch?v=vVX-PrBRtTY&t) and [Vox.com](https://www.youtube.com/watch?v=kIID5FDi2JQ)) mention issues with map projections. The [Mercator Projection's history](https://www.gislounge.com/look-mercator-projection/) underscores a need for easy navigation for ships navigating the world's oceans beginning in the 16th century. In order to maintain the right angles between latitude and longitude lines, the map must distort the shape of the earth as you get closer to both poles. This results, for example, in making Greenland appear as though it is equally sized to Africa. We'll use [The True Size Of...](https://thetruesize.com/) project to explore the distortions that projections can create.
 
-### Exercise 2 - Working with Projections in R
+We'll also talk about some projections that are good for mapping at different scales. This largely apply to static maps, and the handout associated with this can be found on [Blackboard](https://blackboard.slu.edu/).
+
+### Exercise 3 - Working with Projections in R
 For our work in `R` today, we'll dig into the projection tools in the `sf` package, specifically the `st_transform()` and `st_as_sf()` functions. Since we're working on both changing projections as well as projecting points, we'll also cover how to change points on `ggplot2` maps. Finally, we'll discuss options for saving geometric data using the `st_write()` function.
 
 The data and example notebook are available in this course meeting's repository, named `module-3-projections`. You can find them in `examples/module-examples.Rmd`. You can also follow along with the completed code [here](https://slu-soc5650.github.io/module-3-projections/index.nb.html). *Note that there are some issues with how my code is rendering right now with RStudio, and these are incomplete.*
@@ -88,5 +90,5 @@ The data and example notebook are available in this course meeting's repository,
 <br>
 
 ## After Class
-The Lab-05 instructions are available in `module-3-projections` or can viewed online [here](https://github.com/slu-soc5650/module-3-projections/blob/master/assignments/lab-06.pdf). You'll need to create a new `.Rproj` for it in your assignments repository and make three maps - one of the lower 48 states, one of Alaska, and one of Hawaii - showing health insurance rates. Each map should use an appropriate coordinate system.
+The Lab-06 instructions are available in `module-3-projections` or can viewed online [here](https://github.com/slu-soc5650/module-3-projections/blob/master/assignments/lab-06.pdf). You'll need to create a new `.Rproj` for it in your assignments repository and make three maps - one of the lower 48 states, one of Alaska, and one of Hawaii - showing health insurance rates. Each map should use an appropriate coordinate system.
       

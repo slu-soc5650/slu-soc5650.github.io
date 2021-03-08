@@ -804,7 +804,7 @@
         <li><a href="#agenda">Agenda</a></li>
         <li><a href="#exercise-1---getting-acquainted-with-esri-story-maps">Exercise 1 - Getting Acquainted with ESRI Story Maps</a></li>
         <li><a href="#exercise-2---exploring-the-mercator-projection">Exercise 2 - Exploring the Mercator Projection</a></li>
-        <li><a href="#exercise-2---working-with-projections-in-r">Exercise 2 - Working with Projections in R</a></li>
+        <li><a href="#exercise-3---working-with-projections-in-r">Exercise 3 - Working with Projections in R</a></li>
       </ul>
     </li>
     <li><a href="#after-class">After Class</a></li>
@@ -885,12 +885,13 @@
 </ol>
 <h3 id="exercise-2---exploring-the-mercator-projection">Exercise 2 - Exploring the Mercator Projection</h3>
 <p>Both of the &ldquo;bonus&rdquo; prep videos for this week (<a href="https://www.youtube.com/watch?v=vVX-PrBRtTY&amp;t" target="_blank" rel="noopener"><em>The West Wing</em></a> and <a href="https://www.youtube.com/watch?v=kIID5FDi2JQ" target="_blank" rel="noopener">Vox.com</a>) mention issues with map projections. The <a href="https://www.gislounge.com/look-mercator-projection/" target="_blank" rel="noopener">Mercator Projection&rsquo;s history</a> underscores a need for easy navigation for ships navigating the world&rsquo;s oceans beginning in the 16th century. In order to maintain the right angles between latitude and longitude lines, the map must distort the shape of the earth as you get closer to both poles. This results, for example, in making Greenland appear as though it is equally sized to Africa. We&rsquo;ll use <a href="https://thetruesize.com/" target="_blank" rel="noopener">The True Size Of&hellip;</a> project to explore the distortions that projections can create.</p>
-<h3 id="exercise-2---working-with-projections-in-r">Exercise 2 - Working with Projections in R</h3>
+<p>We&rsquo;ll also talk about some projections that are good for mapping at different scales. This largely apply to static maps, and the handout associated with this can be found on <a href="https://blackboard.slu.edu/" target="_blank" rel="noopener">Blackboard</a>.</p>
+<h3 id="exercise-3---working-with-projections-in-r">Exercise 3 - Working with Projections in R</h3>
 <p>For our work in <code>R</code> today, we&rsquo;ll dig into the projection tools in the <code>sf</code> package, specifically the <code>st_transform()</code> and <code>st_as_sf()</code> functions. Since we&rsquo;re working on both changing projections as well as projecting points, we&rsquo;ll also cover how to change points on <code>ggplot2</code> maps. Finally, we&rsquo;ll discuss options for saving geometric data using the <code>st_write()</code> function.</p>
 <p>The data and example notebook are available in this course meeting&rsquo;s repository, named <code>module-3-projections</code>. You can find them in <code>examples/module-examples.Rmd</code>. You can also follow along with the completed code <a href="https://slu-soc5650.github.io/module-3-projections/index.nb.html" target="_blank" rel="noopener">here</a>. <em>Note that there are some issues with how my code is rendering right now with RStudio, and these are incomplete.</em></p>
 <br>
 <h2 id="after-class">After Class</h2>
-<p>The Lab-05 instructions are available in <code>module-3-projections</code> or can viewed online <a href="https://github.com/slu-soc5650/module-3-projections/blob/master/assignments/lab-06.pdf" target="_blank" rel="noopener">here</a>. You&rsquo;ll need to create a new <code>.Rproj</code> for it in your assignments repository and make three maps - one of the lower 48 states, one of Alaska, and one of Hawaii - showing health insurance rates. Each map should use an appropriate coordinate system.</p>
+<p>The Lab-06 instructions are available in <code>module-3-projections</code> or can viewed online <a href="https://github.com/slu-soc5650/module-3-projections/blob/master/assignments/lab-06.pdf" target="_blank" rel="noopener">here</a>. You&rsquo;ll need to create a new <code>.Rproj</code> for it in your assignments repository and make three maps - one of the lower 48 states, one of Alaska, and one of Hawaii - showing health insurance rates. Each map should use an appropriate coordinate system.</p>
 
           </div>
 
