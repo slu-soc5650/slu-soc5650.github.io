@@ -12,7 +12,7 @@
   # weight = 3
   
   # Add menu entry to sidebar.
-  linktitle = "Meeting 06 - Projectings"
+  linktitle = "Meeting 06 - Projections"
   [menu.docs]
   parent = "Module 3"
   weight = 1
