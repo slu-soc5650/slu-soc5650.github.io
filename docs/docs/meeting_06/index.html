@@ -30,10 +30,10 @@
   
     
   
-  <meta name="description" content="Overview Before you begin the semester, there are a number of things that you should do to help set yourself up for success. All of the applicable sections below should be completed before our first class on February 1st.">
+  <meta name="description" content="Please submit Lab-05 as well as Waypoint 2 for the final project. Your second waypoint should be submitted via your final project repository.   Meeting Goals This course meeting has an emphasis on the following goals:">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://slu-soc5650.github.io/docs/start_prep/">
+  <link rel="alternate" hreflang="en-us" href="https://slu-soc5650.github.io/docs/meeting_06/">
 
   
 
@@ -259,7 +259,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu137d436a85c84cab921c9c47edaed5ef_12382_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu137d436a85c84cab921c9c47edaed5ef_12382_180x180_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://slu-soc5650.github.io/docs/start_prep/">
+  <link rel="canonical" href="https://slu-soc5650.github.io/docs/meeting_06/">
 
   
   
@@ -275,15 +275,15 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="SLU SOC 4650 and 5650">
-  <meta property="og:url" content="https://slu-soc5650.github.io/docs/start_prep/">
-  <meta property="og:title" content="Preparing Your Computer | SLU SOC 4650 and 5650">
-  <meta property="og:description" content="Overview Before you begin the semester, there are a number of things that you should do to help set yourself up for success. All of the applicable sections below should be completed before our first class on February 1st."><meta property="og:image" content="https://slu-soc5650.github.io/images/icon_hu137d436a85c84cab921c9c47edaed5ef_12382_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="https://slu-soc5650.github.io/docs/meeting_06/">
+  <meta property="og:title" content="Meeting 06 - Working with Map Projections | SLU SOC 4650 and 5650">
+  <meta property="og:description" content="Please submit Lab-05 as well as Waypoint 2 for the final project. Your second waypoint should be submitted via your final project repository.   Meeting Goals This course meeting has an emphasis on the following goals:"><meta property="og:image" content="https://slu-soc5650.github.io/images/icon_hu137d436a85c84cab921c9c47edaed5ef_12382_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://slu-soc5650.github.io/images/icon_hu137d436a85c84cab921c9c47edaed5ef_12382_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2018-12-04T00:00:00-06:00">
+      <meta property="article:published_time" content="2021-03-08T00:00:00-06:00">
     
-    <meta property="article:modified_time" content="2021-01-26T00:00:00-06:00">
+    <meta property="article:modified_time" content="2021-03-08T00:00:00-06:00">
   
 
   
@@ -302,7 +302,7 @@
 
 
 
-  <title>Preparing Your Computer | SLU SOC 4650 and 5650</title>
+  <title>Meeting 06 - Working with Map Projections | SLU SOC 4650 and 5650</title>
 
 </head>
 
@@ -698,7 +698,7 @@
       </li>
 
       
-      <li class="active">
+      <li >
         <a href="/docs/start_prep/">Computer Prep</a>
       </li>
 
@@ -755,7 +755,7 @@
     <a class="docs-toc-link" href="/docs/meeting_06/">Module 3</a>
     <ul class="nav docs-sidenav">
       
-      <li >
+      <li class="active">
         <a href="/docs/meeting_06/">Meeting 06 - Projectings</a>
       </li>
 
@@ -792,18 +792,22 @@
 
       <nav id="TableOfContents">
   <ul>
-    <li><a href="#overview">Overview</a></li>
-    <li><a href="#computer-prep">Computer Prep</a></li>
-    <li><a href="#r">R</a>
+    <li><a href="#meeting-goals">Meeting Goals</a></li>
+    <li><a href="#meeting-resources">Meeting Resources</a></li>
+    <li><a href="#before-class">Before Class</a>
       <ul>
-        <li><a href="#base-r">Base R</a></li>
-        <li><a href="#rstudio">RStudio</a></li>
-        <li><a href="#r-packages">R Packages</a></li>
-        <li><a href="#phantomjs">PhantomJS</a></li>
+        <li><a href="#tasks">Tasks</a></li>
       </ul>
     </li>
-    <li><a href="#get-started-with-github">Get Started with GitHub</a></li>
-    <li><a href="#github-desktop">GitHub Desktop</a></li>
+    <li><a href="#during-class">During Class</a>
+      <ul>
+        <li><a href="#agenda">Agenda</a></li>
+        <li><a href="#exercise-1---getting-acquainted-with-esri-story-maps">Exercise 1 - Getting Acquainted with ESRI Story Maps</a></li>
+        <li><a href="#exercise-2---exploring-the-mercator-projection">Exercise 2 - Exploring the Mercator Projection</a></li>
+        <li><a href="#exercise-2---working-with-projections-in-r">Exercise 2 - Working with Projections in R</a></li>
+      </ul>
+    </li>
+    <li><a href="#after-class">After Class</a></li>
   </ul>
 </nav>
 
@@ -816,66 +820,77 @@
       <article class="article">
 
         <div class="docs-article-container">
-          <h1>Preparing Your Computer</h1>
+          <h1>Meeting 06 - Working with Map Projections</h1>
 
           <div class="article-style">
-            <h2 id="overview">Overview</h2>
-<p>Before you begin the semester, there are a number of things that you should do to help set yourself up for success. <strong>All of the applicable sections below should be completed before our first class on February 1st.</strong></p>
+            <br> 
+<div class="alert alert-warning">
+  <div>
+    Please submit Lab-05 as well as Waypoint 2 for the final project. Your second waypoint should be submitted via your final project repository.
+  </div>
+</div>
 <br>
-<h2 id="computer-prep">Computer Prep</h2>
-<p>Please work through the following steps:</p>
+<h2 id="meeting-goals">Meeting Goals</h2>
+<p>This course meeting has an emphasis on the following goals:</p>
 <ol>
-<li>
-<p>Make sure your operating system is up-to-date. If you are able, I would also recommend upgrading your computer to the most recent release of its operating system that the computer can run.</p>
-<ul>
-<li>On macOS, you can do this through the <a href="https://support.apple.com/en-us/HT201541" target="_blank" rel="noopener">App Store</a>. <em>The one exception is upgrading to Big Sur. I have not yet done so and, if you have not either, I recommend holding off. I will not be testing out our course materials with Big Sur this semester.</em></li>
-<li>Both <a href="https://www.dummies.com/computers/computer-networking/network-security/how-to-manually-check-for-windows-7-updates/" target="_blank" rel="noopener">Windows 7</a> and <a href="https://support.microsoft.com/en-us/help/4027667/windows-update-windows-10" target="_blank" rel="noopener">Windows 10</a> have system update tools, though if you have Windows 7, you should consider upgrading to Windows 10.</li>
-</ul>
-</li>
-<li>
-<p>We&rsquo;ll be sharing computer files throughout the semester, so you should ensure that you have functioning anti-virus software and that it is up-to-date.</p>
-</li>
-<li>
-<p>You&rsquo;ll also need to download files, so you&rsquo;ll need to make sure you have at least <strong>twenty gigabytes</strong> free if you are not. If you&rsquo;re not sure how to check this, here are some instructions for <a href="https://www.lifewire.com/how-to-check-free-hard-drive-space-in-windows-2619187" target="_blank" rel="noopener">Windows</a> and <a href="https://www.macworld.com/article/2972775/os-x/how-to-check-your-macs-free-hard-drive-space.html" target="_blank" rel="noopener">macOS</a>.</p>
-<ul>
-<li>Options for de-cluttering include deleting files that are no longer needed, moving files to an external device, moving files to a cloud storage system, or upgrading the internal hard drive (may not be possible for macOS users and some Windows users).</li>
-</ul>
-</li>
-<li>
-<p>Make sure you know how to access your computer&rsquo;s file management system.</p>
-<ul>
-<li>On macOS, this means being comfortable with Finder.app for finding folders, making new ones, and opening files. Here are some tips for using Finder on recent versions of <a href="https://support.apple.com/en-us/HT201732" target="_blank" rel="noopener">macOS</a>.</li>
-<li>On Windows, this means being comfortable with Windows File Explorer for finding folders, making new ones, and opening files. Here are some tips for using File Explorer on <a href="https://www.dummies.com/computers/operating-systems/windows-7/how-to-navigate-windows-7-with-windows-explorer/" target="_blank" rel="noopener">Windows 7</a> or <a href="https://www.dummies.com/computers/operating-systems/windows-10/how-does-file-explorer-work-in-windows-10/" target="_blank" rel="noopener">Windows 10</a>.</li>
-</ul>
-</li>
+<li>Describe map projections and the practical impact they have on GIS work.</li>
+<li>Identify the appropriate projections for different map scales.</li>
+<li>Apply transformations to projections for geometric data.</li>
+<li>Construct geometric data from tabular data that contains <code>x,y</code> coordinate pairs.</li>
+<li>Create new spatial data files for storing your modified geometric data.</li>
 </ol>
 <br>
-<h2 id="r">R</h2>
-<h3 id="base-r">Base R</h3>
-<p>You can download <code>R</code> from its <a href="https://cloud.r-project.org" target="_blank" rel="noopener">website</a>. Choose &ldquo;Download R for (Mac) OS X&rdquo; or &ldquo;Download R for Windows&rdquo;. Windows users should look for text that says &ldquo;install R for the first time&rdquo; and click the <code>base</code> to the left of that text. Both macOS and Windows users should install <code>R</code> version 4.0.3, known as &ldquo;Bunny-Wunnies Freak Out&rdquo; (<code>R</code> version nicknames come from <a href="https://livefreeordichotomize.com/2017/09/28/r-release-names/" target="_blank" rel="noopener">Peanuts</a>).</p>
-<p>If you already have <code>R</code> installed, please make sure you have the latest version. You can upgrade it using the same process for a new installation.</p>
-<h3 id="rstudio">RStudio</h3>
-<p>RStudio is a graphical user interface for <code>R</code> that will make learning the language and using it much, much easier. You should download the <em>free</em> version of RStudio from <a href="https://www.rstudio.com/products/rstudio/download/#download" target="_blank" rel="noopener">their website</a>. Choose the appropriate installer for your platform. Make sure <code>R</code> is already installed before installing RStudio.</p>
-<p>If you already have RStudio installed, please make sure you have the latest version. You can upgrade it using the same process for a new installation.</p>
-<h3 id="r-packages">R Packages</h3>
-<p>The packages we will need this semester can be downloaded using the following code chunk in RStudio&rsquo;s console:</p>
-<pre><code class="language-r">install.packages(c(&quot;tidyverse&quot;, &quot;here&quot;, &quot;janitor&quot;, &quot;knitr&quot;, &quot;leaflet&quot;,
-  &quot;mapview&quot;, &quot;measurements&quot;, &quot;naniar&quot;, &quot;RColorBrewer&quot;, &quot;remotes&quot;, &quot;rmarkdown&quot;,
-  &quot;sf&quot;, &quot;testDriveR&quot;, &quot;tidycensus&quot;, &quot;tigris&quot;, &quot;tmap&quot;, &quot;viridis&quot;, &quot;webshot&quot;))
-</code></pre>
-<p>You should only have to run this once per computer. If you are not sure where to find the console, don&rsquo;t worry - we&rsquo;ll talk about this on the first day of class!</p>
-<h3 id="phantomjs">PhantomJS</h3>
-<p>PhantomJS is a means for creating &ldquo;headless&rdquo; web-browsers and thus rendering the output of HTML widegts in <code>knitr</code> documents. It makes it possible to get a screengrab of a <code>leaflet</code> map when you &ldquo;knit&rdquo; your <code>.Rmd</code> files, for instance. To install it, use the following code chunk in RStudio&rsquo;s console:</p>
-<pre><code class="language-r">webshot::install_phantomjs()
-</code></pre>
-<p>Like installing packages, you should only have to run this once per computer. Again, if you&rsquo;re not sure about using the console, don&rsquo;t worry - we&rsquo;ll talk about this on the first day of class!</p>
+<h2 id="meeting-resources">Meeting Resources</h2>
+<ul>
+<li>An overview of the meeting can be on the <a href="https://slu-soc5650.github.io/syllabus/module-3-geoprocessing.html" target="_blank" rel="noopener">syllabus</a></li>
+<li>Prep videos and entry ticket are on <a href="https://blackboard.slu.edu/" target="_blank" rel="noopener">Blackboard</a></li>
+<li>Meeting materials are available on <a href="https://github.com/slu-soc5650/module-3-projections" target="_blank" rel="noopener">GitHub</a> in the <code>module-3-projections</code> repository</li>
+<li>You can follow along with the complete code for Exercise 2 <a href="https://slu-soc5650.github.io/module-3-projections/index.nb.html" target="_blank" rel="noopener">here</a></li>
+<li>Lab-05 instructions are available <a href="https://github.com/slu-soc5650/module-3-projections/blob/master/assignments/lab-06.pdf" target="_blank" rel="noopener">here</a></li>
+<li>Some helpful links for today include:
+<ul>
+<li><a href="https://mangomap.com/robertyoung/maps/69585/what-utm-zone-am-i-in-#" target="_blank" rel="noopener">Interactve map of UTM zones</a></li>
+<li><a href="https://hub.arcgis.com/datasets/23178a639bdc4d658816b3ea8ee6c3ae_0" target="_blank" rel="noopener">Interactive map of State Plane zones</a></li>
+<li>Coordinate system database
+<ul>
+<li><a href="https://epsg.io" target="_blank" rel="noopener">EPSG.io</a></li>
+<li><a href="https://spatialreference.org" target="_blank" rel="noopener">Spatial Reference</a></li>
+</ul>
+</li>
+<li><a href="http://www.sthda.com/english/wiki/ggplot2-point-shapes" target="_blank" rel="noopener">Reference for <code>ggplot2</code> point shapes</a></li>
+</ul>
+</li>
+</ul>
 <br>
-<h2 id="get-started-with-github">Get Started with GitHub</h2>
-<p>The service that is hosting this website is called <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>. GitHub is used by programmers, data scientists, and researchers for hosting computer code, data, and project materials (like websites). We will be using GitHub extensively this semester. You will need a free account, which you can sign up for one from GitHub&rsquo;s <a href="https://github.com/" target="_blank" rel="noopener">homepage</a>. If you already have a GitHub account, you do not need a new one.</p>
-<p>Once you have a GitHub user name, send Chris an email with it so that you can be added to the <a href="https://github.com/slu-soc5650" target="_blank" rel="noopener">SOC 4650 &amp; SOC 5650 organization</a>. After you have been added to the organization, you should find your assignments repository and check the <strong>Issues</strong> tab. There should be an open <strong>Issue</strong> describing how feedback will be disseminated this semester. Please read it and then <em>close the issue</em> so that we know you&rsquo;ve seen it.</p>
+<h2 id="before-class">Before Class</h2>
+<h3 id="tasks">Tasks</h3>
+<p>Please complete the tasks listed on the <a href="https://slu-soc5650.github.io/syllabus/module-3-geoprocessing.html" target="_blank" rel="noopener">syllabus</a>, and see <a href="https://blackboard.slu.edu" target="_blank" rel="noopener">Blackboard</a> for the entry ticket link.</p>
 <br>
-<h2 id="github-desktop">GitHub Desktop</h2>
-<p>In addition to the applications above, everyone will need a local installation of GitHub Desktop, which is a graphical user interface for accessing Git and GitHub.com. It can be downloaded for free from the <a href="https://desktop.github.com" target="_blank" rel="noopener">application&rsquo;s website</a>. You will need to download and run the installer. Once it is complete, you will need to login to the application with your <a href="/docs/onboarding">GitHub.com username and password</a>.</p>
+<h2 id="during-class">During Class</h2>
+<h3 id="agenda">Agenda</h3>
+<ol>
+<li>Exercise 1 - Getting Acquainted with ESRI Story Maps</li>
+<li>Exercise 2 - Exploring the Mercator Projection</li>
+<li><em>Short Break</em></li>
+<li>Exercise 3 - Working with Projections in R</li>
+<li><em>Short Break</em></li>
+<li>Lab-06 and one-on-one meetings</li>
+</ol>
+<h3 id="exercise-1---getting-acquainted-with-esri-story-maps">Exercise 1 - Getting Acquainted with ESRI Story Maps</h3>
+<p>Your final projects will involve creating a story map. To get acquainted with these as a medium, we&rsquo;ll take a look at a <a href="https://storymaps.arcgis.com/stories/da0df1524c704b488d79bb3e656addb3?_lrsc=3a74f8ba-3735-4900-9084-134c8d7823c8" target="_blank" rel="noopener">sample story map</a> today. In your group, discuss:</p>
+<ol>
+<li>How does this differ from the map layouts we have been discussing the last few weeks?</li>
+<li>What are elements of this story map that are appealing?</li>
+<li>What are elements of this story map that you might change?</li>
+</ol>
+<h3 id="exercise-2---exploring-the-mercator-projection">Exercise 2 - Exploring the Mercator Projection</h3>
+<p>Both of the &ldquo;bonus&rdquo; prep videos for this week (<a href="https://www.youtube.com/watch?v=vVX-PrBRtTY&amp;t" target="_blank" rel="noopener"><em>The West Wing</em></a> and <a href="https://www.youtube.com/watch?v=kIID5FDi2JQ" target="_blank" rel="noopener">Vox.com</a>) mention issues with map projections. The <a href="https://www.gislounge.com/look-mercator-projection/" target="_blank" rel="noopener">Mercator Projection&rsquo;s history</a> underscores a need for easy navigation for ships navigating the world&rsquo;s oceans beginning in the 16th century. In order to maintain the right angles between latitude and longitude lines, the map must distort the shape of the earth as you get closer to both poles. This results, for example, in making Greenland appear as though it is equally sized to Africa. We&rsquo;ll use <a href="https://thetruesize.com/" target="_blank" rel="noopener">The True Size Of&hellip;</a> project to explore the distortions that projections can create.</p>
+<h3 id="exercise-2---working-with-projections-in-r">Exercise 2 - Working with Projections in R</h3>
+<p>For our work in <code>R</code> today, we&rsquo;ll dig into the projection tools in the <code>sf</code> package, specifically the <code>st_transform()</code> and <code>st_as_sf()</code> functions. Since we&rsquo;re working on both changing projections as well as projecting points, we&rsquo;ll also cover how to change points on <code>ggplot2</code> maps. Finally, we&rsquo;ll discuss options for saving geometric data using the <code>st_write()</code> function.</p>
+<p>The data and example notebook are available in this course meeting&rsquo;s repository, named <code>module-3-projections</code>. You can find them in <code>examples/module-examples.Rmd</code>. You can also follow along with the completed code <a href="https://slu-soc5650.github.io/module-3-projections/index.nb.html" target="_blank" rel="noopener">here</a>. <em>Note that there are some issues with how my code is rendering right now with RStudio, and these are incomplete.</em></p>
+<br>
+<h2 id="after-class">After Class</h2>
+<p>The Lab-05 instructions are available in <code>module-3-projections</code> or can viewed online <a href="https://github.com/slu-soc5650/module-3-projections/blob/master/assignments/lab-06.pdf" target="_blank" rel="noopener">here</a>. You&rsquo;ll need to create a new <code>.Rproj</code> for it in your assignments repository and make three maps - one of the lower 48 states, one of Alaska, and one of Hawaii - showing health insurance rates. Each map should use an appropriate coordinate system.</p>
 
           </div>
 
@@ -891,15 +906,8 @@
   
   
   <div class="post-nav-item">
-    <div class="meta-nav">Previous</div>
-    <a href="/docs/start_coursework/" rel="next">Approaching Coursework</a>
-  </div>
-  
-  
-  
-  <div class="post-nav-item">
     <div class="meta-nav">Next</div>
-    <a href="/docs/meeting_01/" rel="prev">Meeting 01 - Course Introduction</a>
+    <a href="/docs/meeting_05/" rel="prev">Meeting 05 - Combining Data Sources</a>
   </div>
   
 </div>
@@ -909,7 +917,7 @@
         </div>
 
         <div class="body-footer">
-          <p>Last updated on Jan 26, 2021</p>
+          <p>Last updated on Mar 8, 2021</p>
 
           
 

@@ -5,12 +5,88 @@
     <link>https://slu-soc5650.github.io/</link>
       <atom:link href="https://slu-soc5650.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>SLU SOC 4650 and 5650</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2017-2021 Christopher G. Prener</copyright><lastBuildDate>Mon, 01 Mar 2021 00:00:00 -0600</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2017-2021 Christopher G. Prener</copyright><lastBuildDate>Mon, 08 Mar 2021 00:00:00 -0600</lastBuildDate>
     <image>
       <url>https://slu-soc5650.github.io/images/icon_hu137d436a85c84cab921c9c47edaed5ef_12382_512x512_fill_lanczos_center_2.png</url>
       <title>SLU SOC 4650 and 5650</title>
       <link>https://slu-soc5650.github.io/</link>
     </image>
+    
+    <item>
+      <title>Meeting 06 - Working with Map Projections</title>
+      <link>https://slu-soc5650.github.io/docs/meeting_06/</link>
+      <pubDate>Mon, 08 Mar 2021 00:00:00 -0600</pubDate>
+      <guid>https://slu-soc5650.github.io/docs/meeting_06/</guid>
+      <description>&lt;br&gt; 
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    Please submit Lab-05 as well as Waypoint 2 for the final project. Your second waypoint should be submitted via your final project repository.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;meeting-goals&#34;&gt;Meeting Goals&lt;/h2&gt;
+&lt;p&gt;This course meeting has an emphasis on the following goals:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Describe map projections and the practical impact they have on GIS work.&lt;/li&gt;
+&lt;li&gt;Identify the appropriate projections for different map scales.&lt;/li&gt;
+&lt;li&gt;Apply transformations to projections for geometric data.&lt;/li&gt;
+&lt;li&gt;Construct geometric data from tabular data that contains &lt;code&gt;x,y&lt;/code&gt; coordinate pairs.&lt;/li&gt;
+&lt;li&gt;Create new spatial data files for storing your modified geometric data.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;meeting-resources&#34;&gt;Meeting Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;An overview of the meeting can be on the &lt;a href=&#34;https://slu-soc5650.github.io/syllabus/module-3-geoprocessing.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;syllabus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Prep videos and entry ticket are on &lt;a href=&#34;https://blackboard.slu.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blackboard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Meeting materials are available on &lt;a href=&#34;https://github.com/slu-soc5650/module-3-projections&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; in the &lt;code&gt;module-3-projections&lt;/code&gt; repository&lt;/li&gt;
+&lt;li&gt;You can follow along with the complete code for Exercise 2 &lt;a href=&#34;https://slu-soc5650.github.io/module-3-projections/index.nb.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lab-05 instructions are available &lt;a href=&#34;https://github.com/slu-soc5650/module-3-projections/blob/master/assignments/lab-06.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Some helpful links for today include:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://mangomap.com/robertyoung/maps/69585/what-utm-zone-am-i-in-#&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Interactve map of UTM zones&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hub.arcgis.com/datasets/23178a639bdc4d658816b3ea8ee6c3ae_0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Interactive map of State Plane zones&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Coordinate system database
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://epsg.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EPSG.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://spatialreference.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spatial Reference&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.sthda.com/english/wiki/ggplot2-point-shapes&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Reference for &lt;code&gt;ggplot2&lt;/code&gt; point shapes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;before-class&#34;&gt;Before Class&lt;/h2&gt;
+&lt;h3 id=&#34;tasks&#34;&gt;Tasks&lt;/h3&gt;
+&lt;p&gt;Please complete the tasks listed on the &lt;a href=&#34;https://slu-soc5650.github.io/syllabus/module-3-geoprocessing.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;syllabus&lt;/a&gt;, and see &lt;a href=&#34;https://blackboard.slu.edu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blackboard&lt;/a&gt; for the entry ticket link.&lt;/p&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;during-class&#34;&gt;During Class&lt;/h2&gt;
+&lt;h3 id=&#34;agenda&#34;&gt;Agenda&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Exercise 1 - Getting Acquainted with ESRI Story Maps&lt;/li&gt;
+&lt;li&gt;Exercise 2 - Exploring the Mercator Projection&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Short Break&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Exercise 3 - Working with Projections in R&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Short Break&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Lab-06 and one-on-one meetings&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;exercise-1---getting-acquainted-with-esri-story-maps&#34;&gt;Exercise 1 - Getting Acquainted with ESRI Story Maps&lt;/h3&gt;
+&lt;p&gt;Your final projects will involve creating a story map. To get acquainted with these as a medium, we&amp;rsquo;ll take a look at a &lt;a href=&#34;https://storymaps.arcgis.com/stories/da0df1524c704b488d79bb3e656addb3?_lrsc=3a74f8ba-3735-4900-9084-134c8d7823c8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sample story map&lt;/a&gt; today. In your group, discuss:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;How does this differ from the map layouts we have been discussing the last few weeks?&lt;/li&gt;
+&lt;li&gt;What are elements of this story map that are appealing?&lt;/li&gt;
+&lt;li&gt;What are elements of this story map that you might change?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;exercise-2---exploring-the-mercator-projection&#34;&gt;Exercise 2 - Exploring the Mercator Projection&lt;/h3&gt;
+&lt;p&gt;Both of the &amp;ldquo;bonus&amp;rdquo; prep videos for this week (&lt;a href=&#34;https://www.youtube.com/watch?v=vVX-PrBRtTY&amp;amp;t&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;The West Wing&lt;/em&gt;&lt;/a&gt; and &lt;a href=&#34;https://www.youtube.com/watch?v=kIID5FDi2JQ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vox.com&lt;/a&gt;) mention issues with map projections. The &lt;a href=&#34;https://www.gislounge.com/look-mercator-projection/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mercator Projection&amp;rsquo;s history&lt;/a&gt; underscores a need for easy navigation for ships navigating the world&amp;rsquo;s oceans beginning in the 16th century. In order to maintain the right angles between latitude and longitude lines, the map must distort the shape of the earth as you get closer to both poles. This results, for example, in making Greenland appear as though it is equally sized to Africa. We&amp;rsquo;ll use &lt;a href=&#34;https://thetruesize.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The True Size Of&amp;hellip;&lt;/a&gt; project to explore the distortions that projections can create.&lt;/p&gt;
+&lt;h3 id=&#34;exercise-2---working-with-projections-in-r&#34;&gt;Exercise 2 - Working with Projections in R&lt;/h3&gt;
+&lt;p&gt;For our work in &lt;code&gt;R&lt;/code&gt; today, we&amp;rsquo;ll dig into the projection tools in the &lt;code&gt;sf&lt;/code&gt; package, specifically the &lt;code&gt;st_transform()&lt;/code&gt; and &lt;code&gt;st_as_sf()&lt;/code&gt; functions. Since we&amp;rsquo;re working on both changing projections as well as projecting points, we&amp;rsquo;ll also cover how to change points on &lt;code&gt;ggplot2&lt;/code&gt; maps. Finally, we&amp;rsquo;ll discuss options for saving geometric data using the &lt;code&gt;st_write()&lt;/code&gt; function.&lt;/p&gt;
+&lt;p&gt;The data and example notebook are available in this course meeting&amp;rsquo;s repository, named &lt;code&gt;module-3-projections&lt;/code&gt;. You can find them in &lt;code&gt;examples/module-examples.Rmd&lt;/code&gt;. You can also follow along with the completed code &lt;a href=&#34;https://slu-soc5650.github.io/module-3-projections/index.nb.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. &lt;em&gt;Note that there are some issues with how my code is rendering right now with RStudio, and these are incomplete.&lt;/em&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;after-class&#34;&gt;After Class&lt;/h2&gt;
+&lt;p&gt;The Lab-05 instructions are available in &lt;code&gt;module-3-projections&lt;/code&gt; or can viewed online &lt;a href=&#34;https://github.com/slu-soc5650/module-3-projections/blob/master/assignments/lab-06.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. You&amp;rsquo;ll need to create a new &lt;code&gt;.Rproj&lt;/code&gt; for it in your assignments repository and make three maps - one of the lower 48 states, one of Alaska, and one of Hawaii - showing health insurance rates. Each map should use an appropriate coordinate system.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Meeting 05 - Combining Data Sources</title>
