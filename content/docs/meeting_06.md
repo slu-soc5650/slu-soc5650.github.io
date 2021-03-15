@@ -2,7 +2,7 @@
   title = "Meeting 06 - Working with Map Projections"
   
   date = 2021-03-08T00:00:00
-  lastmod = 2021-03-08T00:00:00
+  lastmod = 2021-03-15T00:00:00
   
   draft = false  # Is this a draft? true/false
   toc = true  # Show table of contents? true/false
@@ -43,7 +43,7 @@ This course meeting has an emphasis on the following goals:
   * Prep videos and entry ticket are on [Blackboard](https://blackboard.slu.edu/)
   * Meeting materials are available on [GitHub](https://github.com/slu-soc5650/module-3-projections) in the `module-3-projections` repository
   * You can follow along with the complete code for Exercise 2 [here](https://slu-soc5650.github.io/module-3-projections/index.nb.html)
-  * Lab-05 instructions are available [here](https://github.com/slu-soc5650/module-3-projections/blob/master/assignments/lab-06.pdf)
+  * Lab-06 instructions are available [here](https://github.com/slu-soc5650/module-3-projections/blob/master/assignments/lab-06.pdf)
   * Some helpful links for today include:
       * [Interactve map of UTM zones](https://mangomap.com/robertyoung/maps/69585/what-utm-zone-am-i-in-#)
       * [Interactive map of State Plane zones](https://hub.arcgis.com/datasets/23178a639bdc4d658816b3ea8ee6c3ae_0)
@@ -85,7 +85,7 @@ We'll also talk about some projections that are good for mapping at different sc
 ### Exercise 3 - Working with Projections in R
 For our work in `R` today, we'll dig into the projection tools in the `sf` package, specifically the `st_transform()` and `st_as_sf()` functions. Since we're working on both changing projections as well as projecting points, we'll also cover how to change points on `ggplot2` maps. Finally, we'll discuss options for saving geometric data using the `st_write()` function.
 
-The data and example notebook are available in this course meeting's repository, named `module-3-projections`. You can find them in `examples/module-examples.Rmd`. You can also follow along with the completed code [here](https://slu-soc5650.github.io/module-3-projections/index.nb.html). *Note that there are some issues with how my code is rendering right now with RStudio, and these are incomplete.*
+The data and example notebook are available in this course meeting's repository, named `module-3-projections`. You can find them in `examples/meeting-examples.Rmd`. You can also follow along with the completed code [here](https://slu-soc5650.github.io/module-3-projections/index.nb.html). *Note that there are some issues with how my code is rendering right now with RStudio, and these are incomplete.*
 
 <br>
 
