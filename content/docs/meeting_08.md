@@ -21,7 +21,7 @@
 <br> 
 
 {{% callout warning %}}
-Please submit Lab-06 as well as Waypoint 4 for the final project. Your fourth waypoint should be submitted via your final project repository.
+Please submit Lab-07 as well as Waypoint 4 for the final project. Your fourth waypoint should be submitted via your final project repository.
 {{% /callout %}}
 
 <br>
