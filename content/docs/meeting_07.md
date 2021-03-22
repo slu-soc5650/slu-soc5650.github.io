@@ -71,3 +71,5 @@ The data and example notebook are available in this course meeting's repository,
 
 ## After Class
 The Lab-07 instructions are available in `module-3-intersect` or can viewed online [here](https://github.com/slu-soc5650/module-3-projections/blob/master/assignments/lab-07.pdf). 
+
+<br>

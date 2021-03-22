@@ -5,12 +5,86 @@
     <link>https://slu-soc5650.github.io/</link>
       <atom:link href="https://slu-soc5650.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>SLU SOC 4650 and 5650</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2017-2021 Christopher G. Prener</copyright><lastBuildDate>Mon, 15 Mar 2021 00:00:00 -0500</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2017-2021 Christopher G. Prener</copyright><lastBuildDate>Mon, 22 Mar 2021 00:00:00 -0500</lastBuildDate>
     <image>
       <url>https://slu-soc5650.github.io/images/icon_hu137d436a85c84cab921c9c47edaed5ef_12382_512x512_fill_lanczos_center_2.png</url>
       <title>SLU SOC 4650 and 5650</title>
       <link>https://slu-soc5650.github.io/</link>
     </image>
+    
+    <item>
+      <title>Meeting 08 - Geoprocessing - Merge, Dissolve, Centroids, and Buffer</title>
+      <link>https://slu-soc5650.github.io/docs/meeting_08/</link>
+      <pubDate>Mon, 22 Mar 2021 00:00:00 -0500</pubDate>
+      <guid>https://slu-soc5650.github.io/docs/meeting_08/</guid>
+      <description>&lt;br&gt; 
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    Please submit Lab-06 as well as Waypoint 4 for the final project. Your fourth waypoint should be submitted via your final project repository.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;meeting-goals&#34;&gt;Meeting Goals&lt;/h2&gt;
+&lt;p&gt;This course meeting has an emphasis on the following goals:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Describe features that make for effective map layouts.&lt;/li&gt;
+&lt;li&gt;Perform additional geoprocessing operations including merges and dissolves.&lt;/li&gt;
+&lt;li&gt;Calculate centroids and buffers for features.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;meeting-resources&#34;&gt;Meeting Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;An overview of the meeting can be on the &lt;a href=&#34;https://slu-soc5650.github.io/syllabus/module-3-geoprocessing.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;syllabus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Prep videos and entry ticket are on &lt;a href=&#34;https://blackboard.slu.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blackboard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Meeting materials are available on &lt;a href=&#34;https://github.com/slu-soc5650/module-3-dissolve&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; in the &lt;code&gt;module-3-dissolve&lt;/code&gt; repository&lt;/li&gt;
+&lt;li&gt;You can follow along with the complete code for Exercise 2 &lt;a href=&#34;https://slu-soc5650.github.io/module-3-dissolve/index.nb.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;before-class&#34;&gt;Before Class&lt;/h2&gt;
+&lt;h3 id=&#34;tasks&#34;&gt;Tasks&lt;/h3&gt;
+&lt;p&gt;Please complete the tasks listed on the &lt;a href=&#34;https://slu-soc5650.github.io/syllabus/module-3-geoprocessing.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;syllabus&lt;/a&gt;, and see &lt;a href=&#34;https://blackboard.slu.edu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blackboard&lt;/a&gt; for the entry ticket link.&lt;/p&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;during-class&#34;&gt;During Class&lt;/h2&gt;
+&lt;h3 id=&#34;agenda&#34;&gt;Agenda&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Exercise 1 - Explaining Maps&lt;/li&gt;
+&lt;li&gt;Exercise 2 - Additional Geoprocessing in &lt;code&gt;R&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Short Break&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Lab-08 and one-on-one meetings&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;exercise-1---explaining-maps&#34;&gt;Exercise 1 - Explaining Maps&lt;/h3&gt;
+&lt;p&gt;Take a look at the following three maps, thinking about the three core characteristics that Brewer lays out at the beginning of Chapter 3:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&amp;ldquo;an informative legend that shows the meaning of map symbols&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;hierarchies in text content, descriptions of mapped calculations, and logical line breaks and spacing&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;well-designed marginal elements, including indicators of scale and direction&amp;rdquo;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The maps we&amp;rsquo;ll discuss are all maps from the CDC&amp;rsquo;s website:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cdc.gov/dhdsp/maps/national_maps/stroke_all.htm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stroke Death Rates, Total Population 35+&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cdc.gov/dhdsp/maps/gisx/mapgallery/TX-stroke-mortality.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stroke Mortality Rates and Population Distribution, Non-Hispanic Whites, by County, Texas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cdc.gov/dhdsp/maps/gisx/mapgallery/RI-bpmed-cpa.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Map Details - Percent of Population Adherent to Blood Pressure Medication and Location of Practices with Collaborative Practice Agreements (CPAs), Rhode Island, 2018-2019&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;As you look at each map and consider the three core characteristics, think about what elements are present on each map, how hirearchies in content are being used, and how informative the legend is.&lt;/p&gt;
+&lt;h3 id=&#34;exercise-2---additional-geoprocessing-in-r&#34;&gt;Exercise 2 - Additional Geoprocessing in &lt;code&gt;R&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;For our work in &lt;code&gt;R&lt;/code&gt; today, we&amp;rsquo;ll dig into some additional geoprocessing operations using &lt;code&gt;dplyr&lt;/code&gt;&amp;rsquo;s &lt;code&gt;group_by()&lt;/code&gt; and &lt;code&gt;summarise()&lt;/code&gt;. We&amp;rsquo;ll also discuss using &lt;code&gt;rbind()&lt;/code&gt; in greater detail, and will talk about &lt;code&gt;st_centroid()&lt;/code&gt; and &lt;code&gt;st_buffer()&lt;/code&gt; as well..&lt;/p&gt;
+&lt;p&gt;The data and example notebook are available in this course meeting&amp;rsquo;s repository, named &lt;code&gt;module-3-dissolve&lt;/code&gt;. You can find them in &lt;code&gt;examples/meeting-examples.Rmd&lt;/code&gt;. You can also follow along with the completed code &lt;a href=&#34;https://slu-soc5650.github.io/module-3-dissolve/index.nb.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. &lt;em&gt;Note that there are some issues with how my code is rendering right now with RStudio, and these are incomplete.&lt;/em&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;after-class&#34;&gt;After Class&lt;/h2&gt;
+&lt;p&gt;The Lab-08 instructions are available in &lt;code&gt;module-3-dissolve&lt;/code&gt; or can viewed online &lt;a href=&#34;https://github.com/slu-soc5650/module-3-dissolve/blob/master/assignments/lab-08.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;meeting-reminders&#34;&gt;Meeting Reminders&lt;/h2&gt;
+&lt;p&gt;Please don&amp;rsquo;t forget about what is due for next week, which is listed on the &lt;a href=&#34;https://slu-soc5650.github.io/syllabus/module-4-map-products-with-arcgis.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;syllabus&lt;/a&gt;. In addition to Lab-08, there are also some upcoming deadlines in April I want to remind you of:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the fifth &lt;a href=&#34;https://slu-soc5650.github.io/final-project/index.html#waypoints&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;final project waypoint&lt;/a&gt; is due in two weeks for &lt;em&gt;all students&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;students in SOC 5650 will have a draft paper due on April 12th&lt;/li&gt;
+&lt;li&gt;all students will have a draft ArcGIS story map due April 26th&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;course-trajectory&#34;&gt;Course Trajectory&lt;/h2&gt;
+&lt;p&gt;We are heading into our fourth module next week, focused on creating map products with ArcGIS Online. Now that we&amp;rsquo;ve discussed basics of cartography (in Module 1), data cleaning (in Module 2), projections (in Module 3), and geoprocessing (also in Module 3), we&amp;rsquo;re ready to talk about using ESRI&amp;rsquo;s tools for creating interactive maps and Story Maps. You should browse ESRI&amp;rsquo;s &lt;a href=&#34;https://www.esri.com/en-us/arcgis/products/arcgis-storymaps/stories&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;gallery of story maps&lt;/a&gt; to start to get a sense of options, designs, and how interactive maps are used.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Meeting 07 - Geoprocessing - Intersect, Select, and Aggregate</title>
@@ -61,6 +135,7 @@
 &lt;br&gt;
 &lt;h2 id=&#34;after-class&#34;&gt;After Class&lt;/h2&gt;
 &lt;p&gt;The Lab-07 instructions are available in &lt;code&gt;module-3-intersect&lt;/code&gt; or can viewed online &lt;a href=&#34;https://github.com/slu-soc5650/module-3-projections/blob/master/assignments/lab-07.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;br&gt;
 </description>
     </item>
     
