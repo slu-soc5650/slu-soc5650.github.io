@@ -5,12 +5,124 @@
     <link>https://slu-soc5650.github.io/</link>
       <atom:link href="https://slu-soc5650.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>SLU SOC 4650 and 5650</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2017-2021 Christopher G. Prener</copyright><lastBuildDate>Mon, 22 Mar 2021 00:00:00 -0500</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2017-2021 Christopher G. Prener</copyright><lastBuildDate>Mon, 29 Mar 2021 00:00:00 -0500</lastBuildDate>
     <image>
       <url>https://slu-soc5650.github.io/images/icon_hu137d436a85c84cab921c9c47edaed5ef_12382_512x512_fill_lanczos_center_2.png</url>
       <title>SLU SOC 4650 and 5650</title>
       <link>https://slu-soc5650.github.io/</link>
     </image>
+    
+    <item>
+      <title>Meeting 09 - ArcGIS Online</title>
+      <link>https://slu-soc5650.github.io/docs/meeting_09/</link>
+      <pubDate>Mon, 29 Mar 2021 00:00:00 -0500</pubDate>
+      <guid>https://slu-soc5650.github.io/docs/meeting_09/</guid>
+      <description>&lt;br&gt; 
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    Please submit Lab-08 before the beginning of this meeting.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;meeting-goals&#34;&gt;Meeting Goals&lt;/h2&gt;
+&lt;p&gt;This course meeting has an emphasis on the following goals:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Differentiate between different static map export formats.&lt;/li&gt;
+&lt;li&gt;Discuss caching, and its implications for how we create web maps.&lt;/li&gt;
+&lt;li&gt;Summarize considerations for licensing maps and map products.&lt;/li&gt;
+&lt;li&gt;Create ArcGIS Online feature layers based on data exported from &lt;code&gt;R&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Design reference and thematic web maps using ArcGIS Online.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;meeting-resources&#34;&gt;Meeting Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;An overview of the meeting can be on the &lt;a href=&#34;https://slu-soc5650.github.io/syllabus/module-4-map-products-with-arcgis.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;syllabus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The entry ticket is available on &lt;a href=&#34;https://blackboard.slu.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blackboard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;This &lt;a href=&#34;https://www.esri.com/arcgis-blog/products/arcgis-storymaps/constituent-engagement/images-in-arcgis-storymaps/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;guide to adding images to ArcGIS StoryMaps&lt;/a&gt; will be useful as you consider content for future course meetings and your final project.&lt;/li&gt;
+&lt;li&gt;You can login to &lt;a href=&#34;https://www.arcgis.com/home/signin.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ArcGIS Online here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;before-class&#34;&gt;Before Class&lt;/h2&gt;
+&lt;h3 id=&#34;tasks&#34;&gt;Tasks&lt;/h3&gt;
+&lt;p&gt;Please complete the tasks listed on the &lt;a href=&#34;https://slu-soc5650.github.io/syllabus/module-3-geoprocessing.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;syllabus&lt;/a&gt;, and see &lt;a href=&#34;https://blackboard.slu.edu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blackboard&lt;/a&gt; for the entry ticket link. Please make sure you have also created your password and successfully logged into to ArcGIS Online.&lt;/p&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;during-class&#34;&gt;During Class&lt;/h2&gt;
+&lt;h3 id=&#34;agenda&#34;&gt;Agenda&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Exercise 1 - Sharing Maps&lt;/li&gt;
+&lt;li&gt;Exercise 2 - Uploading Data to ArcGIS Online&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Short Break&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Exercise 3 - Mapping the Missouri Compromise using ArcGIS Online&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Short Break&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Lab-09 and one-on-one meetings&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;exercise-1---sharing-maps&#34;&gt;Exercise 1 - Sharing Maps&lt;/h3&gt;
+&lt;p&gt;Take a look at &lt;a href=&#34;https://storymaps.arcgis.com/stories/8eba6b85803b4b56b6389abcc74708a8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this StoryMap&lt;/a&gt;. As you scroll through it, give some thought to the following points:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Think about the characteristics you find appealing about the StoryMap itself.&lt;/li&gt;
+&lt;li&gt;When get to the web map in the section titled &amp;ldquo;A New Road,&amp;rdquo; think about how long it takes to load and what data is present on the map. This is related to the caching discussion in the Brewer article for this week.&lt;/li&gt;
+&lt;li&gt;Scroll down a bit further to the section &amp;ldquo;Mapping conservation priorities&amp;rdquo; and check out the two map images that have been exported from ArcGIS Pro. Does it seem crisp or pixilated?&lt;/li&gt;
+&lt;li&gt;Finally, look further for any evidence of copyright or licensing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;exercise-2---uploading-data-to-arcgis-online&#34;&gt;Exercise 2 - Uploading Data to ArcGIS Online&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.esri.com/en-us/arcgis/products/arcgis-online/resources&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ArcGIS Online&lt;/a&gt; is the web platform associated with the broader ArcGIS ecosystem. You can &lt;a href=&#34;https://www.arcgis.com/home/signin.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sign-in here&lt;/a&gt;. Our focus for this exercise is on the &lt;code&gt;Content&lt;/code&gt; section, which we&amp;rsquo;ll use to &lt;a href=&#34;https://doc.arcgis.com/en/arcgis-online/manage-data/add-items.htm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;add items&lt;/a&gt;. While you can add quite a few different types of files, we are going to focus on adding spatial data that you have cleaned and prepared in &lt;code&gt;R&lt;/code&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If you have exported a &lt;code&gt;.geojson&lt;/code&gt; file, you can upload it directly to ArcGIS Online.&lt;/li&gt;
+&lt;li&gt;If you have exported a shapefile (&lt;code&gt;.shp&lt;/code&gt;), you need to &lt;strong&gt;zip&lt;/strong&gt; all of its component files into a single archive before uploading to ArcGIS Online. Here are some instructions for creating &lt;code&gt;.zip&lt;/code&gt; files on &lt;a href=&#34;https://support.apple.com/guide/mac-help/zip-and-unzip-files-and-folders-on-mac-mchlp2528/mac&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;macOS&lt;/a&gt; and &lt;a href=&#34;https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Windows&lt;/a&gt;. If you have older versions of either operating system, you may have to look for alternative instructions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Regardless of which format you upload, you &lt;strong&gt;must&lt;/strong&gt; add at least one tag, and can optionally add metadata to your files. For this class, I do want you to add metadata that includes a description, a note about the data source, and a &lt;a href=&#34;https://creativecommons.org/licenses/by/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Creative Commons CC-BY 4.0 license&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For this exercise, we are going to upload three files that are available in our meeting&amp;rsquo;s &lt;a href=&#34;https://github.com/slu-soc5650/module-4-arcgis-online&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub repository&lt;/a&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;MO_HISTORIC_Louisiana_Purchase.geojson&lt;/code&gt; - the boundaries of U.S. states and territories as of 1803-04-30, when the Louisiana Purchase was completed&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;MO_HISTORIC_1820_Census.zip&lt;/code&gt; - a zipped shapefile (&lt;code&gt;.shp&lt;/code&gt;) showing the boundaries U.S. states and territories as of 1820-12-31 along with the the total populations of most (but not all) of these jurisdictions&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;MO_HISTORIC_State_1821.geojson&lt;/code&gt; - the boundaries of U.S. states and territories as of 1821-08-10, when Missouri officially became the 24th state&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;We&amp;rsquo;re focusing on Missouri statehood not just because it is our bicentennial this year, but also because Missouri and Maine&amp;rsquo;s aspirations were linked together in what was known as the &lt;a href=&#34;https://en.wikipedia.org/wiki/Missouri_Compromise&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Missouri Compromise&lt;/a&gt;. Maine was admitted a free state, where slavery was not legal. Missouri was admitted as a slave state. As part of Missouri&amp;rsquo;s statehood, Congress agreed not to admit any additional slave states north of the &lt;a href=&#34;https://en.wikipedia.org/wiki/Parallel_36%c2%b030%e2%80%b2_north#/media/File:Missouri_Compromise_Line.svg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;36 degree, 30 minute north parallel&lt;/a&gt;. This corresponds to the majority of Missouri&amp;rsquo;s southern border with Arkansas.&lt;/p&gt;
+&lt;p&gt;The Missouri Compromise codified pre-existing geographic distinctions over slavery, and set the stage for a balancing act that that the United States engaged in until 1854. That year, Congress passed the &lt;a href=&#34;https://en.wikipedia.org/wiki/Kansas%e2%80%93Nebraska_Act&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kansas-Nebraska Act&lt;/a&gt;, which gave both territories the right to decide for themselves if they would allow slavery. This repealed the Missouri Compromise, and set the stage for the guerrilla war known as &lt;a href=&#34;https://en.wikipedia.org/wiki/Bleeding_Kansas&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Bleeding Kansas&amp;rdquo;&lt;/a&gt;. This violent conflict set the stage for the Civil War, and involved the participation of many pro-slavery Missouri residents known as &lt;a href=&#34;https://en.wikipedia.org/wiki/Border_Ruffian&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Border Ruffian&amp;rdquo;&lt;/a&gt; who flooded the Kansas Territory to fight for the expansion of slavery there.&lt;/p&gt;
+&lt;p&gt;If you are interested in learning more about this period in Missouri&amp;rsquo;s history, I highly recommend my colleague Walter Johnson&amp;rsquo;s book &lt;a href=&#34;https://www.basicbooks.com/titles/walter-johnson/the-broken-heart-of-america/9780465064267/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;The Broken Heart of America: St. Louis and the Violent History of the United States&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;exercise-3---mapping-the-missouri-compromise-using-arcgis-online&#34;&gt;Exercise 3 - Mapping the Missouri Compromise using ArcGIS Online&lt;/h3&gt;
+&lt;p&gt;Now that we have our shapefile and &lt;code&gt;.geojson&lt;/code&gt; files loaded, we&amp;rsquo;re going to make a couple different ArcGIS Online web maps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;A reference map of the Louisiana Purchase relative to other territories in the United States&lt;/li&gt;
+&lt;li&gt;A thematic map of state and territorial populations as of the 1820 Decennial Census&lt;/li&gt;
+&lt;li&gt;A reference map of the Missouri Compromise&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Along the way, we&amp;rsquo;ll discuss the following concepts:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Adding content to an ArcGIS Online Map&lt;/li&gt;
+&lt;li&gt;Saving an ArcGIS Online Map&lt;/li&gt;
+&lt;li&gt;Re-ordering and re-naming layers&lt;/li&gt;
+&lt;li&gt;Viewing attribute tables&lt;/li&gt;
+&lt;li&gt;Changing an individual layer&amp;rsquo;s style&lt;/li&gt;
+&lt;li&gt;Filtering (i.e. subsetting) features in a layer&lt;/li&gt;
+&lt;li&gt;Sharing ArcGIS Online web maps&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;after-class&#34;&gt;After Class&lt;/h2&gt;
+&lt;h3 id=&#34;lab-09&#34;&gt;Lab-09&lt;/h3&gt;
+&lt;p&gt;The Lab-09 instructions are available in &lt;code&gt;module-4-arcgis-online&lt;/code&gt; or can viewed online &lt;a href=&#34;https://github.com/slu-soc5650/module-4-arcgis-online/blob/master/assignments/lab-09.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. This exercise picks up where we have left-off with the in-class exercise, showing Missouri&amp;rsquo;s population after its first decade of statehood during the 1830 Decennial Census.&lt;/p&gt;
+&lt;h3 id=&#34;lab-09-replication-materials&#34;&gt;Lab-09 Replication Materials&lt;/h3&gt;
+&lt;h4 id=&#34;data&#34;&gt;Data&lt;/h4&gt;
+&lt;p&gt;The replication data, stored as a Feature Layer, are &lt;a href=&#34;https://arcg.is/0KbW8W&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;available here&lt;/a&gt;.&lt;/p&gt;
+&lt;h4 id=&#34;map-1&#34;&gt;Map 1&lt;/h4&gt;
+&lt;p&gt;The replication for Map 1 can be &lt;a href=&#34;https://arcg.is/1Di4Du&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;viewed here&lt;/a&gt; and is embedded below.&lt;/p&gt;
+&lt;style&gt;.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}&lt;/style&gt;&lt;div class=&#34;embed-container&#34;&gt;&lt;iframe width=&#34;500&#34; height=&#34;400&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34; title=&#34;SOC 4650/5650 - Intro to GIS - Lab-09 Map 1&#34; src=&#34;//slustl.maps.arcgis.com/apps/Embed/index.html?webmap=3c6f04625cec41f88555d2beacb6f466&amp;extent=-164.9793,6.5927,-35.1648,64.1365&amp;zoom=true&amp;previewImage=false&amp;scale=true&amp;disable_scroll=true&amp;theme=light&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;h4 id=&#34;map-2&#34;&gt;Map 2&lt;/h4&gt;
+&lt;p&gt;The replication for Map 2 can be &lt;a href=&#34;https://arcg.is/1jzqna2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;viewed here&lt;/a&gt; and is embedded below.&lt;/p&gt;
+&lt;style&gt;.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}&lt;/style&gt;&lt;div class=&#34;embed-container&#34;&gt;&lt;iframe width=&#34;500&#34; height=&#34;400&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34; title=&#34;SOC 4650/5650 - Intro to GIS - Lab-09 Map 2&#34; src=&#34;//slustl.maps.arcgis.com/apps/Embed/index.html?webmap=a37637ae0d6a4e56b69f66f1511d9aa9&amp;extent=-126.2549,24.7202,-61.3477,53.9776&amp;zoom=true&amp;previewImage=false&amp;scale=true&amp;disable_scroll=true&amp;theme=light&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;meeting-reminders&#34;&gt;Meeting Reminders&lt;/h2&gt;
+&lt;p&gt;Please don&amp;rsquo;t forget about what is due for next week, which is listed on the &lt;a href=&#34;https://slu-soc5650.github.io/syllabus/module-4-map-products-with-arcgis.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;syllabus&lt;/a&gt;. In addition to Lab-09, there are also some upcoming deadlines in April I want to remind you of:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the fifth &lt;a href=&#34;https://slu-soc5650.github.io/final-project/index.html#waypoints&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;final project waypoint&lt;/a&gt; is due in next week for &lt;em&gt;all students&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;students in SOC 5650 will have a draft paper due on April 12th&lt;/li&gt;
+&lt;li&gt;all students will have a draft ArcGIS story map due April 26th&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;course-trajectory&#34;&gt;Course Trajectory&lt;/h2&gt;
+&lt;p&gt;Now that we have covered getting data into ArcGIS Online and creating web maps, you can start to work on this facet of your final project! There are five maps that you will need to create, which are listed &lt;a href=&#34;https://slu-soc5650.github.io/final-project/index.html#overview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. More details on these maps are forthcoming!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Meeting 08 - Geoprocessing - Merge, Dissolve, Centroids, and Buffer</title>
