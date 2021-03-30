@@ -83,7 +83,7 @@ If you are interested in learning more about this period in Missouri's history, 
   * If you have exported a `.geojson` file, you can upload it directly to ArcGIS Online.
   * If you have exported a shapefile (`.shp`), you need to **zip** all of its component files into a single archive before uploading to ArcGIS Online. Here are some instructions for creating `.zip` files on [macOS](https://support.apple.com/guide/mac-help/zip-and-unzip-files-and-folders-on-mac-mchlp2528/mac) and [Windows](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5). If you have older versions of either operating system, you may have to look for alternative instructions.
   
-Regardless of which format you upload, you **must** add at least one tag, and can optionally add metadata to your files. For this class, I do want you to add metadata that includes a description, a note about the data source, and a [Creative Commons CC-BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).
+Regardless of which format you upload, you **must** have a unique name and add at least one tag. To create unqiue names easily, add an underscore and your initials (so I would add `_cp` to layer names). You can optionally add metadata to your files. For this class, I do want you to add metadata that includes a description, a note about the data source, and a [Creative Commons CC-BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).
 
 For this exercise, we are going to upload three files that are available in our meeting's [GitHub repository](https://github.com/slu-soc5650/module-4-arcgis-online):
 
