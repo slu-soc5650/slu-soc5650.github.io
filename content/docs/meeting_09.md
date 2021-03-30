@@ -70,6 +70,13 @@ Take a look at [this StoryMap](https://storymaps.arcgis.com/stories/8eba6b85803b
   * Scroll down a bit further to the section "Mapping conservation priorities" and check out the two map images that have been exported from ArcGIS Pro. Does it seem crisp or pixilated? 
   * Finally, look further for any evidence of copyright or licensing.
 
+### Background
+For the next few weeks, we're focusing on Missouri statehood not just because it is our bicentennial this year, but also because Missouri and Maine's aspirations were linked together in what was known as the [Missouri Compromise](https://en.wikipedia.org/wiki/Missouri_Compromise). Maine was admitted a free state, where slavery was not legal. Missouri was admitted as a slave state. As part of Missouri's statehood, Congress agreed not to admit any additional slave states north of the [36 degree, 30 minute north parallel](https://en.wikipedia.org/wiki/Parallel_36°30′_north#/media/File:Missouri_Compromise_Line.svg). This corresponds to the majority of Missouri's southern border with Arkansas. 
+
+The Missouri Compromise codified pre-existing geographic distinctions over slavery, and set the stage for a balancing act that that the United States engaged in until 1854. That year, Congress passed the [Kansas-Nebraska Act](https://en.wikipedia.org/wiki/Kansas–Nebraska_Act), which gave both territories the right to decide for themselves if they would allow slavery. This repealed the Missouri Compromise, and set the stage for the guerrilla war known as ["Bleeding Kansas"](https://en.wikipedia.org/wiki/Bleeding_Kansas). This violent conflict set the stage for the Civil War, and involved the participation of many pro-slavery Missouri residents known as ["Border Ruffians"](https://en.wikipedia.org/wiki/Border_Ruffian) who flooded the Kansas Territory to fight for the expansion of slavery there.
+
+If you are interested in learning more about this period in Missouri's history, I highly recommend my colleague Walter Johnson's book [*The Broken Heart of America: St. Louis and the Violent History of the United States*](https://www.basicbooks.com/titles/walter-johnson/the-broken-heart-of-america/9780465064267/).
+
 ### Exercise 2 - Uploading Data to ArcGIS Online
 [ArcGIS Online](https://www.esri.com/en-us/arcgis/products/arcgis-online/resources) is the web platform associated with the broader ArcGIS ecosystem. You can [sign-in here](https://www.arcgis.com/home/signin.html). Our focus for this exercise is on the `Content` section, which we'll use to [add items](https://doc.arcgis.com/en/arcgis-online/manage-data/add-items.htm). While you can add quite a few different types of files, we are going to focus on adding spatial data that you have cleaned and prepared in `R`:
 
@@ -83,12 +90,13 @@ For this exercise, we are going to upload three files that are available in our 
   1. `MO_HISTORIC_Louisiana_Purchase.geojson` - the boundaries of U.S. states and territories as of 1803-04-30, when the Louisiana Purchase was completed
   2. `MO_HISTORIC_1820_Census.zip` - a zipped shapefile (`.shp`) showing the boundaries U.S. states and territories as of 1820-12-31 along with the the total populations of most (but not all) of these jurisdictions
   3. `MO_HISTORIC_State_1821.geojson` - the boundaries of U.S. states and territories as of 1821-08-10, when Missouri officially became the 24th state
-  
-We're focusing on Missouri statehood not just because it is our bicentennial this year, but also because Missouri and Maine's aspirations were linked together in what was known as the [Missouri Compromise](https://en.wikipedia.org/wiki/Missouri_Compromise). Maine was admitted a free state, where slavery was not legal. Missouri was admitted as a slave state. As part of Missouri's statehood, Congress agreed not to admit any additional slave states north of the [36 degree, 30 minute north parallel](https://en.wikipedia.org/wiki/Parallel_36°30′_north#/media/File:Missouri_Compromise_Line.svg). This corresponds to the majority of Missouri's southern border with Arkansas. 
 
-The Missouri Compromise codified pre-existing geographic distinctions over slavery, and set the stage for a balancing act that that the United States engaged in until 1854. That year, Congress passed the [Kansas-Nebraska Act](https://en.wikipedia.org/wiki/Kansas–Nebraska_Act), which gave both territories the right to decide for themselves if they would allow slavery. This repealed the Missouri Compromise, and set the stage for the guerrilla war known as ["Bleeding Kansas"](https://en.wikipedia.org/wiki/Bleeding_Kansas). This violent conflict set the stage for the Civil War, and involved the participation of many pro-slavery Missouri residents known as ["Border Ruffian"](https://en.wikipedia.org/wiki/Border_Ruffian) who flooded the Kansas Territory to fight for the expansion of slavery there.
+### Exercise 2 - Replication Materials
+The replication data, stored as Feature Layers, are available here:
 
-If you are interested in learning more about this period in Missouri's history, I highly recommend my colleague Walter Johnson's book [*The Broken Heart of America: St. Louis and the Violent History of the United States*](https://www.basicbooks.com/titles/walter-johnson/the-broken-heart-of-america/9780465064267/).
+  1. [`MO_HISTORIC_Louisiana_Purchase`](https://arcg.is/1CWD8H0)
+  2. [`MO_HISTORIC_1820_Census`](https://arcg.is/0PXGz9)
+  3. [`MO_HISTORIC_State_1821`](https://arcg.is/88TPj)
 
 ### Exercise 3 - Mapping the Missouri Compromise using ArcGIS Online
 Now that we have our shapefile and `.geojson` files loaded, we're going to make a couple different ArcGIS Online web maps:
@@ -107,6 +115,22 @@ Along the way, we'll discuss the following concepts:
   6. Filtering (i.e. subsetting) features in a layer
   7. Sharing ArcGIS Online web maps
 
+### Exercise 3 - Replication Materials
+#### Map 1 - Louisiana Purchase
+The replication for Map 1 can be [viewed here](https://arcg.is/0rT8vO) and is embedded below.
+
+<style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Meeting 9 Exercise 3-1" src="//slustl.maps.arcgis.com/apps/Embed/index.html?webmap=8ef2ab6945d440ec86cfc74dfdb5331c&extent=-134.4946,15.764,-47.7027,58.6159&zoom=true&previewImage=false&scale=true&legend=true&disable_scroll=true&theme=light"></iframe></div>
+
+#### Map 2 - 1820 Census
+The replication for Map 2 can be [viewed here](https://arcg.is/18amm80) and is embedded below.
+
+<style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Meeting 9 Exercise 3-2" src="//slustl.maps.arcgis.com/apps/Embed/index.html?webmap=ed9a5b3970004f1498d06a22e6bbcddb&extent=-135.8514,14.2093,-49.0594,57.1769&zoom=true&previewImage=false&scale=true&legend=true&disable_scroll=true&theme=light"></iframe></div>
+
+#### Map 3 - Missouri Compromise
+The replication for Map 3 can be [viewed here](https://arcg.is/1uumy5) and is embedded below.
+
+<style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Meeting 9 Exercise 3-3" src="//slustl.maps.arcgis.com/apps/Embed/index.html?webmap=f8e76aa533c94e779a1f527c504d6c16&extent=-139.1089,19.2212,-52.3169,60.4536&zoom=true&previewImage=false&scale=true&legend=true&disable_scroll=true&theme=light"></iframe></div>
+
 <br>
 
 ## After Class
@@ -120,12 +144,12 @@ The replication data, stored as a Feature Layer, are [available here](https://ar
 #### Map 1
 The replication for Map 1 can be [viewed here](https://arcg.is/1Di4Du) and is embedded below.
 
-<style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="SOC 4650/5650 - Intro to GIS - Lab-09 Map 1" src="//slustl.maps.arcgis.com/apps/Embed/index.html?webmap=3c6f04625cec41f88555d2beacb6f466&extent=-164.9793,6.5927,-35.1648,64.1365&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light"></iframe></div>
+<style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="SOC 4650/5650 - Intro to GIS - Lab-09 Map 1" src="//slustl.maps.arcgis.com/apps/Embed/index.html?webmap=3c6f04625cec41f88555d2beacb6f466&extent=-164.9793,6.5927,-35.1648,64.1365&zoom=true&previewImage=false&scale=true&legend=true&disable_scroll=true&theme=light"></iframe></div>
 
 #### Map 2
 The replication for Map 2 can be [viewed here](https://arcg.is/1jzqna2) and is embedded below.
 
-<style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="SOC 4650/5650 - Intro to GIS - Lab-09 Map 2" src="//slustl.maps.arcgis.com/apps/Embed/index.html?webmap=a37637ae0d6a4e56b69f66f1511d9aa9&extent=-126.2549,24.7202,-61.3477,53.9776&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light"></iframe></div>
+<style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="SOC 4650/5650 - Intro to GIS - Lab-09 Map 2" src="//slustl.maps.arcgis.com/apps/Embed/index.html?webmap=a37637ae0d6a4e56b69f66f1511d9aa9&extent=-126.2549,24.7202,-61.3477,53.9776&zoom=true&previewImage=false&scale=true&legend=true&disable_scroll=true&theme=light"></iframe></div>
 
 <br>
 
