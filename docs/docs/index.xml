@@ -13,6 +13,93 @@
     </image>
     
     <item>
+      <title>Meeting 10 - ArcGIS StoryMaps - Typography and Maps</title>
+      <link>https://slu-soc5650.github.io/docs/meeting_10/</link>
+      <pubDate>Mon, 05 Apr 2021 00:00:00 -0500</pubDate>
+      <guid>https://slu-soc5650.github.io/docs/meeting_10/</guid>
+      <description>&lt;br&gt; 
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    Please submit Lab-09 &lt;em&gt;as an issue in your assignments repository&lt;/em&gt; before the beginning of this meeting.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;meeting-goals&#34;&gt;Meeting Goals&lt;/h2&gt;
+&lt;p&gt;This course meeting has an emphasis on the following goals:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Identify different typographic elements on ArcGIS StoryMaps.&lt;/li&gt;
+&lt;li&gt;Construct a basic ArcGIS StoryMap organized with different typographic elements.&lt;/li&gt;
+&lt;li&gt;Use different ArcGIS StoryMap web map configurations.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;meeting-resources&#34;&gt;Meeting Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;An overview of the meeting can be on the &lt;a href=&#34;https://slu-soc5650.github.io/syllabus/module-4-map-products-with-arcgis.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;syllabus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The entry ticket is available on &lt;a href=&#34;https://blackboard.slu.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blackboard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;You can login to &lt;a href=&#34;https://storymaps.arcgis.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ArcGIS StoryMaps here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;You can login to &lt;a href=&#34;https://www.arcgis.com/home/signin.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ArcGIS Online here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;before-class&#34;&gt;Before Class&lt;/h2&gt;
+&lt;h3 id=&#34;tasks&#34;&gt;Tasks&lt;/h3&gt;
+&lt;p&gt;Please complete the tasks listed on the &lt;a href=&#34;https://slu-soc5650.github.io/syllabus/module-4-map-products-with-arcgis.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;syllabus&lt;/a&gt;, and see &lt;a href=&#34;https://blackboard.slu.edu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blackboard&lt;/a&gt; for the entry ticket link. Please make sure you have completed &lt;strong&gt;all&lt;/strong&gt; web maps both from the in-class exercises last class and the lab, because you will need them for today&amp;rsquo;s in-class exercises.&lt;/p&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;during-class&#34;&gt;During Class&lt;/h2&gt;
+&lt;h3 id=&#34;agenda&#34;&gt;Agenda&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Exercise 1 - Typography on Maps&lt;/li&gt;
+&lt;li&gt;Exercise 2 - Creating an ArcGIS StoryMap&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Short Break&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Exercise 3 - Adding Maps to Your StoryMap&lt;/li&gt;
+&lt;li&gt;Exercise 4 - Changing Typography&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Short Break&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Lab-10 and one-on-one meetings&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;exercise-1---sharing-maps&#34;&gt;Exercise 1 - Sharing Maps&lt;/h3&gt;
+&lt;p&gt;Take a look at &lt;a href=&#34;https://storymaps.arcgis.com/stories/0ae7ea467f5e4701a2968c11d94eb688&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this StoryMap&lt;/a&gt;. As you scroll through it, give some thought to the following points:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Think about the characteristics you find appealing about the StoryMap itself. Also notice how &lt;em&gt;static maps&lt;/em&gt; are employed as opposed &lt;em&gt;interactive web maps&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;How are different fonts used to create a logical hierarchy throughout the StoryMap?&lt;/li&gt;
+&lt;li&gt;Notice the bottom section with sources - I want you to emulate this (with the addition of a &lt;a href=&#34;https://creativecommons.org/share-your-work/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Creative Commons license&lt;/a&gt;) for your final projects!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;exercise-2---creating-an-arcgis-storymap&#34;&gt;Exercise 2 - Creating an ArcGIS StoryMap&lt;/h3&gt;
+&lt;p&gt;For this exercise, we will create a new ArcGIS StoryMap and add some basic text to it to create a logical hierarchy with headings and subheadings.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;We&amp;rsquo;ll use the following title - &amp;ldquo;The Missouri Compromise&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;We&amp;rsquo;ll use the following subtitle - &amp;ldquo;Continuing the Expansion of Chattel Slavery in the United States&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;We&amp;rsquo;ll create a section with &amp;ldquo;Background&amp;rdquo; as the heading and two subheadings - &amp;ldquo;The Louisiana Purchase&amp;rdquo; and &amp;ldquo;Slavery in the United States.&amp;rdquo;
+a. For the body text in these sections, we&amp;rsquo;re going to use some filler text for now. Using &amp;ldquo;Lorem ipsum&amp;rdquo; as filler text is very common in design, and dates back to the 15th century. We&amp;rsquo;ll use &lt;a href=&#34;https://loremipsum.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this lorem ipsum generator&lt;/a&gt; to create our text.&lt;/li&gt;
+&lt;li&gt;Then create another new section, &amp;ldquo;Creating Missouri,&amp;rdquo; and add a paragraph of placeholder text here as well.&lt;/li&gt;
+&lt;li&gt;Finally, we&amp;rsquo;ll add some initial information to the Credits footer.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;exercise-3---adding-maps-to-your-storymap&#34;&gt;Exercise 3 - Adding Maps to Your StoryMap&lt;/h3&gt;
+&lt;p&gt;For this exercise, we&amp;rsquo;ll add the three maps we created during class last week to the StoryMap:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;We&amp;rsquo;ll start by adding a single web-map using our Louisiana Purchase map from last class in the relevant part of the &amp;ldquo;Background&amp;rdquo; section.&lt;/li&gt;
+&lt;li&gt;Next, under the &amp;ldquo;Creating Missouri&amp;rdquo; section, we&amp;rsquo;ll add both of our Missouri Compromise and 1820 Census maps first using the Slideshow format and then using the Sidecar format.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;exercise-4---changing-typography&#34;&gt;Exercise 4 - Changing Typography&lt;/h3&gt;
+&lt;p&gt;For this exercise, we&amp;rsquo;ll create a custom theme that changes the default font families used for headings and body text. We&amp;rsquo;ll create a new theme, modify these elements, and publishing this theme before adding it to our StoryMap. We&amp;rsquo;ll call this &amp;ldquo;Custom Test Theme for &amp;quot; and then include our individual names in the theme title. Under typography, we&amp;rsquo;ll change the title and headings to Veranda Pro and the paragraph text to Pax. Once we have saved our changes and published the theme, we&amp;rsquo;ll also cover how to go back and modify the theme in addition to applying it to our StoryMap.&lt;/p&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;after-class&#34;&gt;After Class&lt;/h2&gt;
+&lt;h3 id=&#34;lab-10&#34;&gt;Lab-10&lt;/h3&gt;
+&lt;p&gt;The Lab-10 instructions are available in &lt;code&gt;module-4-storymap-1&lt;/code&gt; or can viewed online &lt;a href=&#34;https://github.com/slu-soc5650/module-4-storymap-1/blob/master/assignments/lab-10.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. This exercise picks up where we have left-off with the in-class exercise, adding the two maps from Lab-09 to your StoryMap using either the Slideshow or Sidecar approach.&lt;/p&gt;
+&lt;h3 id=&#34;lab-10-replication-materials&#34;&gt;Lab-10 Replication Materials&lt;/h3&gt;
+&lt;p&gt;A replication StoryMap will be added here after our class meeting.&lt;/p&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;meeting-reminders&#34;&gt;Meeting Reminders&lt;/h2&gt;
+&lt;p&gt;Please don&amp;rsquo;t forget about what is due for next week, which is listed on the &lt;a href=&#34;https://slu-soc5650.github.io/syllabus/module-4-map-products-with-arcgis.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;syllabus&lt;/a&gt;. In addition to Lab-10, there are also some upcoming deadlines in April I want to remind you of:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;students in SOC 5650 will have a draft paper due &lt;strong&gt;next Monday&lt;/strong&gt; (April 12th) - instructions have been added to the &lt;a href=&#34;https://slu-soc5650.github.io/final-project/research-note.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;final project document&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;all students will have a draft ArcGIS story map due April 26th - instructions have been added to the &lt;a href=&#34;https://slu-soc5650.github.io/final-project/arcgis-storymap.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;final project document&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;course-trajectory&#34;&gt;Course Trajectory&lt;/h2&gt;
+&lt;p&gt;Now that we have covered getting an ArcGIS StoryMap designed, you can start to work on this facet of your final project!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Meeting 09 - ArcGIS Online</title>
       <link>https://slu-soc5650.github.io/docs/meeting_09/</link>
       <pubDate>Mon, 29 Mar 2021 00:00:00 -0500</pubDate>
