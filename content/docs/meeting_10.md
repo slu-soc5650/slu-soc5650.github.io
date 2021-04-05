@@ -75,7 +75,7 @@ For this exercise, we will create a new ArcGIS StoryMap and add some basic text 
   2. We'll use the following subtitle - "Continuing the Expansion of Chattel Slavery in the United States"
   3. We'll create a section with "Background" as the heading and two subheadings - "The Louisiana Purchase" and "Slavery in the United States." 
       a. For the body text in these sections, we're going to use some filler text for now. Using "Lorem ipsum" as filler text is very common in design, and dates back to the 15th century. We'll use [this lorem ipsum generator](https://loremipsum.io) to create our text.
-  5. Then create another new section, "Creating Missouri," and add a paragraph of placeholder text here as well.
+  5. Then create two other new sections, "Creating Missouri" and "Comparing Changes," and add a paragraph of placeholder text under each as well.
   6. Finally, we'll add some initial information to the Credits footer.
 
 ### Exercise 3 - Adding Maps to Your StoryMap
@@ -83,6 +83,7 @@ For this exercise, we'll add the three maps we created during class last week to
 
   1. We'll start by adding a single web-map using our Louisiana Purchase map from last class in the relevant part of the "Background" section.
   2. Next, under the "Creating Missouri" section, we'll add both of our Missouri Compromise and 1820 Census maps first using the Slideshow format and then using the Sidecar format.
+  3. Finally, we'll use our Louisiana Purchase and Missouri Compromise reference maps to illustrate how the slider functionality works. This will be inserted in the "Comparing Changes" section.
   
 ### Exercise 4 - Changing Typography
 For this exercise, we'll create a custom theme that changes the default font families used for headings and body text. We'll create a new theme, modify these elements, and publishing this theme before adding it to our StoryMap. We'll call this "Custom Test Theme for " and then include our individual names in the theme title. Under typography, we'll change the title and headings to Veranda Pro and the paragraph text to Pax. Once we have saved our changes and published the theme, we'll also cover how to go back and modify the theme in addition to applying it to our StoryMap.

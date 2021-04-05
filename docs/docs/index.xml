@@ -69,7 +69,7 @@
 &lt;li&gt;We&amp;rsquo;ll use the following subtitle - &amp;ldquo;Continuing the Expansion of Chattel Slavery in the United States&amp;rdquo;&lt;/li&gt;
 &lt;li&gt;We&amp;rsquo;ll create a section with &amp;ldquo;Background&amp;rdquo; as the heading and two subheadings - &amp;ldquo;The Louisiana Purchase&amp;rdquo; and &amp;ldquo;Slavery in the United States.&amp;rdquo;
 a. For the body text in these sections, we&amp;rsquo;re going to use some filler text for now. Using &amp;ldquo;Lorem ipsum&amp;rdquo; as filler text is very common in design, and dates back to the 15th century. We&amp;rsquo;ll use &lt;a href=&#34;https://loremipsum.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this lorem ipsum generator&lt;/a&gt; to create our text.&lt;/li&gt;
-&lt;li&gt;Then create another new section, &amp;ldquo;Creating Missouri,&amp;rdquo; and add a paragraph of placeholder text here as well.&lt;/li&gt;
+&lt;li&gt;Then create two other new sections, &amp;ldquo;Creating Missouri&amp;rdquo; and &amp;ldquo;Comparing Changes,&amp;rdquo; and add a paragraph of placeholder text under each as well.&lt;/li&gt;
 &lt;li&gt;Finally, we&amp;rsquo;ll add some initial information to the Credits footer.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;exercise-3---adding-maps-to-your-storymap&#34;&gt;Exercise 3 - Adding Maps to Your StoryMap&lt;/h3&gt;
@@ -77,6 +77,7 @@ a. For the body text in these sections, we&amp;rsquo;re going to use some filler
 &lt;ol&gt;
 &lt;li&gt;We&amp;rsquo;ll start by adding a single web-map using our Louisiana Purchase map from last class in the relevant part of the &amp;ldquo;Background&amp;rdquo; section.&lt;/li&gt;
 &lt;li&gt;Next, under the &amp;ldquo;Creating Missouri&amp;rdquo; section, we&amp;rsquo;ll add both of our Missouri Compromise and 1820 Census maps first using the Slideshow format and then using the Sidecar format.&lt;/li&gt;
+&lt;li&gt;Finally, we&amp;rsquo;ll use our Louisiana Purchase and Missouri Compromise reference maps to illustrate how the slider functionality works. This will be inserted in the &amp;ldquo;Comparing Changes&amp;rdquo; section.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;exercise-4---changing-typography&#34;&gt;Exercise 4 - Changing Typography&lt;/h3&gt;
 &lt;p&gt;For this exercise, we&amp;rsquo;ll create a custom theme that changes the default font families used for headings and body text. We&amp;rsquo;ll create a new theme, modify these elements, and publishing this theme before adding it to our StoryMap. We&amp;rsquo;ll call this &amp;ldquo;Custom Test Theme for &amp;quot; and then include our individual names in the theme title. Under typography, we&amp;rsquo;ll change the title and headings to Veranda Pro and the paragraph text to Pax. Once we have saved our changes and published the theme, we&amp;rsquo;ll also cover how to go back and modify the theme in addition to applying it to our StoryMap.&lt;/p&gt;
