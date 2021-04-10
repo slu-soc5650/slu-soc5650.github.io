@@ -95,7 +95,7 @@ For this exercise, we'll create a custom theme that changes the default font fam
 The Lab-10 instructions are available in `module-4-storymap-1` or can viewed online [here](https://github.com/slu-soc5650/module-4-storymap-1/blob/master/assignments/lab-10.pdf). This exercise picks up where we have left-off with the in-class exercise, adding the two maps from Lab-09 to your StoryMap using either the Slideshow or Sidecar approach.
 
 ### Lab-10 Replication Materials
-A replication StoryMap will be added here after our class meeting.
+[A replication StoryMap is available here](https://storymaps.arcgis.com/stories/f6be7a7d6dbe44daabcf4da7e8be48ad).
 
 <br>
 

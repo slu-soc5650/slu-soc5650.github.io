@@ -5,12 +5,128 @@
     <link>https://slu-soc5650.github.io/</link>
       <atom:link href="https://slu-soc5650.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>SLU SOC 4650 and 5650</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2017-2021 Christopher G. Prener</copyright><lastBuildDate>Mon, 05 Apr 2021 00:00:00 -0500</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2017-2021 Christopher G. Prener</copyright><lastBuildDate>Sat, 10 Apr 2021 00:00:00 -0500</lastBuildDate>
     <image>
       <url>https://slu-soc5650.github.io/images/icon_hu137d436a85c84cab921c9c47edaed5ef_12382_512x512_fill_lanczos_center_2.png</url>
       <title>SLU SOC 4650 and 5650</title>
       <link>https://slu-soc5650.github.io/</link>
     </image>
+    
+    <item>
+      <title>Meeting 11 - ArcGIS StoryMaps - Design</title>
+      <link>https://slu-soc5650.github.io/docs/meeting_11/</link>
+      <pubDate>Sat, 10 Apr 2021 00:00:00 -0500</pubDate>
+      <guid>https://slu-soc5650.github.io/docs/meeting_11/</guid>
+      <description>&lt;br&gt; 
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    Please submit Lab-10 &lt;em&gt;as an issue in your assignments repository&lt;/em&gt; before the beginning of this meeting.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;meeting-goals&#34;&gt;Meeting Goals&lt;/h2&gt;
+&lt;p&gt;This course meeting has an emphasis on the following goals:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create new attribute columns and edit existing columns using ArcGIS Online.&lt;/li&gt;
+&lt;li&gt;Apply labels and pop-ups to ArcGIS Online web maps.&lt;/li&gt;
+&lt;li&gt;Identify different design elements on ArcGIS StoryMaps.&lt;/li&gt;
+&lt;li&gt;Modify a basic ArcGIS StoryMap by adding design elements to enhance its presentation.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;meeting-resources&#34;&gt;Meeting Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;An overview of the meeting can be on the &lt;a href=&#34;https://slu-soc5650.github.io/syllabus/module-4-map-products-with-arcgis.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;syllabus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The entry ticket is available on &lt;a href=&#34;https://blackboard.slu.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blackboard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;You can login to &lt;a href=&#34;https://storymaps.arcgis.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ArcGIS StoryMaps here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;You can login to &lt;a href=&#34;https://www.arcgis.com/home/signin.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ArcGIS Online here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;before-class&#34;&gt;Before Class&lt;/h2&gt;
+&lt;h3 id=&#34;tasks&#34;&gt;Tasks&lt;/h3&gt;
+&lt;p&gt;Please complete the tasks listed on the &lt;a href=&#34;https://slu-soc5650.github.io/syllabus/module-4-map-products-with-arcgis.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;syllabus&lt;/a&gt;, and see &lt;a href=&#34;https://blackboard.slu.edu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blackboard&lt;/a&gt; for the entry ticket link. Please make sure you have completed &lt;strong&gt;all&lt;/strong&gt; work both from the in-class exercises last class and the lab, because you will need them for today&amp;rsquo;s in-class exercises.&lt;/p&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;during-class&#34;&gt;During Class&lt;/h2&gt;
+&lt;h3 id=&#34;agenda&#34;&gt;Agenda&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Exercise 1 - Labeling&lt;/li&gt;
+&lt;li&gt;Exercise 2 - Adding Labels and Pop-ups to Web Maps&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Short Break&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Exercise 3 - Adding Design Elements to StoryMaps&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Short Break&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Lab-11 and one-on-one meetings&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-1---glacier-national-park&#34;&gt;Exercise 1 - Glacier National Park&lt;/h2&gt;
+&lt;p&gt;Glacier National Park is located in northern Montana along the U.S.-Canadian border. We&amp;rsquo;ll start by looking at this &lt;a href=&#34;http://npmaps.com/wp-content/uploads/glacier-national-park-map.jpg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;static map of the National Park&lt;/a&gt; before we look at an &lt;a href=&#34;https://www.nps.gov/gis/storymaps/cascade/v1/index.html?appid=2d5a9d390a034a7cb4f2f3fc66af107c&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ESRI StoryMap about avalanche activity&lt;/a&gt; along the iconic Going-to-the-Sun Road. On the static map, the Going-to-the-Sun Road is highlighted using dark red. It travels east/west across the spine of the Rocky Mountains.&lt;/p&gt;
+&lt;p&gt;For the static map, consider the following questions:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;How are labels differentiated from each other based on feature categories?&lt;/li&gt;
+&lt;li&gt;What are some examples of labels that have splined text?&lt;/li&gt;
+&lt;li&gt;What are some examples of leader lines?&lt;/li&gt;
+&lt;li&gt;What are some examples of callouts (from Chapter 5)?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;For the StoryMap, consider the following questions:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Think about the characteristics you find appealing about the StoryMap itself.&lt;/li&gt;
+&lt;li&gt;What types of media and design features are present on the map?&lt;/li&gt;
+&lt;li&gt;On the interactive map located approximately half-way down, how are labels and pop-ups used?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2---adding-labels-and-pop-ups-to-web-maps&#34;&gt;Exercise 2 - Adding Labels and Pop-ups to Web Maps&lt;/h2&gt;
+&lt;p&gt;To illustrate how ArcGIS Online provides options for labeling and pop-ups, we&amp;rsquo;ll create a new version of our Louisiana Purchase map. We&amp;rsquo;ll start by creating a bit of additional data for mapping purposes. Using the &lt;code&gt;Show Table&lt;/code&gt; option in the &lt;code&gt;Content&lt;/code&gt; pane, we&amp;rsquo;ll add a new character column to illustrate the type of territory each feature represents. We&amp;rsquo;ll add the values &lt;code&gt;State&lt;/code&gt;, &lt;code&gt;Territory&lt;/code&gt;, or &lt;code&gt;Federal District&lt;/code&gt; as appropriate.&lt;/p&gt;
+&lt;p&gt;Once our column has been created, we can configure pop-ups by turning them on and off. We can also modify pop-ups by changing their titles, and using different types of contents (lists of fields, descriptions of one field, and custom attributes to display). Alternatively, we can use just the title itself for the pop-up contents.&lt;/p&gt;
+&lt;p&gt;For labels, we&amp;rsquo;ll discuss how to modify both their contents, use the halo effect, and change their visibility range.&lt;/p&gt;
+&lt;h2 id=&#34;exercise-3---adding-design-elements-to-storymaps&#34;&gt;Exercise 3 - Adding Design Elements to StoryMaps&lt;/h2&gt;
+&lt;h3 id=&#34;covers&#34;&gt;Covers&lt;/h3&gt;
+&lt;p&gt;We&amp;rsquo;ll start by working on the cover of the StoryMap, adding a photo from the Library of Congress of &lt;a href=&#34;https://www.loc.gov/item/mo0918/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;slave quarters at the Ste. Genevieve Hotel&lt;/a&gt; in Ste. Genevieve, MO. After we add the photo, we&amp;rsquo;ll discuss the various arrangements covers can take on.&lt;/p&gt;
+&lt;h3 id=&#34;adding-media&#34;&gt;Adding Media&lt;/h3&gt;
+&lt;p&gt;There are two main sources of media we&amp;rsquo;ll be adding to our StoryMaps - images and videos. Below the map of the Louisiana Purchase, we&amp;rsquo;ll add a &lt;a href=&#34;https://www.loc.gov/item/2004669440/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;drawing of Thomas Jefferson&lt;/a&gt;, also from the Library of Congress, alongside the quote:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[T]his little event, of France possessing herself of Louisiana, &amp;hellip; is the embryo of a tornado which will burst on the countries on both shores of the Atlantic and involve in it’s effects their highest destinies.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;We&amp;rsquo;ll also work on adding videos by embedding &lt;a href=&#34;https://www.youtube.com/watch?v=uBsEDCMBCds&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this Missouri Historical Society video about Lewis and Clark&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Finally, we&amp;rsquo;ll add an image of &lt;a href=&#34;https://en.wikipedia.org/wiki/Henry_Clay&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Henry Clay&lt;/a&gt; to our sidecar. Like our other images today, this is also &lt;a href=&#34;https://www.loc.gov/item/2009633654/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;from the Library of Congress&lt;/a&gt;. Clay, as a Senator from Kentucky helped broker the Missouri Compromise.&lt;/p&gt;
+&lt;h3 id=&#34;other-design-features&#34;&gt;Other Design Features&lt;/h3&gt;
+&lt;p&gt;In addition to media, we&amp;rsquo;ll discuss adding buttons to link to additional content, and separators to create sections.&lt;/p&gt;
+&lt;h3 id=&#34;selecting-and-editing-themes&#34;&gt;Selecting and Editing Themes&lt;/h3&gt;
+&lt;p&gt;Finally, we&amp;rsquo;ll discuss both changing the theme between the stock ArcGIS Online themes as well as editing a custom theme to change the colors, button, and separator appearance.&lt;/p&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;after-class&#34;&gt;After Class&lt;/h2&gt;
+&lt;h3 id=&#34;lab-11&#34;&gt;Lab-11&lt;/h3&gt;
+&lt;p&gt;The Lab-11 instructions are available in &lt;code&gt;module-4-storymap-2&lt;/code&gt; or can viewed online &lt;a href=&#34;https://github.com/slu-soc5650/module-4-storymap-2/blob/master/assignments/lab-11.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. This exercise picks up where we have left-off with the in-class exercise, changing the theme, modifying the cover, and adding an additional image and another video embed.&lt;/p&gt;
+&lt;h3 id=&#34;lab-11-replication-materials&#34;&gt;Lab-11 Replication Materials&lt;/h3&gt;
+&lt;p&gt;A replication StoryMap will be available after class.&lt;/p&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;meeting-reminders&#34;&gt;Meeting Reminders&lt;/h2&gt;
+&lt;p&gt;Please don&amp;rsquo;t forget about what is due for next week, which is listed on the &lt;a href=&#34;https://slu-soc5650.github.io/syllabus/module-4-map-products-with-arcgis.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;syllabus&lt;/a&gt;. In addition to Lab-11, there is one final upcoming deadline in April I want to remind you of:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;all students will have a draft ArcGIS story map due April 26th - instructions have been added to the &lt;a href=&#34;https://slu-soc5650.github.io/final-project/arcgis-storymap.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;final project document&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;peer-reviews&#34;&gt;Peer Reviews&lt;/h2&gt;
+&lt;p&gt;Additionally, students in SOC 5650 will be paired up this week and asked to review their partner&amp;rsquo;s GitHub repository as well as their draft paper. Each student should open an issue on their partner&amp;rsquo;s GitHub repository and provide three sets of feedback:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The first section should, in approximately sentences, describe the topic of the project being reviewed and provide some &lt;strong&gt;initial positive feedback&lt;/strong&gt; (ex - &amp;ldquo;The repository is well-organized and the paper draft presents a clear picture of their data.&amp;quot;)&lt;/li&gt;
+&lt;li&gt;The second section should provide &lt;strong&gt;major points&lt;/strong&gt; for author to address. Areas to focus on for reviews are:
+&lt;ul&gt;
+&lt;li&gt;the structure and organization of the GitHub repository - have good principles of analysis development been followed? is it easy to follow their code? is their narrative text descriptive and helpful?&lt;/li&gt;
+&lt;li&gt;the structure and organization of the paper - are the major sections present? clear and easy to read? are their conceptual or organizational gaps that need to be addressed?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;The third section should provide &lt;strong&gt;minor points&lt;/strong&gt; for the author to address. These may be small changes or clarifications, grammar or spelling issues you notice, or small suggestions to improve the project.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Reviews should be &lt;strong&gt;constructive&lt;/strong&gt; - your goal is not to tear down your partner&amp;rsquo;s project but provide them with concrete guidance on how to &lt;strong&gt;improve&lt;/strong&gt; their work. Even when you are being critical, be positive and supportive while also being honest.&lt;/p&gt;
+&lt;p&gt;Provide at least one major point for your partner&amp;rsquo;s repository and two major points with the paper. Likewise, aim to provide at least two minor points for the repository and two for the paper.&lt;/p&gt;
+&lt;p&gt;Reviews are due by 4:15pm next Monday (April 18th).&lt;/p&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;course-trajectory&#34;&gt;Course Trajectory&lt;/h2&gt;
+&lt;p&gt;We have now covered all facets of the final project &lt;em&gt;except creating publication-ready maps using &lt;code&gt;R&lt;/code&gt;, which students in SOC 5650 will need to include with their final papers&lt;/em&gt;. From here, we&amp;rsquo;ll spend two weeks going deeper on creating both static and interactive maps using &lt;code&gt;R&lt;/code&gt;.&lt;/p&gt;
+&lt;br&gt; 
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    Next week will be a working session for the final project. Attendance to class is not required, but Chris will be available in our class Zoom meeting for one-on-one meetings from 4:15pm to 5:30pm. Feel free to drop-in if you would like to chat!
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Meeting 10 - ArcGIS StoryMaps - Typography and Maps</title>
@@ -86,7 +202,7 @@ a. For the body text in these sections, we&amp;rsquo;re going to use some filler
 &lt;h3 id=&#34;lab-10&#34;&gt;Lab-10&lt;/h3&gt;
 &lt;p&gt;The Lab-10 instructions are available in &lt;code&gt;module-4-storymap-1&lt;/code&gt; or can viewed online &lt;a href=&#34;https://github.com/slu-soc5650/module-4-storymap-1/blob/master/assignments/lab-10.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. This exercise picks up where we have left-off with the in-class exercise, adding the two maps from Lab-09 to your StoryMap using either the Slideshow or Sidecar approach.&lt;/p&gt;
 &lt;h3 id=&#34;lab-10-replication-materials&#34;&gt;Lab-10 Replication Materials&lt;/h3&gt;
-&lt;p&gt;A replication StoryMap will be added here after our class meeting.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://storymaps.arcgis.com/stories/f6be7a7d6dbe44daabcf4da7e8be48ad&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A replication StoryMap is available here&lt;/a&gt;.&lt;/p&gt;
 &lt;br&gt;
 &lt;h2 id=&#34;meeting-reminders&#34;&gt;Meeting Reminders&lt;/h2&gt;
 &lt;p&gt;Please don&amp;rsquo;t forget about what is due for next week, which is listed on the &lt;a href=&#34;https://slu-soc5650.github.io/syllabus/module-4-map-products-with-arcgis.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;syllabus&lt;/a&gt;. In addition to Lab-10, there are also some upcoming deadlines in April I want to remind you of:&lt;/p&gt;
