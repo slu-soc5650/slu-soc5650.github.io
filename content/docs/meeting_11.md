@@ -84,6 +84,9 @@ Once our column has been created, we can configure pop-ups by turning them on an
 
 For labels, we'll discuss how to modify both their contents, use the halo effect, and change their visibility range.
 
+## Analaysis Development - Duplicating Your StoryMap
+Duplicate your story by opening it, clicking the `Edit story` button, and then choosing `Duplicate story` from the options menu next to the `Publish` button. Change the story's name to "Part 2 - The Missouri Compromise."
+
 ## Exercise 3 - Adding Design Elements to StoryMaps
 ### Covers
 We'll start by working on the cover of the StoryMap, adding a photo from the Library of Congress of [slave quarters at the Ste. Genevieve Hotel](https://www.loc.gov/item/mo0918/) in Ste. Genevieve, MO. After we add the photo, we'll discuss the various arrangements covers can take on.
