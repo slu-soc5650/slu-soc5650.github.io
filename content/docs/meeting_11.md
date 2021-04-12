@@ -42,6 +42,7 @@ This course meeting has an emphasis on the following goals:
   * The entry ticket is available on [Blackboard](https://blackboard.slu.edu/)
   * You can login to [ArcGIS StoryMaps here](https://storymaps.arcgis.com)
   * You can login to [ArcGIS Online here](https://www.arcgis.com/home/signin.html)
+  * Finally, I have been working on an ArcGIS StoryMap alongside you all, and have published an [initial set of maps and content](https://arcg.is/1q901f)
 
 <br>
 
