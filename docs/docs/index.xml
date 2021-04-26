@@ -48,15 +48,15 @@
 &lt;li&gt;&lt;em&gt;Short Break&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;Lab-12 and one-on-one meetings&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;exercise-1---grizzly-creek-fire&#34;&gt;Exercise 1 - Grizzly Creek Fire&lt;/h2&gt;
+&lt;h3 id=&#34;exercise-1---grizzly-creek-fire&#34;&gt;Exercise 1 - Grizzly Creek Fire&lt;/h3&gt;
 &lt;p&gt;The Grizzly Creek Fire was part of the 2020 fire season, and burned 32,631 acres in Glenwood Canyon, Colorado. The fire began on August 10th and was not declared fully contained until December 18th. The &lt;a href=&#34;https://storymaps.arcgis.com/collections/6c3a35fdf9d049298874d8c27a6ca0cb?item=4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;StoryMap about the fire&lt;/a&gt; is part of a collection ESRI maintains of &lt;a href=&#34;https://storymaps.arcgis.com/collections/6c3a35fdf9d049298874d8c27a6ca0cb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;StoryMaps related to that fire season&lt;/a&gt;.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;As you look at the map, think about what design features you like and what you might want to tweak or add to your own final project StoryMap.&lt;/li&gt;
 &lt;li&gt;At the bottom, take a look at the 3D map rendering of the fire itself. We have not talked about these maps, but they are an option on StoryMaps as well.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;exercise-2---adding-themes-to-ggplot2-maps&#34;&gt;Exercise 2 - Adding Themes to ggplot2 Maps&lt;/h2&gt;
+&lt;h3 id=&#34;exercise-2---adding-themes-to-ggplot2-maps&#34;&gt;Exercise 2 - Adding Themes to ggplot2 Maps&lt;/h3&gt;
 &lt;p&gt;For our work in &lt;code&gt;R&lt;/code&gt; today, we&amp;rsquo;ll dig into some theme options for &lt;code&gt;ggplot2&lt;/code&gt; maps after we review the processes for changing point and line symbols (related to our final Brewer chapter). The data and example notebook are available in this course meeting&amp;rsquo;s repository, named &lt;code&gt;module-5-static&lt;/code&gt;. You can find them in &lt;code&gt;examples/meeting-examples.Rmd&lt;/code&gt;. You can also follow along with the completed code &lt;a href=&#34;https://slu-soc5650.github.io/module-5-static/index.nb.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;exercise-3---creating-maps-with-tmap&#34;&gt;Exercise 3 - Creating Maps with &lt;code&gt;tmap&lt;/code&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;exercise-3---creating-maps-with-tmap&#34;&gt;Exercise 3 - Creating Maps with &lt;code&gt;tmap&lt;/code&gt;&lt;/h3&gt;
 &lt;p&gt;After our review of &lt;code&gt;ggplot2&lt;/code&gt;, we&amp;rsquo;ll talk about the pros and cons of an alternative mapping package called &lt;code&gt;tmap&lt;/code&gt;. The data and example notebook are available in this course meeting&amp;rsquo;s repository, named &lt;code&gt;module-5-static&lt;/code&gt;. You can find them in &lt;code&gt;examples/meeting-examples.Rmd&lt;/code&gt;. You can also follow along with the completed code &lt;a href=&#34;https://slu-soc5650.github.io/module-5-static/index.nb.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;br&gt;
 &lt;h2 id=&#34;after-class&#34;&gt;After Class&lt;/h2&gt;
@@ -830,6 +830,12 @@ a. For the body text in these sections, we&amp;rsquo;re going to use some filler
       <guid>https://slu-soc5650.github.io/docs/final_project/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;As we go through the semester, I&amp;rsquo;ll be using this section to add some additional information about the final project. For now, you can find the deadlines associated with the project on &lt;a href=&#34;https://slu-soc5650.github.io/syllabus/assignments.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;our syllabus&lt;/a&gt; and steps for the initial vignettes in the &lt;a href=&#34;http://slu-soc5650.github.io/final-project/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;final project instructions&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;projections-and-data-storage&#34;&gt;Projections and Data Storage&lt;/h2&gt;
+&lt;p&gt;I highly recommend using a geographic coordinate system for storing your data prior to uploading it to ArcGIS Online. Some projected coordinate systems may not map appropriately. Storing your data as a &lt;code&gt;.geoJSON&lt;/code&gt; file as opposed to a shapefile will also make uploading data easier.&lt;/p&gt;
+&lt;h2 id=&#34;sources&#34;&gt;Sources&lt;/h2&gt;
+&lt;p&gt;You can use hyperlinks in media captions &lt;em&gt;or&lt;/em&gt; the sources are at the bottom of the StoryMap to link to your original source material for media included in your StoryMap.&lt;/p&gt;
+&lt;h2 id=&#34;peer-reviews&#34;&gt;Peer Reviews&lt;/h2&gt;
+&lt;p&gt;Sample peer reviews are included under Module 4 on Blackboard, and a sample response to reviewer letter is included under Module 5 on Blackboard. Students in SOC 5650 should include a response to reviewer letter with their final project submission.&lt;/p&gt;
 </description>
     </item>
     

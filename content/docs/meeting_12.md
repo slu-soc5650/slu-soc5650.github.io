@@ -52,16 +52,16 @@ This course meeting has an emphasis on the following goals:
   5. *Short Break*
   6. Lab-12 and one-on-one meetings
 
-## Exercise 1 - Grizzly Creek Fire
+### Exercise 1 - Grizzly Creek Fire
 The Grizzly Creek Fire was part of the 2020 fire season, and burned 32,631 acres in Glenwood Canyon, Colorado. The fire began on August 10th and was not declared fully contained until December 18th. The [StoryMap about the fire](https://storymaps.arcgis.com/collections/6c3a35fdf9d049298874d8c27a6ca0cb?item=4) is part of a collection ESRI maintains of [StoryMaps related to that fire season](https://storymaps.arcgis.com/collections/6c3a35fdf9d049298874d8c27a6ca0cb).
 
   1. As you look at the map, think about what design features you like and what you might want to tweak or add to your own final project StoryMap. 
   2. At the bottom, take a look at the 3D map rendering of the fire itself. We have not talked about these maps, but they are an option on StoryMaps as well.
   
-## Exercise 2 - Adding Themes to ggplot2 Maps
+### Exercise 2 - Adding Themes to ggplot2 Maps
 For our work in `R` today, we'll dig into some theme options for `ggplot2` maps after we review the processes for changing point and line symbols (related to our final Brewer chapter). The data and example notebook are available in this course meeting's repository, named `module-5-static`. You can find them in `examples/meeting-examples.Rmd`. You can also follow along with the completed code [here](https://slu-soc5650.github.io/module-5-static/index.nb.html).
 
-## Exercise 3 - Creating Maps with `tmap`
+### Exercise 3 - Creating Maps with `tmap`
 After our review of `ggplot2`, we'll talk about the pros and cons of an alternative mapping package called `tmap`. The data and example notebook are available in this course meeting's repository, named `module-5-static`. You can find them in `examples/meeting-examples.Rmd`. You can also follow along with the completed code [here](https://slu-soc5650.github.io/module-5-static/index.nb.html).
 
 <br>
