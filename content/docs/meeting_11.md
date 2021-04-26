@@ -2,7 +2,7 @@
   title = "Meeting 11 - ArcGIS StoryMaps - Design"
   
   date = 2021-04-10T00:00:00
-  lastmod = 2021-04-10T00:00:00
+  lastmod = 2021-04-26T00:00:00
   
   draft = false  # Is this a draft? true/false
   toc = true  # Show table of contents? true/false
@@ -114,7 +114,7 @@ Finally, we'll discuss both changing the theme between the stock ArcGIS Online t
 The Lab-11 instructions are available in `module-4-storymap-2` or can viewed online [here](https://github.com/slu-soc5650/module-4-storymap-2/blob/master/assignments/lab-11.pdf). This exercise picks up where we have left-off with the in-class exercise, changing the theme, modifying the cover, and adding an additional image and another video embed.
 
 ### Lab-11 Replication Materials
-A replication StoryMap will be available after class.
+[A replication StoryMap is available here](https://storymaps.arcgis.com/stories/3eefe71832f1481897eef8e089696933).
 
 <br>
 

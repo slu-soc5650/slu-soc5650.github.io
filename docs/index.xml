@@ -5,12 +5,83 @@
     <link>https://slu-soc5650.github.io/</link>
       <atom:link href="https://slu-soc5650.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>SLU SOC 4650 and 5650</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2017-2021 Christopher G. Prener</copyright><lastBuildDate>Sat, 10 Apr 2021 00:00:00 -0500</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2017-2021 Christopher G. Prener</copyright><lastBuildDate>Mon, 26 Apr 2021 00:00:00 -0500</lastBuildDate>
     <image>
       <url>https://slu-soc5650.github.io/images/icon_hu137d436a85c84cab921c9c47edaed5ef_12382_512x512_fill_lanczos_center_2.png</url>
       <title>SLU SOC 4650 and 5650</title>
       <link>https://slu-soc5650.github.io/</link>
     </image>
+    
+    <item>
+      <title>Meeting 12 - Static Maps in R</title>
+      <link>https://slu-soc5650.github.io/docs/meeting_12/</link>
+      <pubDate>Mon, 26 Apr 2021 00:00:00 -0500</pubDate>
+      <guid>https://slu-soc5650.github.io/docs/meeting_12/</guid>
+      <description>&lt;br&gt; 
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    Please submit the sixth final project waypoint as an issue on your GitHub project repository before class today.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;meeting-goals&#34;&gt;Meeting Goals&lt;/h2&gt;
+&lt;p&gt;This course meeting has an emphasis on the following goals:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Review processes for creating static maps using &lt;code&gt;ggplot2&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Apply themes to &lt;code&gt;ggplot2&lt;/code&gt; maps.&lt;/li&gt;
+&lt;li&gt;Create static maps using an alternative package, &lt;code&gt;tmap&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;meeting-resources&#34;&gt;Meeting Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;An overview of the meeting can be on the &lt;a href=&#34;https://slu-soc5650.github.io/syllabus/module-5-map-products-with-r.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;syllabus&lt;/a&gt;, but please keep in mind that we are switching up the content and ordering of these final two course meetings.&lt;/li&gt;
+&lt;li&gt;The entry ticket is available on &lt;a href=&#34;https://blackboard.slu.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blackboard&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;during-class&#34;&gt;During Class&lt;/h2&gt;
+&lt;h3 id=&#34;agenda&#34;&gt;Agenda&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Exercise 1 - Mapping Wildfires&lt;/li&gt;
+&lt;li&gt;Exercise 2 - Adding Themes to ggplot2 Maps&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Short Break&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Exercise 3 - Creating Maps with &lt;code&gt;tmap&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Short Break&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Lab-12 and one-on-one meetings&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-1---grizzly-creek-fire&#34;&gt;Exercise 1 - Grizzly Creek Fire&lt;/h2&gt;
+&lt;p&gt;The Grizzly Creek Fire was part of the 2020 fire season, and burned 32,631 acres in Glenwood Canyon, Colorado. The fire began on August 10th and was not declared fully contained until December 18th. The &lt;a href=&#34;https://storymaps.arcgis.com/collections/6c3a35fdf9d049298874d8c27a6ca0cb?item=4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;StoryMap about the fire&lt;/a&gt; is part of a collection ESRI maintains of &lt;a href=&#34;https://storymaps.arcgis.com/collections/6c3a35fdf9d049298874d8c27a6ca0cb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;StoryMaps related to that fire season&lt;/a&gt;.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;As you look at the map, think about what design features you like and what you might want to tweak or add to your own final project StoryMap.&lt;/li&gt;
+&lt;li&gt;At the bottom, take a look at the 3D map rendering of the fire itself. We have not talked about these maps, but they are an option on StoryMaps as well.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2---adding-themes-to-ggplot2-maps&#34;&gt;Exercise 2 - Adding Themes to ggplot2 Maps&lt;/h2&gt;
+&lt;p&gt;For our work in &lt;code&gt;R&lt;/code&gt; today, we&amp;rsquo;ll dig into some theme options for &lt;code&gt;ggplot2&lt;/code&gt; maps after we review the processes for changing point and line symbols (related to our final Brewer chapter). The data and example notebook are available in this course meeting&amp;rsquo;s repository, named &lt;code&gt;module-5-static&lt;/code&gt;. You can find them in &lt;code&gt;examples/meeting-examples.Rmd&lt;/code&gt;. You can also follow along with the completed code &lt;a href=&#34;https://slu-soc5650.github.io/module-5-static/index.nb.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;exercise-3---creating-maps-with-tmap&#34;&gt;Exercise 3 - Creating Maps with &lt;code&gt;tmap&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;After our review of &lt;code&gt;ggplot2&lt;/code&gt;, we&amp;rsquo;ll talk about the pros and cons of an alternative mapping package called &lt;code&gt;tmap&lt;/code&gt;. The data and example notebook are available in this course meeting&amp;rsquo;s repository, named &lt;code&gt;module-5-static&lt;/code&gt;. You can find them in &lt;code&gt;examples/meeting-examples.Rmd&lt;/code&gt;. You can also follow along with the completed code &lt;a href=&#34;https://slu-soc5650.github.io/module-5-static/index.nb.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;after-class&#34;&gt;After Class&lt;/h2&gt;
+&lt;p&gt;The Lab-12 instructions are available in &lt;code&gt;module-5-static&lt;/code&gt; or can viewed online &lt;a href=&#34;https://github.com/slu-soc5650/module-5-static/blob/master/assignments/lab-12.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;meeting-reminders&#34;&gt;Meeting Reminders&lt;/h2&gt;
+&lt;p&gt;Please don&amp;rsquo;t forget about what due in May, which is listed on the &lt;a href=&#34;ttps://slu-soc5650.github.io/syllabus/module-5-map-products-with-r.html&#34;&gt;syllabus&lt;/a&gt;. In addition to Lab-12, there is one final upcoming deadline in May I want to remind you of:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;May 17th - all final project materials must be submitted via GitHub. Link to your final StoryMap in your final project&amp;rsquo;s &lt;code&gt;README.md&lt;/code&gt; file.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;peer-reviews&#34;&gt;Peer Reviews&lt;/h2&gt;
+&lt;p&gt;All graduate students should have now received their peer reviews for their repositories and draft papers. In addition to wrapping up your data, code, documentation, papers, and StoryMaps, you should author a &amp;ldquo;response to reviewer&amp;rdquo; letter. I will post a sample on Blackboard, but my basic strategy for this aspect of the peer review process is to break up the comments from all the reviewers into action items. Every facet of each review should convert to an action item, but sometimes if there are a lot of minor points, I&amp;rsquo;ll simply say that I addressed the various misspellings instead of listing each one I fixed. At the top, I summarize the major changes I have made to my manuscript since my last submission.&lt;/p&gt;
+&lt;p&gt;Please create your &amp;ldquo;response to reviewer&amp;rdquo; either as a &lt;code&gt;.md&lt;/code&gt; file or a Word document, and include it in your final project repository. Summarize the main changes you&amp;rsquo;ve made, and then break down how you responded to each of the action items in your partner&amp;rsquo;s review (Reviewer 1) and in my review (Reviewer 2). For each action item, add a bullet below it that describes how you addressed the reviewer&amp;rsquo;s concerns.&lt;/p&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;course-trajectory&#34;&gt;Course Trajectory&lt;/h2&gt;
+&lt;p&gt;We have now covered all facets of the final project. Graduate students will need to apply today&amp;rsquo;s skills for creating publication-ready maps using &lt;code&gt;R&lt;/code&gt; that will be included in their final papers. Next week&amp;rsquo;s class will cover a final set of skills, picking up where we left off on the first day of class, with interactive maps in &lt;code&gt;R&lt;/code&gt;.&lt;/p&gt;
+&lt;br&gt; 
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    Next week will be our last course meeting!
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;</description>
+    </item>
     
     <item>
       <title>Meeting 11 - ArcGIS StoryMaps - Design</title>
@@ -96,7 +167,7 @@
 &lt;h3 id=&#34;lab-11&#34;&gt;Lab-11&lt;/h3&gt;
 &lt;p&gt;The Lab-11 instructions are available in &lt;code&gt;module-4-storymap-2&lt;/code&gt; or can viewed online &lt;a href=&#34;https://github.com/slu-soc5650/module-4-storymap-2/blob/master/assignments/lab-11.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. This exercise picks up where we have left-off with the in-class exercise, changing the theme, modifying the cover, and adding an additional image and another video embed.&lt;/p&gt;
 &lt;h3 id=&#34;lab-11-replication-materials&#34;&gt;Lab-11 Replication Materials&lt;/h3&gt;
-&lt;p&gt;A replication StoryMap will be available after class.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://storymaps.arcgis.com/stories/3eefe71832f1481897eef8e089696933&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A replication StoryMap is available here&lt;/a&gt;.&lt;/p&gt;
 &lt;br&gt;
 &lt;h2 id=&#34;meeting-reminders&#34;&gt;Meeting Reminders&lt;/h2&gt;
 &lt;p&gt;Please don&amp;rsquo;t forget about what is due for next week, which is listed on the &lt;a href=&#34;https://slu-soc5650.github.io/syllabus/module-4-map-products-with-arcgis.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;syllabus&lt;/a&gt;. In addition to Lab-11, there is one final upcoming deadline in April I want to remind you of:&lt;/p&gt;
