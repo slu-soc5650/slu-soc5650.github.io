@@ -13,6 +13,62 @@
     </image>
     
     <item>
+      <title>Meeting 13 - Interactive Maps in R</title>
+      <link>https://slu-soc5650.github.io/docs/meeting_13/</link>
+      <pubDate>Mon, 03 May 2021 00:00:00 -0500</pubDate>
+      <guid>https://slu-soc5650.github.io/docs/meeting_13/</guid>
+      <description>&lt;br&gt; 
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    Please submit Lab-12 to your GitHub assignments repository before class today.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;meeting-goals&#34;&gt;Meeting Goals&lt;/h2&gt;
+&lt;p&gt;This course meeting has an emphasis on the following goals:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Review processes for creating interactive maps using &lt;code&gt;leaflet&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Create more complex interactive maps that include palettes, customized pop-ups, legends, and overlaid features.&lt;/li&gt;
+&lt;li&gt;Identify options for sharing &lt;code&gt;html&lt;/code&gt; documents with embedded maps.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;meeting-resources&#34;&gt;Meeting Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;An overview of the meeting can be on the &lt;a href=&#34;https://slu-soc5650.github.io/syllabus/module-5-map-products-with-r.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;syllabus&lt;/a&gt;, but please keep in mind that we are switching up the content and ordering of these final two course meetings.&lt;/li&gt;
+&lt;li&gt;The entry ticket is available on &lt;a href=&#34;https://blackboard.slu.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blackboard&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;during-class&#34;&gt;During Class&lt;/h2&gt;
+&lt;h3 id=&#34;agenda&#34;&gt;Agenda&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Exercise 1 - Adding Complexity to &lt;code&gt;leaflet&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Exercise 2 - Sharing &lt;code&gt;leaftlet&lt;/code&gt; Maps&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Short Break&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Lab-13 and one-on-one meetings&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;exercise-1---adding-complexity-to-leaflet&#34;&gt;Exercise 1 - Adding Complexity to leaflet&lt;/h3&gt;
+&lt;p&gt;For our work in &lt;code&gt;R&lt;/code&gt; today, we&amp;rsquo;ll dig into some additional options for &lt;code&gt;leaflet&lt;/code&gt; maps after we review the processes for creating a basic map. The data and example notebook are available in this course meeting&amp;rsquo;s repository, named &lt;code&gt;module-5-leaflet&lt;/code&gt;. You can find them in &lt;code&gt;examples/meeting-examples.Rmd&lt;/code&gt;. You can also follow along with the completed code &lt;a href=&#34;https://slu-soc5650.github.io/module-5-leaflet/index.nb.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;exercise-2---sharing-leaflet-maps&#34;&gt;Exercise 2 - Sharing leaflet Maps&lt;/h3&gt;
+&lt;p&gt;It is easy to share &lt;code&gt;leaflet&lt;/code&gt; maps. Once we have a completed &lt;code&gt;.Rmd&lt;/code&gt; notebook, we&amp;rsquo;ll change the output type to &lt;code&gt;html_document&lt;/code&gt; and also add two output options to the final chunk. The &lt;code&gt;echo = FALSE&lt;/code&gt; option removes the code block, and the &lt;code&gt;out.width = &#39;100%&#39;&lt;/code&gt; option makes the map take up the full-width of the document. When we knit it again, we get an &lt;code&gt;html&lt;/code&gt; file that can be emailed or turned into a simple website.&lt;/p&gt;
+&lt;h2 id=&#34;meeting-reminders&#34;&gt;Meeting Reminders&lt;/h2&gt;
+&lt;p&gt;Please don&amp;rsquo;t forget about what due in May, which is listed on the &lt;a href=&#34;ttps://slu-soc5650.github.io/syllabus/module-5-map-products-with-r.html&#34;&gt;syllabus&lt;/a&gt;. In addition to Lab-13, there is one final upcoming deadline in May I want to remind you of:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;May 17th - all final project materials must be submitted via GitHub. Link to your final StoryMap in your final project&amp;rsquo;s &lt;code&gt;README.md&lt;/code&gt; file.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;course-trajectory&#34;&gt;Course Trajectory&lt;/h2&gt;
+&lt;p&gt;This week&amp;rsquo;s content is strictly &amp;ldquo;bonus&amp;rdquo; material that is not a part of the final project.&lt;/p&gt;
+&lt;br&gt; 
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    This week is our last course meeting! If you need a final one-on-one with me before the final project submission, please send me an email!
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Meeting 12 - Static Maps in R</title>
       <link>https://slu-soc5650.github.io/docs/meeting_12/</link>
       <pubDate>Mon, 26 Apr 2021 00:00:00 -0500</pubDate>

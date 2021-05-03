@@ -94,5 +94,4 @@ We have now covered all facets of the final project. Graduate students will need
 Next week will be our last course meeting!
 {{% /callout %}}
 
-
 <br>
